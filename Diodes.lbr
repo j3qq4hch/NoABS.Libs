@@ -1,0 +1,2385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="12" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="9" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="Invisibles" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Bemassung" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="bSilk" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="old_bplace" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="tMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="bMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bnames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tvalues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bvalues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="bLogo" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="tDraw" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="Plating" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOD123" urn="urn:adsk.eagle:footprint:2473266/1">
+<description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>
+<wire x1="2.973" y1="-0.983" x2="-2.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="0.983" x2="2.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="-0.983" x2="-2.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.3" y1="-0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="-0.8" x2="-1.3" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="1.3" y1="0.8" x2="0.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="0.8" x2="-1.3" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="-0.8" x2="0.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="1.3" y1="-0.8" x2="1.3" y2="-0.6762" width="0.1524" layer="21"/>
+<wire x1="1.3" y1="0.8" x2="1.3" y2="0.6762" width="0.1524" layer="21"/>
+<wire x1="-1.3" y1="0.8" x2="-1.3" y2="0.6762" width="0.1524" layer="21"/>
+<wire x1="-1.3" y1="-0.8" x2="-1.3" y2="-0.6762" width="0.1524" layer="21"/>
+<smd name="C" x="1.7" y="0" dx="1.6" dy="0.8" layer="1" rot="R180"/>
+<smd name="A" x="-1.7" y="0" dx="1.6" dy="0.8" layer="1" rot="R180"/>
+<rectangle x1="1.3716" y1="-0.3048" x2="1.9558" y2="0.3048" layer="51" rot="R180"/>
+<rectangle x1="-1.9558" y1="-0.3048" x2="-1.3716" y2="0.3048" layer="51" rot="R180"/>
+<text x="0" y="0" size="0.6" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+</package>
+<package name="SOD123F" urn="urn:adsk.eagle:footprint:2473265/4">
+<description>http://www.nxp.com/documents/data_sheet/PMEG6020ER.pdf</description>
+<wire x1="-1.45" y1="1.05" x2="-0.6" y2="1.05" width="0.15" layer="21"/>
+<wire x1="-0.6" y1="1.05" x2="1.45" y2="1.05" width="0.15" layer="21"/>
+<wire x1="-1.45" y1="-1.05" x2="-0.6" y2="-1.05" width="0.15" layer="21"/>
+<wire x1="-0.6" y1="-1.05" x2="1.45" y2="-1.05" width="0.15" layer="21"/>
+<wire x1="-0.6" y1="1.05" x2="-0.6" y2="-1.05" width="0.15" layer="21"/>
+<wire x1="-1.45" y1="-1.05" x2="-1.45" y2="-0.75" width="0.15" layer="21"/>
+<wire x1="1.45" y1="-1.05" x2="1.45" y2="-0.75" width="0.15" layer="21"/>
+<wire x1="1.45" y1="1.05" x2="1.45" y2="0.75" width="0.15" layer="21"/>
+<wire x1="-1.45" y1="1.05" x2="-1.45" y2="0.75" width="0.15" layer="21"/>
+<smd name="C" x="-1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="1.4" y="0" dx="1.2" dy="1.2" layer="1"/>
+<text x="0" y="0" size="0.6" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-1.8" y1="-0.45" x2="-0.95" y2="0.45" layer="51"/>
+<rectangle x1="0.95" y1="-0.45" x2="1.8" y2="0.45" layer="51"/>
+</package>
+<package name="SC70" urn="urn:adsk.eagle:footprint:1040106/2">
+<smd name="3" x="0" y="0.925" dx="0.55" dy="0.6" layer="1" rot="R180"/>
+<smd name="2" x="0.65" y="-0.925" dx="0.55" dy="0.6" layer="1" rot="R180"/>
+<smd name="1" x="-0.65" y="-0.925" dx="0.55" dy="0.6" layer="1" rot="R180"/>
+<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<wire x1="1" y1="0.45" x2="-1" y2="0.45" width="0.15" layer="21"/>
+<wire x1="-1" y1="0.45" x2="-1" y2="-0.45" width="0.15" layer="21"/>
+<wire x1="-1" y1="-0.45" x2="1" y2="-0.45" width="0.15" layer="21"/>
+<wire x1="1" y1="-0.45" x2="1" y2="0.45" width="0.15" layer="21"/>
+<rectangle x1="-0.85" y1="-1.15" x2="-0.45" y2="-0.7" layer="51"/>
+<rectangle x1="0.45" y1="-1.15" x2="0.85" y2="-0.7" layer="51"/>
+<rectangle x1="-0.2" y1="0.7" x2="0.2" y2="1.15" layer="51"/>
+</package>
+<package name="SOT363" urn="urn:adsk.eagle:footprint:1040109/2">
+<smd name="2" x="-0.95" y="0" dx="0.6" dy="0.4" layer="1"/>
+<smd name="5" x="0.95" y="0" dx="0.6" dy="0.4" layer="1"/>
+<smd name="1" x="-0.95" y="0.75" dx="0.6" dy="0.5" layer="1"/>
+<smd name="3" x="-0.95" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
+<smd name="4" x="0.95" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
+<smd name="6" x="0.95" y="0.75" dx="0.6" dy="0.5" layer="1"/>
+<wire x1="-0.5" y1="0.9" x2="-0.5" y2="0.8" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0.7" x2="-0.5" y2="0.6" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0.6" x2="-0.5" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="-0.9" x2="0.5" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="0.5" y1="-0.9" x2="0.5" y2="0.9" width="0.1" layer="21"/>
+<wire x1="0.5" y1="0.9" x2="-0.2" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="0.9" x2="-0.4" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="0.9" x2="-0.5" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0.6" x2="-0.2" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="0.9" x2="-0.3" y2="0.9" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="0.9" x2="-0.5" y2="0.7" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0.7" x2="-0.5" y2="0.8" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0.8" x2="-0.4" y2="0.9" width="0.1" layer="21"/>
+<text x="0" y="0" size="0.55" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-1.2" y1="0.55" x2="-0.7" y2="0.95" layer="51"/>
+<rectangle x1="-1.2" y1="-0.15" x2="-0.7" y2="0.15" layer="51"/>
+<rectangle x1="-1.2" y1="-0.95" x2="-0.7" y2="-0.55" layer="51"/>
+<rectangle x1="0.7" y1="-0.95" x2="1.2" y2="-0.55" layer="51"/>
+<rectangle x1="0.7" y1="-0.15" x2="1.2" y2="0.15" layer="51"/>
+<rectangle x1="0.7" y1="0.55" x2="1.2" y2="0.95" layer="51"/>
+</package>
+<package name="DO201_V5MM" urn="urn:adsk.eagle:footprint:49154726/1">
+<circle x="5.0292" y="0" radius="1.3208" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="0" x2="3.0226" y2="0" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="-0.5842" x2="3.0226" y2="0" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="0" x2="1.8796" y2="-0.5842" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="-0.5842" x2="1.8796" y2="0.5842" width="0.1524" layer="21"/>
+<wire x1="1.8796" y1="0.5842" x2="3.0226" y2="0" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="0" x2="1.4732" y2="0" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="0" x2="3.0226" y2="0.5842" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0.4572" y2="0" width="1.27" layer="51"/>
+<wire x1="2.54" y1="-0.8128" x2="2.54" y2="0.8128" width="0.127" layer="21" curve="-324.510657"/>
+<wire x1="4.3434" y1="0" x2="5.0292" y2="0" width="1.27" layer="51"/>
+<rectangle x1="0.2794" y1="-0.635" x2="1.2954" y2="0.635" layer="51"/>
+<rectangle x1="3.5052" y1="-0.635" x2="4.5212" y2="0.635" layer="51"/>
+<pad name="A" x="0" y="0" drill="1.3"/>
+<pad name="C" x="5.0292" y="0" drill="1.3"/>
+<text x="0" y="3.81" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
+<package name="SOD523" urn="urn:adsk.eagle:footprint:1040111/3">
+<smd name="A" x="0.7" y="0" dx="0.6" dy="0.5" layer="1" rot="R270"/>
+<smd name="C" x="-0.7" y="0" dx="0.6" dy="0.5" layer="1" rot="R270"/>
+<wire x1="0.625" y1="-0.425" x2="-0.275" y2="-0.425" width="0.1" layer="21"/>
+<wire x1="-0.275" y1="-0.425" x2="-0.625" y2="-0.425" width="0.1" layer="21"/>
+<wire x1="0.625" y1="0.425" x2="-0.275" y2="0.425" width="0.1" layer="21"/>
+<wire x1="-0.275" y1="0.425" x2="-0.625" y2="0.425" width="0.1" layer="21"/>
+<wire x1="-0.275" y1="-0.425" x2="-0.275" y2="0.425" width="0.1" layer="21"/>
+<text x="0.125" y="0" size="0.3" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<rectangle x1="0.55" y1="-0.25" x2="0.95" y2="0.25" layer="51" rot="R180"/>
+<rectangle x1="-0.95" y1="-0.25" x2="-0.55" y2="0.25" layer="51" rot="R180"/>
+</package>
+<package name="SOD323" urn="urn:adsk.eagle:footprint:4854268/6">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2" layer="21"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2" layer="51"/>
+<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2" layer="51"/>
+<wire x1="-0.8" y1="-0.57" x2="-0.8" y2="-0.41" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="0.41" x2="-0.8" y2="0.57" width="0.2" layer="21"/>
+<wire x1="0.8" y1="0.41" x2="0.8" y2="0.57" width="0.2" layer="21"/>
+<wire x1="0.8" y1="-0.41" x2="0.8" y2="-0.57" width="0.2" layer="21"/>
+<wire x1="0.8" y1="-0.57" x2="0.79" y2="-0.57" width="0.2" layer="21"/>
+<smd name="C" x="-1.1" y="0" dx="1" dy="0.6" layer="1" stop="no"/>
+<smd name="A" x="1.1" y="0" dx="1" dy="0.6" layer="1" stop="no"/>
+<text x="0" y="0.9" size="0.35" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+<rectangle x1="-1.65" y1="-0.35" x2="-0.55" y2="0.35" layer="29"/>
+<rectangle x1="0.55" y1="-0.35" x2="1.65" y2="0.35" layer="29"/>
+<rectangle x1="-0.8" y1="0.35" x2="-0.55" y2="0.6" layer="21"/>
+<rectangle x1="-0.8" y1="-0.55" x2="-0.55" y2="-0.35" layer="21"/>
+<rectangle x1="-0.55" y1="-0.55" x2="0" y2="0.6" layer="21"/>
+</package>
+<package name="DO-214AC(SMA)" urn="urn:adsk.eagle:footprint:4410765/3">
+<description>&lt;a href=https://www.smd.ru/upload/medialibrary/474/sma_dim.pdf&gt;Drawing&lt;/a&gt;</description>
+<smd name="A" x="-1.9" y="0" dx="1.5" dy="1.7" layer="1"/>
+<smd name="C" x="1.9" y="0" dx="1.5" dy="1.7" layer="1"/>
+<wire x1="-2.2" y1="1.3" x2="0.85" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0.95" y1="1.3" x2="2.2" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0.95" y1="-1.3" x2="0.85" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-1.3" x2="-2.2" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.3" x2="0.95" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="0.95" y1="-1.3" x2="0.95" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0.95" y1="1.3" x2="0.85" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0.85" y1="1.3" x2="0.85" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.3" x2="-2.2" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.3" x2="-2.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.3" x2="2.2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.3" x2="2.2" y2="1.2" width="0.127" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-2.6" y1="-0.8" x2="-1.2" y2="0.8" layer="51"/>
+<rectangle x1="1.2" y1="-0.8" x2="2.6" y2="0.8" layer="51"/>
+</package>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:2640527/5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-0.5" y1="1.4" x2="0.5" y2="1.4" width="0.15" layer="51"/>
+<wire x1="0.5" y1="1.4" x2="0.5" y2="-1.4" width="0.15" layer="51"/>
+<wire x1="0.5" y1="-1.4" x2="-0.5" y2="-1.4" width="0.15" layer="51"/>
+<wire x1="-0.5" y1="-1.4" x2="-0.5" y2="1.4" width="0.15" layer="51"/>
+<wire x1="-0.5" y1="-1.4" x2="-0.5" y2="-0.7" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="0.7" x2="-0.5" y2="1.4" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="1.4" x2="0.4" y2="1.4" width="0.15" layer="21"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.15" layer="21"/>
+<wire x1="0.4" y1="-1.4" x2="-0.5" y2="-1.4" width="0.15" layer="21"/>
+<smd name="3" x="-1.1" y="0" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1.1" y="0.95" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="1.1" y="-0.95" dx="1" dy="1" layer="1" rot="R90"/>
+<text x="0" y="0" size="0.508" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-1.5" y1="-0.4" x2="-0.7" y2="0.4" layer="51" rot="R90"/>
+<rectangle x1="0.7" y1="-1.35" x2="1.5" y2="-0.55" layer="51" rot="R90"/>
+<rectangle x1="0.7" y1="0.55" x2="1.5" y2="1.35" layer="51" rot="R90"/>
+</package>
+<package name="LL-34" urn="urn:adsk.eagle:footprint:24620484/1">
+<description>https://cdn.hackaday.io/images/8148291482022760246.png</description>
+<smd name="A" x="-1.875" y="0" dx="2" dy="1.25" layer="1" rot="R90"/>
+<smd name="C" x="1.875" y="0" dx="2" dy="1.25" layer="1" rot="R90"/>
+<wire x1="-1.8" y1="0.8" x2="1.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.8" y1="0.8" x2="1.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.8" y1="-0.8" x2="-1.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="-0.8" x2="-1.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.15" y1="0.8" x2="0.95" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-0.8" x2="1.05" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.95" y1="-0.8" x2="-1.15" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="0.8" x2="0.95" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0.95" y1="0.8" x2="0.95" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.95" y1="-0.8" x2="1.05" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-0.8" x2="1.05" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.05" y1="0.8" x2="1.15" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.15" y1="0.8" x2="1.15" y2="-0.8" width="0.127" layer="21"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="POWERDI-123" urn="urn:adsk.eagle:footprint:11637492/1">
+<description>&lt;a href=https://www.diodes.com/assets/Package-Files/PowerDI123.pdf&gt;Drawing&lt;/a&gt;</description>
+<smd name="A" x="-1.525" y="0" dx="1.05" dy="1.5" layer="1"/>
+<smd name="C" x="0.85" y="0" dx="2.4" dy="1.5" layer="1"/>
+<wire x1="-2.15" y1="0.85" x2="2.15" y2="0.85" width="0.1" layer="21"/>
+<wire x1="2.15" y1="0.85" x2="2.15" y2="-0.85" width="0.1" layer="21"/>
+<wire x1="2.15" y1="-0.85" x2="-2.15" y2="-0.85" width="0.1" layer="21"/>
+<wire x1="-2.15" y1="-0.85" x2="-2.15" y2="0.85" width="0.1" layer="21"/>
+<text x="0" y="0" size="0.6" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="1.25" y1="-0.8" x2="1.55" y2="0.8" layer="51"/>
+</package>
+<package name="SOD128F" urn="urn:adsk.eagle:footprint:4854267/1">
+<smd name="C" x="2.2" y="0" dx="2.1" dy="1.4" layer="1" rot="R90"/>
+<smd name="A" x="-2.2" y="0" dx="2.1" dy="1.4" layer="1" rot="R90"/>
+<text x="0" y="0" size="0.6" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<wire x1="-1.9" y1="1.2" x2="1.1" y2="1.2" width="0.1" layer="21"/>
+<wire x1="1.1" y1="1.2" x2="1.2" y2="1.2" width="0.1" layer="21"/>
+<wire x1="1.2" y1="1.2" x2="1.9" y2="1.2" width="0.1" layer="21"/>
+<wire x1="-1.9" y1="-1.2" x2="1.1" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="1.2" y1="-1.2" x2="1.9" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="1.1" y1="1.2" x2="1.1" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="1.1" y1="-1.2" x2="1.2" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="1.2" y1="-1.2" x2="1.2" y2="1.2" width="0.1" layer="21"/>
+</package>
+<package name="SOD882" urn="urn:adsk.eagle:footprint:1040110/2">
+<smd name="A" x="-0.35" y="0" dx="0.7" dy="0.4" layer="1" rot="R90"/>
+<smd name="C" x="0.35" y="0" dx="0.7" dy="0.4" layer="1" rot="R90"/>
+<wire x1="-0.65" y1="0.45" x2="0.65" y2="0.45" width="0.1" layer="21"/>
+<wire x1="0.65" y1="0.45" x2="0.65" y2="-0.45" width="0.1" layer="21"/>
+<wire x1="0.65" y1="-0.45" x2="-0.65" y2="-0.45" width="0.1" layer="21"/>
+<wire x1="-0.65" y1="-0.45" x2="-0.65" y2="0.45" width="0.1" layer="21"/>
+<wire x1="0.65" y1="0.45" x2="0.75" y2="0.45" width="0.1" layer="21"/>
+<wire x1="0.75" y1="0.45" x2="0.75" y2="-0.45" width="0.1" layer="21"/>
+<wire x1="0.75" y1="-0.45" x2="0.65" y2="-0.45" width="0.1" layer="21"/>
+<text x="0" y="0" size="0.4" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="0.35" y1="-0.45" x2="0.75" y2="0.45" layer="51"/>
+</package>
+<package name="DO-214AA(SMB)" urn="urn:adsk.eagle:footprint:3333638/2">
+<description>http://www.icbank.com/icbank_data/semi_package/smb_dim.pdf</description>
+<smd name="A" x="-2" y="0" dx="1.5" dy="2.2" layer="1"/>
+<smd name="C" x="2" y="0" dx="1.5" dy="2.2" layer="1"/>
+<wire x1="-2.2" y1="1.6" x2="0.9" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.95" y1="1.6" x2="2.2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.95" y1="-1.6" x2="0.9" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-1.6" x2="-2.2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.6" x2="0.95" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.95" y1="-1.6" x2="0.95" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.95" y1="1.6" x2="0.9" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.9" y1="1.6" x2="0.9" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.6" x2="-2.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.6" x2="-2.2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.6" x2="2.2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.6" x2="2.2" y2="1.2" width="0.127" layer="21"/>
+<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-2.7" y1="-1.05" x2="-1.3" y2="1.05" layer="51"/>
+<rectangle x1="1.3" y1="-1.05" x2="2.7" y2="1.05" layer="51"/>
+</package>
+<package name="SOD323F" urn="urn:adsk.eagle:footprint:2473264/1">
+<smd name="A" x="-1.05" y="0" dx="0.7" dy="0.6" layer="1"/>
+<smd name="C" x="1.05" y="0" dx="0.7" dy="0.6" layer="1"/>
+<wire x1="-0.5" y1="-0.85" x2="0.5" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="0.5" y1="-0.85" x2="0.5" y2="0.85" width="0.15" layer="21"/>
+<wire x1="0.5" y1="0.85" x2="-0.5" y2="0.85" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="0.85" x2="-0.5" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="0.25" y1="0.8" x2="0.25" y2="-0.8" width="0.15" layer="21"/>
+<text x="0" y="0" size="0.3" layer="21" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="TO-277" urn="urn:adsk.eagle:footprint:46632861/2">
+<smd name="K" x="0" y="1.15" dx="3.4" dy="4.9" layer="1"/>
+<smd name="1" x="-0.9" y="-2.9" dx="1.4" dy="1.4" layer="1"/>
+<smd name="2" x="0.9" y="-2.9" dx="1.4" dy="1.4" layer="1"/>
+<wire x1="-1.9" y1="-3.8" x2="-1.9" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="3.8" x2="1.9" y2="3.8" width="0.127" layer="21"/>
+<wire x1="1.9" y1="3.8" x2="1.9" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-3.8" x2="-1.9" y2="-3.8" width="0.127" layer="21"/>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="12" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="DO-214AB(SMC)" urn="urn:adsk.eagle:footprint:3333633/3">
+<description>https://www.smd.ru/upload/medialibrary/c86/smc_dim.pdf</description>
+<smd name="C" x="-3.05" y="0" dx="3.1" dy="1.6" layer="1" rot="R90"/>
+<smd name="A" x="3.05" y="0" dx="3.1" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="3" x2="-3.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-3" x2="3.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-3" x2="3.5" y2="3" width="0.127" layer="51"/>
+<wire x1="3.5" y1="3" x2="-3.5" y2="3" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="1.7" x2="-3.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3" x2="3.5" y2="3" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3" x2="3.5" y2="1.7" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1.7" x2="-3.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3" x2="3.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3" x2="3.5" y2="-1.7" width="0.127" layer="21"/>
+<rectangle x1="-2.1" y1="-3" x2="-1.8" y2="3" layer="21"/>
+<rectangle x1="-3.8" y1="-1.5" x2="-2.3" y2="1.5" layer="51"/>
+<rectangle x1="2.3" y1="-1.5" x2="3.8" y2="1.5" layer="51"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="SOT666" urn="urn:adsk.eagle:footprint:4854270/1">
+<smd name="2" x="-0.925" y="0" dx="0.65" dy="0.3" layer="1"/>
+<smd name="1" x="-0.85" y="0.5375" dx="0.5" dy="0.375" layer="1"/>
+<smd name="3" x="-0.85" y="-0.5375" dx="0.5" dy="0.375" layer="1"/>
+<smd name="5" x="0.925" y="0" dx="0.65" dy="0.3" layer="1"/>
+<smd name="6" x="0.85" y="0.5375" dx="0.5" dy="0.375" layer="1"/>
+<smd name="4" x="0.85" y="-0.5375" dx="0.5" dy="0.375" layer="1"/>
+<circle x="-1.5" y="1.175" radius="0.07905625" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="1" x2="1.3" y2="1" width="0.1" layer="21"/>
+<wire x1="-1.3" y1="-1" x2="1.3" y2="-1" width="0.1" layer="21"/>
+<wire x1="-1.3" y1="-1" x2="-1.3" y2="1" width="0.1" layer="21"/>
+<wire x1="1.3" y1="1" x2="1.3" y2="-1" width="0.1" layer="21"/>
+</package>
+<package name="DBS" urn="urn:adsk.eagle:footprint:4854269/1">
+<smd name="-" x="-2.6" y="4.4" dx="1.4" dy="1.8" layer="1"/>
+<smd name="+" x="2.6" y="4.4" dx="1.4" dy="1.8" layer="1"/>
+<smd name="AC1" x="-2.6" y="-4.4" dx="1.4" dy="1.8" layer="1"/>
+<smd name="AC2" x="2.6" y="-4.4" dx="1.4" dy="1.8" layer="1"/>
+<wire x1="-4.2" y1="-3.2" x2="4.2" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="4.2" y1="-3.2" x2="4.2" y2="3.2" width="0.127" layer="21"/>
+<wire x1="4.2" y1="3.2" x2="-4.2" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="3.2" x2="-4.2" y2="-3.2" width="0.127" layer="21"/>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="2.8" y="1.8" size="1.5" layer="21" font="vector" ratio="15" align="center">+</text>
+<text x="-2.6" y="1.8" size="1.5" layer="21" font="vector" ratio="15" align="center">-</text>
+<text x="-2.4" y="-1.9" size="1.5" layer="21" font="vector" ratio="15" align="center">~</text>
+<text x="2.7" y="-1.9" size="1.5" layer="21" font="vector" ratio="15" align="center">~</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOD123" urn="urn:adsk.eagle:package:2473271/2" type="model">
+<description>&lt;b&gt;SMALL OUTLINE DIODE&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="SOD123"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD123W" urn="urn:adsk.eagle:package:2473270/5" type="model">
+<description>http://www.nxp.com/documents/data_sheet/PMEG6020ER.pdf</description>
+<packageinstances>
+<packageinstance name="SOD123F"/>
+</packageinstances>
+</package3d>
+<package3d name="SC70" urn="urn:adsk.eagle:package:7365870/3" type="model">
+<packageinstances>
+<packageinstance name="SC70"/>
+</packageinstances>
+</package3d>
+<package3d name="DO201_V5MM" urn="urn:adsk.eagle:package:49154727/2" type="model">
+<packageinstances>
+<packageinstance name="DO201_V5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT363" urn="urn:adsk.eagle:package:1040203/3" type="model">
+<packageinstances>
+<packageinstance name="SOT363"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23" urn="urn:adsk.eagle:package:2640533/10" type="model">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD523" urn="urn:adsk.eagle:package:1040205/4" type="model">
+<packageinstances>
+<packageinstance name="SOD523"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD323" urn="urn:adsk.eagle:package:4854274/7" type="model">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="SOD323"/>
+</packageinstances>
+</package3d>
+<package3d name="DO-214AC(SMA)" urn="urn:adsk.eagle:package:4410767/4" type="model">
+<description>&lt;a href=https://www.smd.ru/upload/medialibrary/474/sma_dim.pdf&gt;Drawing&lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="DO-214AC(SMA)"/>
+</packageinstances>
+</package3d>
+<package3d name="POWERDI-123" urn="urn:adsk.eagle:package:11637493/2" type="model">
+<description>&lt;a href=https://www.diodes.com/assets/Package-Files/PowerDI123.pdf&gt;Drawing&lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="POWERDI-123"/>
+</packageinstances>
+</package3d>
+<package3d name="LL-34" urn="urn:adsk.eagle:package:24620485/2" type="model">
+<description>https://cdn.hackaday.io/images/8148291482022760246.png</description>
+<packageinstances>
+<packageinstance name="LL-34"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD128F" urn="urn:adsk.eagle:package:4854273/1" type="box">
+<packageinstances>
+<packageinstance name="SOD128F"/>
+</packageinstances>
+</package3d>
+<package3d name="DBS" urn="urn:adsk.eagle:package:4854275/2" type="model">
+<packageinstances>
+<packageinstance name="DBS"/>
+</packageinstances>
+</package3d>
+<package3d name="DO-214AA(SMB)" urn="urn:adsk.eagle:package:3333651/4" type="model">
+<description>http://www.icbank.com/icbank_data/semi_package/smb_dim.pdf</description>
+<packageinstances>
+<packageinstance name="DO-214AA(SMB)"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD882" urn="urn:adsk.eagle:package:1040204/3" type="model">
+<packageinstances>
+<packageinstance name="SOD882"/>
+</packageinstances>
+</package3d>
+<package3d name="TO-277" urn="urn:adsk.eagle:package:46632862/3" type="model">
+<packageinstances>
+<packageinstance name="TO-277"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD323F" urn="urn:adsk.eagle:package:2473269/1" type="box">
+<packageinstances>
+<packageinstance name="SOD323F"/>
+</packageinstances>
+</package3d>
+<package3d name="DO-214AB(SMC)" urn="urn:adsk.eagle:package:3333646/4" type="model">
+<description>https://www.smd.ru/upload/medialibrary/c86/smc_dim.pdf</description>
+<packageinstances>
+<packageinstance name="DO-214AB(SMC)"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT666" urn="urn:adsk.eagle:package:4854276/1" type="box">
+<packageinstances>
+<packageinstance name="SOT666"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="2.032" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.762" layer="95" font="vector" ratio="12" align="center">&gt;MANF#</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="D-HALFBRIDGE">
+<wire x1="1.27" y1="-3.81" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<text x="-3.048" y="0" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<text x="-1.778" y="0" size="0.762" layer="95" font="vector" ratio="15" rot="R270" align="center">&gt;MANF#</text>
+<pin name="A" x="0" y="-5.08" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="C" x="0" y="5.08" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="COMMON" x="2.54" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="D-OR">
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<text x="0" y="-5.08" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.762" layer="95" font="vector" ratio="15" align="center">&gt;MANF#</text>
+<pin name="A2" x="-2.54" y="-2.54" visible="off" length="point" direction="pas"/>
+<pin name="A1" x="-2.54" y="2.54" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="C" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="TVS">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="0.762" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.762" x2="1.778" y2="-1.27" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.016" layer="95" font="vector" ratio="15" align="center">&gt;MANF#</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="ZD">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.778" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.016" layer="95" font="vector" ratio="15" align="center">&gt;MANF#</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TVS-BIDIR">
+<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.762" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.762" x2="-1.778" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.762" x2="-0.762" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.762" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.762" x2="1.778" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="0.762" y2="1.27" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.016" layer="95" font="vector" ratio="15" align="center">&gt;MANF#</text>
+<pin name="A1" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
+<pin name="A2" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DIODE_BRIDGE">
+<wire x1="0" y1="-2.54" x2="2.54" y2="0" width="0.3048" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="0" width="0.3048" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="0.3048" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.3048" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="-0.635" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.1524" layer="94"/>
+<text x="4.572" y="3.556" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<pin name="AC1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="AC2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DSS110UTR" prefix="D">
+<description>Diode Schottky 100V 1A Surface Mount SOD-123FL</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473271/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1655-1931-1-ND" constant="no"/>
+<attribute name="MANF" value="SMC Diode Solutions" constant="no"/>
+<attribute name="MANF#" value="DSS110UTR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MBR0520L" prefix="D">
+<description>DIODE SCHOTTKY 20V 500MA SOD123</description>
+<gates>
+<gate name="G$1" symbol="D" x="-7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="-SOD123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473271/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="MBR0520LT1GOSTR-ND" constant="no"/>
+<attribute name="LCSC#" value="C23848" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="MBR0520LT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B5819W" prefix="D">
+<description>40V 1A 600mV @ 1A SOD-123 Schottky Barrier Diodes (SBD) RoHS</description>
+<gates>
+<gate name="G$1" symbol="D" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="-SOD123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473271/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C8598" constant="no"/>
+<attribute name="MANF" value="Changjiang Electronics Tech (CJ)" constant="no"/>
+<attribute name="MANF#" value="B5819W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="H1A" prefix="D">
+<description>DIODE SCHOTTKY 20V 500MA SOD123</description>
+<gates>
+<gate name="G$1" symbol="D" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="-SOD123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473271/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LINK" value="https://www.chipdip.ru/product/yt-h1a" constant="no"/>
+<attribute name="MANF" value="" constant="no"/>
+<attribute name="MANF#" value="H1A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MBR0520" prefix="D">
+<description>Schottky diode 0.5 A 20 V</description>
+<gates>
+<gate name="G$1" symbol="D" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473271/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="MCC" constant="no"/>
+<attribute name="MANF#" value="MBR0520" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NRVB120VLSFT1G" prefix="D">
+<description>Diode Schottky 20V 1A Surface Mount SOD-123FL</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD123F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473270/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AEC-Q" value="AEC-Q101" constant="no"/>
+<attribute name="DIGIKEY#" value="NRVB120VLSFT1GOSCT-ND" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="NRVB120VLSFT1G" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-65°C ~ 125°C" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEG6020" prefix="D">
+<description>Diode Schottky 60V 2A Surface Mount SOD-123</description>
+<gates>
+<gate name="G$1" symbol="D" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOD123F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473270/5"/>
+</package3dinstances>
+<technologies>
+<technology name="AELRX">
+<attribute name="AEC-Q" value="AEC-Q101" constant="no"/>
+<attribute name="DIGIKEY#" value="1727-2411-1-ND" constant="no"/>
+<attribute name="IF" value="2A" constant="no"/>
+<attribute name="MANF" value="Nexperia USA Inc." constant="no"/>
+<attribute name="MANF#" value="PMEG6020AELRX" constant="no"/>
+<attribute name="OPERATING_TEMP" value="175°C (Max)" constant="no"/>
+<attribute name="VOLTAGE" value="60V" constant="no"/>
+</technology>
+<technology name="ER,115">
+<attribute name="AEC-Q" value="---" constant="no"/>
+<attribute name="DIGIKEY#" value="568-6529-1-ND" constant="no"/>
+<attribute name="IF" value="2A" constant="no"/>
+<attribute name="MANF" value="Nexperia USA Inc." constant="no"/>
+<attribute name="MANF#" value="PMEG6020ER,115" constant="no"/>
+<attribute name="OPERATING_TEMP" value="150°C (Max)" constant="no"/>
+<attribute name="VOLTAGE" value="60V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEG4020" prefix="D">
+<description>DIODE SCHOTTKY 40V 2A SOD123W</description>
+<gates>
+<gate name="G$1" symbol="D" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOD123F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473270/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1727-5385-2-ND" constant="no"/>
+<attribute name="IF" value="2A" constant="no"/>
+<attribute name="LCSC#" value="C8598" constant="no"/>
+<attribute name="MANF" value="NXP Semiconductors" constant="no"/>
+<attribute name="MANF#" value="PMEG4020ER,115" constant="no"/>
+<attribute name="VOLTAGE" value="40V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM4007PL" prefix="D">
+<description>1A 10μA@1kV 1kV 1.1V@1A SOD-123FL  Diodes - General Purpose</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD123F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473270/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C64898" constant="no"/>
+<attribute name="MANF" value="MDD（Microdiode Electronics）" constant="no"/>
+<attribute name="MANF#" value="SM4007PL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT30SWFILM" prefix="D">
+<description>Diode Array 1 Pair Series Connection Schottky 30V 300mA (DC) Surface Mount SC-70, SOT-323</description>
+<gates>
+<gate name="G$1" symbol="D-HALFBRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC70">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7365870/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="497-5553-2-ND" constant="no"/>
+<attribute name="LCSC#" value="C157390" constant="no"/>
+<attribute name="MANF" value="STMicroelectronics" constant="no"/>
+<attribute name="MANF#" value="BAT30SWFILM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRS08" prefix="D">
+<description>Diode Schottky 30V 1.5A Surface Mount S-FLAT (1.6x3.5)</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD123F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473270/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="CRS08QMCT-ND" constant="no"/>
+<attribute name="MANF" value="Toshiba Semiconductor and Storage" constant="no"/>
+<attribute name="MANF#" value="CRS08(TE85L,Q,M)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV99DW" prefix="D">
+<description>DIODE ARRAY GP 75V 215MA SOT363</description>
+<gates>
+<gate name="D2" symbol="D-HALFBRIDGE" x="-5.08" y="5.08"/>
+<gate name="D1" symbol="D-HALFBRIDGE" x="-15.24" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT363">
+<connects>
+<connect gate="D1" pin="A" pad="1"/>
+<connect gate="D1" pin="C" pad="2"/>
+<connect gate="D1" pin="COMMON" pad="6"/>
+<connect gate="D2" pin="A" pad="4"/>
+<connect gate="D2" pin="C" pad="5"/>
+<connect gate="D2" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040203/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="BAV99DW-FDICT-ND" constant="no"/>
+<attribute name="LCSC#" value="C150465" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="BAV99DW-7-F" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.5KE6.8CA" prefix="D">
+<gates>
+<gate name="G$1" symbol="TVS-BIDIR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO201_V5MM">
+<connects>
+<connect gate="G$1" pin="A1" pad="A"/>
+<connect gate="G$1" pin="A2" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49154727/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Sunmate Electronics" constant="no"/>
+<attribute name="MANF#" value="1.5KE6.8CA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.5KE12A-TP" prefix="D">
+<gates>
+<gate name="G$1" symbol="TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-DO201-VERTICAL" package="DO201_V5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49154727/2"/>
+</package3dinstances>
+<technologies>
+<technology name="12A-TP">
+<attribute name="MANF" value="Sunmate Electronics" constant="no"/>
+<attribute name="MANF#" value="1.5KE12A-TP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS516" prefix="D">
+<description>Diode Standard 100V 250mA (DC) Surface Mount SOD-523</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040205/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1727-2893-1-ND" constant="no"/>
+<attribute name="MANF" value="Nexperia USA Inc" constant="no"/>
+<attribute name="MANF#" value="BAS516,115" constant="no"/>
+<attribute name="OPERATING_TEMP" value="150°C (Max)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RB521S30T1G" prefix="D">
+<description>Diode Schottky 30 V 200mA (DC) Surface Mount SOD-523</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040205/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="2156-RB521S30T1G-OS-ND" constant="no"/>
+<attribute name="MANF" value="Rochester Electronics, LLC" constant="no"/>
+<attribute name="MANF#" value="RB521S30T1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT54S" prefix="D">
+<description>Planar Schottky barrier diodes</description>
+<gates>
+<gate name="G$1" symbol="D-HALFBRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SC70" package="SC70">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7365870/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C78260" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BAT54SWT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SOT23" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="NEXPERIA" constant="no"/>
+<attribute name="MANF#" value="BAT54S" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS16VY" prefix="D">
+<description>DIODE ARRAY GP 100V 200MA 6TSSOP</description>
+<gates>
+<gate name="D1" symbol="D" x="0" y="10.16"/>
+<gate name="D2" symbol="D" x="0" y="2.54"/>
+<gate name="D3" symbol="D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT363">
+<connects>
+<connect gate="D1" pin="A" pad="1"/>
+<connect gate="D1" pin="C" pad="6"/>
+<connect gate="D2" pin="A" pad="2"/>
+<connect gate="D2" pin="C" pad="5"/>
+<connect gate="D3" pin="A" pad="3"/>
+<connect gate="D3" pin="C" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040203/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1727-6171-1-ND" constant="no"/>
+<attribute name="MANF" value="Nexperia USA Inc" constant="no"/>
+<attribute name="MANF#" value="BAS16VY,115" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEG3005" prefix="D">
+<description>Diode Schottky 30V 500mA (DC) Surface Mount SOD-523</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040205/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1727-5831-1-ND" constant="no"/>
+<attribute name="MANF" value="Nexperia USA Inc" constant="no"/>
+<attribute name="MANF#" value="PMEG3005EB,115" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV99HDWQ-13" prefix="D">
+<description>DIODE FS 100V 200MA SOT363</description>
+<gates>
+<gate name="D2" symbol="D-HALFBRIDGE" x="-5.08" y="5.08"/>
+<gate name="D1" symbol="D-HALFBRIDGE" x="-15.24" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT363">
+<connects>
+<connect gate="D1" pin="A" pad="1"/>
+<connect gate="D1" pin="C" pad="2"/>
+<connect gate="D1" pin="COMMON" pad="6"/>
+<connect gate="D2" pin="A" pad="4"/>
+<connect gate="D2" pin="C" pad="5"/>
+<connect gate="D2" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040203/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AEC-Q" value="AEC-Q101" constant="no"/>
+<attribute name="DIGIKEY#" value="BAV99HDWQ-13DICT-ND" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="BAV99HDWQ-13" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B0530WSSE" prefix="D">
+<description>30V 450mV@500mA 500mA SOD-323 Schottky Barrier Diodes (SBD)</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C22626" constant="no"/>
+<attribute name="MANF" value=" Jiangsu Changjing Electronics Technology Co., Ltd." constant="no"/>
+<attribute name="MANF#" value="B0530WS SE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MM3Z" prefix="ZD">
+<description>Zener Diode 200-300mW ±6% Surface Mount SOD-323 (or SOD-323FL)</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="-7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="11V">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C242271" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z11VT1G" constant="no"/>
+</technology>
+<technology name="12V">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C891576" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z12VB" constant="no"/>
+</technology>
+<technology name="15V">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C603316" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z15VT1G" constant="no"/>
+</technology>
+<technology name="20V">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C512988" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z20VC" constant="no"/>
+</technology>
+<technology name="3V3">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C75073" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z3V3T1G" constant="no"/>
+</technology>
+<technology name="3V6">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C891617" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z3V6C" constant="no"/>
+</technology>
+<technology name="4V7">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C236205" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z4V7T1G" constant="no"/>
+</technology>
+<technology name="5V1">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C75074" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z5V1T1G" constant="no"/>
+</technology>
+<technology name="5V6">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C891634" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z5V6B" constant="no"/>
+</technology>
+<technology name="6V2">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C393369" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z6V2T1G" constant="no"/>
+</technology>
+<technology name="8V2">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C130143" constant="no"/>
+<attribute name="MANF" value="onsemi" constant="no"/>
+<attribute name="MANF#" value="MM3Z8V2T1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT54KFILM" prefix="D">
+<description>Diode Schottky 40V, 300mA (DC) Surface Mount SOD-523</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040205/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="STMicroelectronics" constant="no"/>
+<attribute name="LCSC#" value="C283259" constant="no"/>
+<attribute name="MANF" value="STMicroelectronics" constant="no"/>
+<attribute name="MANF#" value="BAT54KFILM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SBR1A20T5-7" prefix="D">
+<description>Diode Super Barrier 20V 1A Surface Mount SOD-522 (AEC-Q101, SBR®)</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040205/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="SBR1A20T5-7DICT-ND" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="SBR1A20T5-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA4007" prefix="D">
+<gates>
+<gate name="G$1" symbol="D" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="DO-214AC(SMA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410767/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LINK" value="https://www.chipdip.ru/product/sma4007" constant="no"/>
+<attribute name="MANF#" value="SMA4007" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B340A" prefix="D">
+<description>DIODE SCHOTTKY 40V 3A SMB</description>
+<gates>
+<gate name="G$1" symbol="D" x="-15.24" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="DO-214AC(SMA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410767/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="B340A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS2200" prefix="D">
+<description>200V 2A 950mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes (SBD) ROHS</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="DO-214AC(SMA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410767/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C14332" constant="no"/>
+<attribute name="MANF" value="MDD（Microdiode Electronics）" constant="no"/>
+<attribute name="MANF#" value="SS2200" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NSR1020MW" prefix="D">
+<description>Diode Schottky 20 V 1A (DC) Surface Mount SOD-323</description>
+<gates>
+<gate name="G$1" symbol="D" x="-10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="NSR1020MW2T1GOSCT-ND" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="NSR1020MW2T1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT54C" prefix="D">
+<gates>
+<gate name="G$1" symbol="D-OR" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Diotec Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BAT54C" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS21AHT1G" prefix="D">
+<description>Diode Standard 250V 200mA (DC) Surface Mount SOD-323</description>
+<gates>
+<gate name="G$1" symbol="D" x="-10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="BAS21AHT1GOSCT-ND" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BAS21AHT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MM3Z12VBW" prefix="ZD">
+<description>Zener Diode 12V 300mW ±6% Surface Mount SOD-323</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="-7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C261275" constant="no"/>
+<attribute name="MANF" value="Tak Cheong" constant="no"/>
+<attribute name="MANF#" value="MM3Z12VBW" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT54" prefix="D">
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Diotec Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BAT54" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEG2020" prefix="D">
+<gates>
+<gate name="G$1" symbol="D" x="-10.16" y="-2.54"/>
+</gates>
+<devices>
+<device name="-SOD323" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="AEA">
+<attribute name="MANF" value="Nexperia" constant="no"/>
+<attribute name="MANF#" value="PMEG2020AEA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SOD123F" package="SOD123F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473270/5"/>
+</package3dinstances>
+<technologies>
+<technology name="EH">
+<attribute name="MANF" value="Nexperia" constant="no"/>
+<attribute name="MANF#" value="PMEG2020EH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS34" prefix="D">
+<description>40V 3A 550mV @ 3A SMA(DO-214AC) Schottky Barrier Diodes</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="DO-214AC(SMA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410767/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C8678" constant="no"/>
+<attribute name="MANF" value="MDD（Microdiode Electronics）" constant="no"/>
+<attribute name="MANF#" value="SS34" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LL4148" prefix="D">
+<description>Small Signal Diode</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LL-34">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24620485/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="VISHAY INTERTECHNOLOGY INC" constant="no"/>
+<attribute name="MANF#" value="LL4148-GS08" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RS1MTR" prefix="D">
+<description>Diode Standard 1000V 1A Surface Mount SMA</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="DO-214AC(SMA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410767/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1655-1501-1-ND" constant="no"/>
+<attribute name="MANF" value="SMC Diode Solutions" constant="no"/>
+<attribute name="MANF#" value="RS1MTR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM5V6" prefix="ZD">
+<description>5.6V 500mW &lt;100nA @ 1V LL-34 Zener Diodes RoHS</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="LL-34">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24620485/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C8062" constant="no"/>
+<attribute name="MANF" value="ST(Semtech)" constant="no"/>
+<attribute name="MANF#" value="ZMM5V6" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MM3Z18VT1G" prefix="ZD">
+<description>Zener Diode 18V 300mW ±6% Surface Mount SOD-323</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="-7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="MM3Z18VT1GOSCT-ND" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="MM3Z18VT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DFLS1100" prefix="D">
+<description>Diode Schottky 100V 1A Surface Mount PowerDI™ 123</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERDI-123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11637493/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="DFLS1100DITR-ND" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="DFLS1100-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4148WS" prefix="D">
+<description>100V +150℃@(Tj) 200mW Single 1.25V@150mA 4ns 1μA@75V 150mA SOD-323  Switching Diode</description>
+<gates>
+<gate name="G$1" symbol="D" x="-10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C2128" constant="no"/>
+<attribute name="MANF" value="Jiangsu Changjing Electronics Technology Co., Ltd." constant="no"/>
+<attribute name="MANF#" value="1N4148WS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BZX84C" prefix="D">
+<description>Zener Diode 250mW ±5% Surface Mount SOT-23-3 (TO-236)</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="12">
+<attribute name="DIGIKEY#" value="BZX84C12LT1GOSTR-ND" constant="no"/>
+<attribute name="LCSC#" value="C82475" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BZX84C12LT1G" constant="no"/>
+</technology>
+<technology name="3V3">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BZX84C3V3LT3G" constant="no"/>
+</technology>
+<technology name="4V7">
+<attribute name="DIGIKEY#" value="BZX84C4V7LT3GOSTR-ND" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BZX84C4V7LT3G" constant="no"/>
+</technology>
+<technology name="5V1">
+<attribute name="DIGIKEY#" value="BZX84C5V1LT3GOSTR-ND" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BZX84C5V1LT3G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STPS5H100AFY" prefix="D">
+<description>Diode Schottky 100V 5A Surface Mount SOD128Flat</description>
+<gates>
+<gate name="G$1" symbol="D" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD128F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854273/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="497-17312-1-ND" constant="no"/>
+<attribute name="MANF" value="STMicroelectronics" constant="no"/>
+<attribute name="MANF#" value="STPS5H100AFY" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS70-04.215" prefix="D">
+<gates>
+<gate name="G$1" symbol="D-HALFBRIDGE" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="-SOT23" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="497-7158-1-ND" constant="no"/>
+<attribute name="MANF" value="STMicroelectronics" constant="no"/>
+<attribute name="MANF#" value="BAS70-04WFILM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DFLS240L" prefix="D">
+<description>2.0A LOW VF SCHOTTKY BARRIER RECTIFIER PowerDI123</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERDI-123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11637493/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="DFLS240L-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STPS340U" prefix="D">
+<description>DIODE SCHOTTKY 40V 3A SMB</description>
+<gates>
+<gate name="G$1" symbol="D" x="-15.24" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="DO-214AA(SMB)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3333651/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="MANF" value="ST Microelectronics" constant="no"/>
+<attribute name="MANF#" value="STPS340U" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10L100SP" prefix="D">
+<description>Trench MOS Barrier Schottky Rectifier&lt;br&gt;
+Reverse Voltage - 100 V&lt;br&gt;
+Forward Current - 10 A</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-277">
+<connects>
+<connect gate="G$1" pin="A" pad="1 2"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46632862/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="Dongguan YFW Electronics Co, Ltd" constant="no"/>
+<attribute name="MANF#" value="10L100SP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS16L" prefix="D">
+<description>Diode Standard 100V 215mA (DC) Surface Mount 2-DFN1006D (0.6x1.0)</description>
+<gates>
+<gate name="G$1" symbol="D" x="2.54" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SOD882">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040204/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1727-4421-2-ND" constant="no"/>
+<attribute name="MANF" value="Nexperia USA Inc" constant="no"/>
+<attribute name="MANF#" value="BAS16LD,315" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B360B" prefix="D">
+<description>DIODE SCHOTTKY 60V 3A SMB</description>
+<gates>
+<gate name="G$1" symbol="D" x="-15.24" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="DO-214AA(SMB)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3333651/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="B360B-FDITR-ND" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="B360B-13-F" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEG1020" prefix="D">
+<description>DIODE SCHOTTKY 10V 2A SOD323F</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOD323F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2473269/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="568-4106-1-ND" constant="no"/>
+<attribute name="IF" value="2A" constant="no"/>
+<attribute name="MANF" value="NXP Semiconductors" constant="no"/>
+<attribute name="MANF#" value="PMEG1020EJ,115" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS54" prefix="D">
+<description>40V 0.6V@5A 5A SMC(DO-214AB) Schottky Barrier Diodes (SBD)</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMC" package="DO-214AB(SMC)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3333646/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C2931904" constant="no"/>
+<attribute name="MANF" value="Doeshare" constant="no"/>
+<attribute name="MANF#" value="SS54" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMA" package="DO-214AC(SMA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410767/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="YOUTAISEMI" constant="no"/>
+<attribute name="MANF#" value="SS54" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMB" package="DO-214AA(SMB)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3333651/4"/>
+</package3dinstances>
+<technologies>
+<technology name="B">
+<attribute name="MANF" value="UMW" constant="no"/>
+<attribute name="MANF#" value="SS54B" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DB107S-G" prefix="D">
+<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount DBS</description>
+<gates>
+<gate name="G$1" symbol="DIODE_BRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DBS">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="AC1" pad="AC1"/>
+<connect gate="G$1" pin="AC2" pad="AC2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854275/2"/>
+</package3dinstances>
+<technologies>
+<technology name="-DB107S">
+<attribute name="CURRENT" value="1A" constant="no"/>
+<attribute name="DIGIKEY#" value="641-1674-5-ND" constant="no"/>
+<attribute name="MANF" value="Comchip Technology" constant="no"/>
+<attribute name="MANF#" value="DB107S-G" constant="no"/>
+<attribute name="VOLTAGE" value="1 KV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF01S-T" prefix="D">
+<description>Bridge Rectifier Single Phase Standard 1kV Surface Mount DBS</description>
+<gates>
+<gate name="G$1" symbol="DIODE_BRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DBS">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="AC1" pad="AC1"/>
+<connect gate="G$1" pin="AC2" pad="AC2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854275/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CURRENT" value="1A" constant="no"/>
+<attribute name="DIGIKEY#" value="DF01S-TDITR-ND" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="DF01S-T" constant="no"/>
+<attribute name="VOLTAGE" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS16VV" prefix="D">
+<description>Diode Array 3 Independent Standard 100V 200mA (DC) Surface Mount SOT-563, SOT-666</description>
+<gates>
+<gate name="D1" symbol="D" x="2.54" y="10.16"/>
+<gate name="D2" symbol="D" x="2.54" y="2.54"/>
+<gate name="D3" symbol="D" x="2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT666">
+<connects>
+<connect gate="D1" pin="A" pad="1"/>
+<connect gate="D1" pin="C" pad="6"/>
+<connect gate="D2" pin="A" pad="2"/>
+<connect gate="D2" pin="C" pad="5"/>
+<connect gate="D3" pin="A" pad="3"/>
+<connect gate="D3" pin="C" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854276/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="1727-6170-2-ND" constant="no"/>
+<attribute name="MANF" value="Nexperia USA Inc" constant="no"/>
+<attribute name="MANF#" value="BAS16VV,115" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B560C" prefix="D">
+<description>60V 700mV@5A 5A SMC(DO-214AB)  Schottky Barrier Diodes (SBD) ROHS</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO-214AB(SMC)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3333646/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C85100" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="B560C-13-F" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS321" prefix="D">
+<description>Diode Standard 250V 200mA (DC) Surface Mount SOD-323</description>
+<gates>
+<gate name="G$1" symbol="D" x="-10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854274/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="MANF" value="Nexperia B.V." constant="no"/>
+<attribute name="MANF#" value=" BAS321,115" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV99" prefix="D">
+<description>Planar Schottky barrier diodes</description>
+<gates>
+<gate name="G$1" symbol="D-HALFBRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SOT23" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="NEXPERIA" constant="no"/>
+<attribute name="MANF#" value="BAV99,215" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT23S" prefix="D">
+<description>Planar Schottky barrier diodes</description>
+<gates>
+<gate name="G$1" symbol="D-HALFBRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SC70" package="SC70">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7365870/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C78260" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BAT54SWT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SOT23" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="NEXPERIA" constant="no"/>
+<attribute name="MANF#" value="BAT54S" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV23S" prefix="D">
+<description>Small Signal Diode</description>
+<gates>
+<gate name="G$1" symbol="D-HALFBRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SC70" package="SC70">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7365870/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C78260" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="BAT54SWT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SOT23" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2640533/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="NEXPERIA" constant="no"/>
+<attribute name="MANF#" value="BAV23S" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
