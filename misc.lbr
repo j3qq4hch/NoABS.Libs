@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -4607,7 +4607,7 @@ distributor Buerklin, 17G558</description>
 <circle x="-1.6" y="1.25" radius="0.1" width="0.1" layer="51"/>
 </package>
 <package name="SOT23-5">
-<description>&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=170499"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.7433,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+<description>&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.7433,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
 <wire x1="0.81" y1="-1.422" x2="-0.81" y2="-1.422" width="0.1524" layer="21"/>
 <wire x1="-0.81" y1="-1.422" x2="-0.81" y2="1.422" width="0.1524" layer="51"/>
 <wire x1="-0.81" y1="1.422" x2="0.81" y2="1.422" width="0.1524" layer="21"/>
@@ -4829,32 +4829,6 @@ distributor Buerklin, 17G558</description>
 <rectangle x1="-0.88" y1="2.6" x2="-0.39" y2="3.7" layer="51"/>
 <rectangle x1="-2.15" y1="2.6" x2="-1.66" y2="3.7" layer="51"/>
 <circle x="-1.75" y="-0.75" radius="0.3" width="0.127" layer="21"/>
-</package>
-<package name="SOT23-5L" urn="urn:adsk.eagle:footprint:8637277/4">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
-package type OT</description>
-<wire x1="-0.81" y1="1.422" x2="0.81" y2="1.422" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="1.422" x2="0.81" y2="-1.422" width="0.1524" layer="51"/>
-<wire x1="0.81" y1="-1.422" x2="-0.81" y2="-1.422" width="0.1524" layer="21"/>
-<wire x1="-0.81" y1="-1.422" x2="-0.81" y2="1.422" width="0.1524" layer="51"/>
-<wire x1="-0.81" y1="-0.522" x2="-0.81" y2="0.522" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="-0.428" x2="0.81" y2="-0.522" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="0.522" x2="0.81" y2="0.428" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="-1.328" x2="0.81" y2="-1.422" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="1.422" x2="0.81" y2="1.328" width="0.1524" layer="21"/>
-<wire x1="-0.81" y1="1.328" x2="-0.81" y2="1.422" width="0.1524" layer="21"/>
-<wire x1="-0.81" y1="-1.422" x2="-0.81" y2="-1.328" width="0.1524" layer="21"/>
-<smd name="1" x="1.2" y="-0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="2" x="1.2" y="0" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="3" x="1.2" y="0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="4" x="-1.2" y="0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<smd name="5" x="-1.2" y="-0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R90"/>
-<text x="0" y="0" size="0.889" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
-<rectangle x1="0.925" y1="-1.275" x2="1.425" y2="-0.625" layer="51" rot="R90"/>
-<rectangle x1="0.925" y1="-0.325" x2="1.425" y2="0.325" layer="51" rot="R90"/>
-<rectangle x1="0.925" y1="0.625" x2="1.425" y2="1.275" layer="51" rot="R90"/>
-<rectangle x1="-1.425" y1="0.625" x2="-0.925" y2="1.275" layer="51" rot="R90"/>
-<rectangle x1="-1.425" y1="-1.275" x2="-0.925" y2="-0.625" layer="51" rot="R90"/>
 </package>
 <package name="TRA3" urn="urn:adsk.eagle:footprint:30031473/1">
 <description>&lt;a href = https://radiodetali.com/datasheet/kommutaciya/pdf-123354.pdf&gt;Datasheet&lt;/a&gt;</description>
@@ -16371,224 +16345,6 @@ Quad Channel, SOP-16, Half Pitch Mini-Flat Package</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZXCT1051" prefix="IC">
-<description>IC CURRENT MONITOR 1% SOT23-5</description>
-<gates>
-<gate name="G$1" symbol="ZXCT1051" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-<connect gate="G$1" pin="VSENSE+" pad="4"/>
-<connect gate="G$1" pin="VSENSE-" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="ZXCT1051E5CT-ND" constant="no"/>
-<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
-<attribute name="MANF#" value="ZXCT1051E5TA" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LMC7215" prefix="IC">
-<description>Comparator General Purpose Push-Pull SOT-23-5</description>
-<gates>
-<gate name="G$1" symbol="COMPARATOR" x="-5.08" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="IN+" pad="3"/>
-<connect gate="G$1" pin="IN-" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="V+" pad="2"/>
-<connect gate="G$1" pin="V-" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="296-35219-2-ND" constant="no"/>
-<attribute name="MANF" value="Texas Instruments" constant="no"/>
-<attribute name="MANF#" value="LMC7215IM5X/NOPB" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RF2373" prefix="IC">
-<description>IC AMP WLAN/LNA DVR 3V SOT23-5</description>
-<gates>
-<gate name="G$1" symbol="RF2373" x="-12.7" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="BIAS" pad="3"/>
-<connect gate="G$1" pin="GND@1" pad="2"/>
-<connect gate="G$1" pin="GND@2" pad="5"/>
-<connect gate="G$1" pin="RF_IN" pad="1"/>
-<connect gate="G$1" pin="RF_OUT" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="689-1011-1-ND" constant="no"/>
-<attribute name="MANF" value="RFMD" constant="no"/>
-<attribute name="MANF#" value="RF2373TR7" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NS5B1G385" prefix="IC">
-<description>IC ANLG SWITCH SPST NO 5TSOP</description>
-<gates>
-<gate name="G$1" symbol="NS5B1G385" x="-7.62" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="COM" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="IN" pad="4"/>
-<connect gate="G$1" pin="NO" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" constant="no"/>
-<attribute name="MANF" value="ON Semiconductor" constant="no"/>
-<attribute name="MANF#" value="NS5B1G385DTT1G" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TS391AG-AF5-R" prefix="IC">
-<description>±18V ~ 36V CMOS, TTL 1.2mA 1 SOT-25 &lt;br&gt;
-&lt;a href = https://datasheet.lcsc.com/lcsc/1810091210_UTC-Unisonic-Tech-TS391AG-AF5-R_C73284.pdf&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="COMPARATOR" x="-5.08" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="IN+" pad="1"/>
-<connect gate="G$1" pin="IN-" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="V+" pad="5"/>
-<connect gate="G$1" pin="V-" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="C73284" constant="no"/>
-<attribute name="MANF" value="UTC(Unisonic Tech)" constant="no"/>
-<attribute name="MANF#" value="TS391AG-AF5-R" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SN6501" prefix="IC">
-<description>IC REG CONV PWR SUPPLIES SOT23-5</description>
-<gates>
-<gate name="G$1" symbol="SN6501" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="D1" pad="1"/>
-<connect gate="G$1" pin="D2" pad="3"/>
-<connect gate="G$1" pin="GND@1" pad="5"/>
-<connect gate="G$1" pin="GND@2" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="296-37700-2-ND" constant="no"/>
-<attribute name="MANF" value="Texas Instruments" constant="no"/>
-<attribute name="MANF#" value="SN6501DBVR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TP4054" prefix="IC">
-<description>SOT-23-5 Battery Management ICs</description>
-<gates>
-<gate name="G$1" symbol="TP4054" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="!CHRG" pad="1"/>
-<connect gate="G$1" pin="BAT" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="PROG" pad="5"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LCSC#" value="C32574" constant="no"/>
-<attribute name="MANF" value="TOPPOWER" constant="no"/>
-<attribute name="MANF#" value="TP4054" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LM4132DQ1MFT3.3" prefix="IC">
-<description>Series Voltage Reference IC ±0.4% SOT-23-5</description>
-<gates>
-<gate name="G$1" symbol="LM4132" x="2.54" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="4"/>
-<connect gate="G$1" pin="VREF" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="AEC-Q" value="AEC-Q100" constant="no"/>
-<attribute name="DIGIKEY#" value="296-51298-1-ND" constant="no"/>
-<attribute name="MANF" value="Texas Instruments" constant="no"/>
-<attribute name="MANF#" value="LM4132DQ1MFT3.3" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CAT24C02" prefix="IC">
 <description>IC EEPROM 2KBIT 400KHZ TSOT23-5</description>
 <gates>
@@ -18230,6 +17986,200 @@ Linear Technology, see 3763fb datasheet
 <technology name="">
 <attribute name="MANF" value="DIODES INC" constant="no"/>
 <attribute name="MANF#" value="74LVC1G17W5-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZXCT1051" prefix="IC">
+<description>IC CURRENT MONITOR 1% SOT23-5</description>
+<gates>
+<gate name="G$1" symbol="ZXCT1051" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+<connect gate="G$1" pin="VSENSE+" pad="4"/>
+<connect gate="G$1" pin="VSENSE-" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="ZXCT1051E5CT-ND" constant="no"/>
+<attribute name="MANF" value="Diodes Incorporated" constant="no"/>
+<attribute name="MANF#" value="ZXCT1051E5TA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TS391AG-AF5-R" prefix="IC">
+<description>±18V ~ 36V CMOS, TTL 1.2mA 1 SOT-25 &lt;br&gt;
+&lt;a href = https://datasheet.lcsc.com/lcsc/1810091210_UTC-Unisonic-Tech-TS391AG-AF5-R_C73284.pdf&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="COMPARATOR" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="IN+" pad="1"/>
+<connect gate="G$1" pin="IN-" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C73284" constant="no"/>
+<attribute name="MANF" value="UTC(Unisonic Tech)" constant="no"/>
+<attribute name="MANF#" value="TS391AG-AF5-R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TP4054" prefix="IC">
+<description>SOT-23-5 Battery Management ICs</description>
+<gates>
+<gate name="G$1" symbol="TP4054" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="!CHRG" pad="1"/>
+<connect gate="G$1" pin="BAT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="PROG" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC#" value="C32574" constant="no"/>
+<attribute name="MANF" value="TOPPOWER" constant="no"/>
+<attribute name="MANF#" value="TP4054" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN6501" prefix="IC">
+<description>IC REG CONV PWR SUPPLIES SOT23-5</description>
+<gates>
+<gate name="G$1" symbol="SN6501" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="D1" pad="1"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="5"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="296-37700-2-ND" constant="no"/>
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="SN6501DBVR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RF2373" prefix="IC">
+<description>IC AMP WLAN/LNA DVR 3V SOT23-5</description>
+<gates>
+<gate name="G$1" symbol="RF2373" x="-12.7" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="BIAS" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="RF_IN" pad="1"/>
+<connect gate="G$1" pin="RF_OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="689-1011-1-ND" constant="no"/>
+<attribute name="MANF" value="RFMD" constant="no"/>
+<attribute name="MANF#" value="RF2373TR7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NS5B1G385" prefix="IC">
+<description>IC ANLG SWITCH SPST NO 5TSOP</description>
+<gates>
+<gate name="G$1" symbol="NS5B1G385" x="-7.62" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="NS5B1G385DTT1GOSDKR-ND" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="NS5B1G385DTT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMC7215" prefix="IC">
+<description>Comparator General Purpose Push-Pull SOT-23-5</description>
+<gates>
+<gate name="G$1" symbol="COMPARATOR" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="2"/>
+<connect gate="G$1" pin="V-" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="296-35219-2-ND" constant="no"/>
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="LMC7215IM5X/NOPB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM4132DQ1MFT3.3" prefix="IC">
+<description>Series Voltage Reference IC ±0.4% SOT-23-5</description>
+<gates>
+<gate name="G$1" symbol="LM4132" x="2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AEC-Q" value="AEC-Q100" constant="no"/>
+<attribute name="DIGIKEY#" value="296-51298-1-ND" constant="no"/>
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="LM4132DQ1MFT3.3" constant="no"/>
 </technology>
 </technologies>
 </device>
