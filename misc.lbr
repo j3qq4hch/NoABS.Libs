@@ -4606,31 +4606,30 @@ distributor Buerklin, 17G558</description>
 <text x="0" y="1.5" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <circle x="-1.6" y="1.25" radius="0.1" width="0.1" layer="51"/>
 </package>
-<package name="SOT23-5" urn="urn:adsk.eagle:footprint:2541156/3">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
-package type OT</description>
-<wire x1="-0.81" y1="1.422" x2="0.81" y2="1.422" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="1.422" x2="0.81" y2="-1.422" width="0.1524" layer="51"/>
+<package name="SOT23-5">
+<description>&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=170499"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.7433,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
 <wire x1="0.81" y1="-1.422" x2="-0.81" y2="-1.422" width="0.1524" layer="21"/>
 <wire x1="-0.81" y1="-1.422" x2="-0.81" y2="1.422" width="0.1524" layer="51"/>
-<wire x1="-0.81" y1="-0.522" x2="-0.81" y2="0.522" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="-0.428" x2="0.81" y2="-0.522" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="0.522" x2="0.81" y2="0.428" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="-1.328" x2="0.81" y2="-1.422" width="0.1524" layer="21"/>
-<wire x1="0.81" y1="1.422" x2="0.81" y2="1.328" width="0.1524" layer="21"/>
+<wire x1="-0.81" y1="1.422" x2="0.81" y2="1.422" width="0.1524" layer="21"/>
+<wire x1="0.81" y1="1.422" x2="0.81" y2="-1.422" width="0.1524" layer="51"/>
+<wire x1="0.81" y1="0.522" x2="0.81" y2="-0.522" width="0.1524" layer="21"/>
+<wire x1="-0.81" y1="0.428" x2="-0.81" y2="0.522" width="0.1524" layer="21"/>
+<wire x1="-0.81" y1="-0.522" x2="-0.81" y2="-0.428" width="0.1524" layer="21"/>
 <wire x1="-0.81" y1="1.328" x2="-0.81" y2="1.422" width="0.1524" layer="21"/>
 <wire x1="-0.81" y1="-1.422" x2="-0.81" y2="-1.328" width="0.1524" layer="21"/>
-<smd name="1" x="1.3" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R90"/>
-<smd name="2" x="1.3" y="0" dx="0.55" dy="1.2" layer="1" rot="R90"/>
-<smd name="3" x="1.3" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R90"/>
-<smd name="4" x="-1.3" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R90"/>
-<smd name="5" x="-1.3" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R90"/>
-<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
-<rectangle x1="0.925" y1="-1.275" x2="1.425" y2="-0.625" layer="51" rot="R90"/>
-<rectangle x1="0.925" y1="-0.325" x2="1.425" y2="0.325" layer="51" rot="R90"/>
-<rectangle x1="0.925" y1="0.625" x2="1.425" y2="1.275" layer="51" rot="R90"/>
-<rectangle x1="-1.425" y1="0.625" x2="-0.925" y2="1.275" layer="51" rot="R90"/>
-<rectangle x1="-1.425" y1="-1.275" x2="-0.925" y2="-0.625" layer="51" rot="R90"/>
+<wire x1="0.81" y1="-1.328" x2="0.81" y2="-1.422" width="0.1524" layer="21"/>
+<wire x1="0.81" y1="1.422" x2="0.81" y2="1.328" width="0.1524" layer="21"/>
+<rectangle x1="-1.425" y1="0.625" x2="-0.925" y2="1.275" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-0.325" x2="-0.925" y2="0.325" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-1.275" x2="-0.925" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="-1.275" x2="1.425" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="0.625" x2="1.425" y2="1.275" layer="51" rot="R270"/>
+<smd name="1" x="-1.2" y="0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="2" x="-1.2" y="0" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="3" x="-1.2" y="-0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="4" x="1.2" y="-0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<smd name="5" x="1.2" y="0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R270"/>
+<text x="0" y="0" size="0.889" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="NODEMCU" urn="urn:adsk.eagle:footprint:29812840/2">
 <wire x1="-3.4925" y1="-24.13" x2="-10.4" y2="-24.13" width="0.127" layer="21"/>
@@ -7059,7 +7058,7 @@ distributor Buerklin, 17G558</description>
 <packageinstance name="SO16"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23-5" urn="urn:adsk.eagle:package:24428071/5" type="model">
+<package3d name="SOT23-5" urn="urn:adsk.eagle:package:24428071/5" locally_modified="yes" type="model">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
 package type OT</description>
 <packageinstances>
@@ -7107,11 +7106,11 @@ package type OT</description>
 <packageinstance name="TRA3"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23-5L" urn="urn:adsk.eagle:package:5347863/10" type="model">
+<package3d name="SOT23-5L" urn="urn:adsk.eagle:package:5347863/10" locally_modified="yes" type="model">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
 package type OT</description>
 <packageinstances>
-<packageinstance name="SOT23-5L"/>
+<packageinstance name="SOT23-5"/>
 </packageinstances>
 </package3d>
 <package3d name="BMP280" urn="urn:adsk.eagle:package:43553732/2" type="model">
@@ -15906,31 +15905,6 @@ Quad Channel, SOP-16, Half Pitch Mini-Flat Package</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="74LVC1G17" prefix="IC">
-<description>single 1-input Schmitt-trigger buffer with a standard push-pull output</description>
-<gates>
-<gate name="G$1" symbol="74LVC1G14DBV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="5"/>
-<connect gate="G$1" pin="Y" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24428071/5"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MANF" value="DIODES INC" constant="no"/>
-<attribute name="MANF#" value="74LVC1G17W5-7" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="74LVC1G07GV" prefix="IC">
 <description>Buffer with open-drain output</description>
 <gates>
@@ -15994,34 +15968,6 @@ Quad Channel, SOP-16, Half Pitch Mini-Flat Package</description>
 <attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SN74AHCT1G125DBVR" prefix="IC">
-<description>74AHCT 1 Buffers，Non-OppositeSide 1 SOT-23-5  Buffers / Drivers ROHS</description>
-<gates>
-<gate name="G$1" symbol="SN74LVC1G125" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-SOT23-5" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="!OE" pad="1"/>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="5"/>
-<connect gate="G$1" pin="Y" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24428071/5"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="C7484" constant="no"/>
-<attribute name="MANF" value="Texas Instruments" constant="no"/>
-<attribute name="MANF#" value="SN74AHCT1G125DBVR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -16643,41 +16589,13 @@ Quad Channel, SOP-16, Half Pitch Mini-Flat Package</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LMV331" prefix="IC">
-<description>Comparator General Purpose open drain SOT-23-5</description>
-<gates>
-<gate name="G$1" symbol="COMPARATOR" x="-5.08" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5L">
-<connects>
-<connect gate="G$1" pin="IN+" pad="1"/>
-<connect gate="G$1" pin="IN-" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="V+" pad="5"/>
-<connect gate="G$1" pin="V-" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="C108095" constant="no"/>
-<attribute name="MANF" value="3PEAK" constant="no"/>
-<attribute name="MANF#" value="LMV331TP-TR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CAT24C02" prefix="IC">
 <description>IC EEPROM 2KBIT 400KHZ TSOT23-5</description>
 <gates>
 <gate name="G$1" symbol="CAT24C02" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-5L">
+<device name="-" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="SCL" pad="1"/>
 <connect gate="G$1" pin="SDA" pad="3"/>
@@ -16686,11 +16604,10 @@ Quad Channel, SOP-16, Half Pitch Mini-Flat Package</description>
 <connect gate="G$1" pin="WP" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24428071/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY#" value="CAT24C02TDI-GT3AOSCT-ND" constant="no"/>
 <attribute name="MANF" value="ON Semiconductor" constant="no"/>
 <attribute name="MANF#" value="CAT24C02TDI-GT3A" constant="no"/>
 </technology>
@@ -17343,8 +17260,7 @@ Quad Channel, SOP-16, Half Pitch Mini-Flat Package</description>
 <technologies>
 <technology name="">
 <attribute name="MANF" value="Connfly electronic" constant="no"/>
-<attribute name="MANF#" value="DS1040-01RN
-" constant="no"/>
+<attribute name="MANF#" value="DS1040-01RN " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -17771,8 +17687,7 @@ Quad Channel, SOP-16, Half Pitch Mini-Flat Package</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MANF" value="
-Shenzhen Shining Opto-Electronic Co" constant="no"/>
+<attribute name="MANF" value=" Shenzhen Shining Opto-Electronic Co" constant="no"/>
 <attribute name="MANF#" value="SK6805-2427" constant="no"/>
 </technology>
 </technologies>
@@ -18234,6 +18149,87 @@ Linear Technology, see 3763fb datasheet
 <attribute name="LCSC#" value="C2870190" constant="no"/>
 <attribute name="MANF" value="Texas Instruments" constant="no"/>
 <attribute name="MANF#" value="BQ7693000DBT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74AHCT1G125DBVR" prefix="IC">
+<description>74AHCT 1 Buffers，Non-OppositeSide 1 SOT-23-5  Buffers / Drivers ROHS</description>
+<gates>
+<gate name="G$1" symbol="SN74LVC1G125" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SOT23-5" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="!OE" pad="1"/>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24428071/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C7484" constant="no"/>
+<attribute name="MANF" value="Texas Instruments" constant="no"/>
+<attribute name="MANF#" value="SN74AHCT1G125DBVR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMV331" prefix="IC">
+<description>Comparator General Purpose open drain SOT-23-5</description>
+<gates>
+<gate name="G$1" symbol="COMPARATOR" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="IN+" pad="1"/>
+<connect gate="G$1" pin="IN-" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/10"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="C108095" constant="no"/>
+<attribute name="MANF" value="3PEAK" constant="no"/>
+<attribute name="MANF#" value="LMV331TP-TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74LVC1G17" prefix="IC">
+<description>single 1-input Schmitt-trigger buffer with a standard push-pull output</description>
+<gates>
+<gate name="G$1" symbol="74LVC1G14DBV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24428071/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANF" value="DIODES INC" constant="no"/>
+<attribute name="MANF#" value="74LVC1G17W5-7" constant="no"/>
 </technology>
 </technologies>
 </device>
