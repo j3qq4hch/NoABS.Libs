@@ -223,22 +223,6 @@
           <rectangle x1="-1.9" y1="-1.8" x2="-0.9" y2="1.8" layer="51" />
           <rectangle x1="0.9" y1="-1.8" x2="1.9" y2="1.8" layer="51" />
         </package>
-        <package name="NR3015" urn="urn:adsk.eagle:footprint:12531220/1">
-          <description>&lt;a href=https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NR3015T2R2M%20%20&amp;u=M&gt;datasheet&lt;/a&gt;</description>
-          <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51" />
-          <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51" />
-          <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51" />
-          <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51" />
-          <wire x1="-1.5" y1="1.4" x2="-1.5" y2="1.5" width="0.1" layer="21" />
-          <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="21" />
-          <wire x1="1.5" y1="1.5" x2="1.5" y2="1.4" width="0.1" layer="21" />
-          <wire x1="1.5" y1="-1.4" x2="1.5" y2="-1.5" width="0.1" layer="21" />
-          <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="21" />
-          <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.4" width="0.1" layer="21" />
-          <smd name="1" x="-1.1" y="0" dx="0.8" dy="2.7" layer="1" />
-          <smd name="2" x="1.1" y="0" dx="0.8" dy="2.7" layer="1" />
-          <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
-        </package>
         <package name="VLS6045EX" urn="urn:adsk.eagle:footprint:11688525/1">
           <smd name="P$1" x="-2.1" y="0" dx="1.9" dy="5.1" layer="1" />
           <smd name="P$2" x="2.1" y="0" dx="1.9" dy="5.1" layer="1" />
@@ -296,65 +280,6 @@
           <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1" layer="21" />
           <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="SWPA6045S" urn="urn:adsk.eagle:footprint:4854351/1">
-          <description>&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=1928613"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":90.0}--&gt;</description>
-          <wire x1="-2" y1="1.5" x2="-2" y2="0.3" width="0.127" layer="51" />
-          <wire x1="-2" y1="0.3" x2="-2" y2="-0.3" width="0.127" layer="51" />
-          <wire x1="-2" y1="-0.3" x2="-2" y2="-1.5" width="0.127" layer="51" />
-          <wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.127" layer="51" />
-          <wire x1="2" y1="-1.5" x2="2" y2="-0.3" width="0.127" layer="51" />
-          <wire x1="2" y1="-0.3" x2="2" y2="0.3" width="0.127" layer="51" />
-          <wire x1="2" y1="0.3" x2="2" y2="1.5" width="0.127" layer="51" />
-          <wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="51" />
-          <wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.127" layer="51" curve="-90" />
-          <wire x1="2" y1="1.5" x2="1.5" y2="2" width="0.127" layer="51" curve="90" />
-          <wire x1="-1.5" y1="-2" x2="-2" y2="-1.5" width="0.127" layer="51" curve="-90" />
-          <wire x1="2" y1="-1.5" x2="1.5" y2="-2" width="0.127" layer="51" curve="-90" />
-          <wire x1="-2" y1="0.3" x2="-2.15" y2="0.3" width="0.127" layer="51" />
-          <wire x1="-2.15" y1="0.3" x2="-2.15" y2="-0.3" width="0.127" layer="51" />
-          <wire x1="-2.15" y1="-0.3" x2="-2" y2="-0.3" width="0.127" layer="51" />
-          <wire x1="2" y1="0.3" x2="2.15" y2="0.3" width="0.127" layer="51" />
-          <wire x1="2.15" y1="0.3" x2="2.15" y2="-0.3" width="0.127" layer="51" />
-          <wire x1="2.15" y1="-0.3" x2="2" y2="-0.3" width="0.127" layer="51" />
-          <wire x1="-3.85" y1="3" x2="3.85" y2="3" width="0.1" layer="21" />
-          <wire x1="3.85" y1="3" x2="3.85" y2="-3" width="0.1" layer="21" />
-          <wire x1="3.85" y1="-3" x2="-3.85" y2="-3" width="0.1" layer="21" />
-          <wire x1="-3.85" y1="-3" x2="-3.85" y2="3" width="0.1" layer="21" />
-          <smd name="P$1" x="2.4" y="0" dx="2.6" dy="5.7" layer="1" />
-          <smd name="P$2" x="-2.4" y="0" dx="2.6" dy="5.7" layer="1" />
-          <text x="0" y="0" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-        </package>
-        <package name="05020" urn="urn:adsk.eagle:footprint:52272452/2">
-          <description>Generic 5.2x5.2 SMD power inductor&lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Feb 2023&lt;/i&gt;</description>
-          <wire x1="-2.6" y1="-2.3" x2="-2.3" y2="-2.6" width="0.127" layer="21" curve="90" />
-          <wire x1="-2.3" y1="-2.6" x2="2.3" y2="-2.6" width="0.127" layer="21" />
-          <wire x1="2.3" y1="-2.6" x2="2.6" y2="-2.3" width="0.127" layer="21" curve="90" />
-          <wire x1="2.6" y1="2.3" x2="2.3" y2="2.6" width="0.127" layer="21" curve="90" />
-          <wire x1="2.3" y1="2.6" x2="-2.3" y2="2.6" width="0.127" layer="21" />
-          <wire x1="-2.3" y1="2.6" x2="-2.6" y2="2.3" width="0.127" layer="21" curve="90" />
-          <wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0.127" layer="51" />
-          <wire x1="2.6" y1="1.5" x2="2.6" y2="-1.5" width="0.127" layer="51" />
-          <wire x1="-2.6" y1="-1.5" x2="-2.6" y2="-2.3" width="0.127" layer="21" />
-          <wire x1="-2.6" y1="2.3" x2="-2.6" y2="1.5" width="0.127" layer="21" />
-          <wire x1="2.6" y1="-2.3" x2="2.6" y2="-1.5" width="0.127" layer="21" />
-          <wire x1="2.6" y1="2.3" x2="2.6" y2="1.5" width="0.127" layer="21" />
-          <wire x1="-2.7" y1="1" x2="-2.7" y2="-1" width="0.254" layer="51" />
-          <wire x1="2.7" y1="-1" x2="2.7" y2="1" width="0.254" layer="51" />
-          <smd name="1" x="-2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
-          <smd name="2" x="2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
-          <text x="0" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-        </package>
-        <package name="CD54" urn="urn:adsk.eagle:footprint:37194859/2">
-          <smd name="1" x="0" y="1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
-          <smd name="2" x="0" y="-1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
-          <wire x1="-2.6" y1="0.7" x2="-2.6" y2="-0.7" width="0.1" layer="21" />
-          <wire x1="2.6" y1="0.7" x2="2.6" y2="-0.7" width="0.1" layer="21" />
-          <text x="0" y="0" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-          <rectangle x1="-2.5" y1="-2.8" x2="2.5" y2="-1.1" layer="51" />
-          <rectangle x1="-2.5" y1="1.1" x2="2.5" y2="2.8" layer="51" />
-        </package>
         <package name="SWPA6020" urn="urn:adsk.eagle:footprint:52492244/1">
           <description>SWPA50xxS  and SWPA60xxS Series SMD Power Inductor universal footprint&lt;br&gt;
 draft&lt;br&gt;
@@ -391,42 +316,6 @@ draft&lt;br&gt;
           <smd name="2" x="2.1336" y="0" dx="2.032" dy="5.6896" layer="1" roundness="5" cream="no" />
           <text x="0" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
         </package>
-        <package name="CDRH104" urn="urn:adsk.eagle:footprint:37194811/3">
-          <description>&lt;a href = https://data.electronshik.ru/z/Datasheet/C/CDRH104.pdf&gt;Drawing&lt;/a&gt;</description>
-          <wire x1="-4.45" y1="4.4" x2="-4.45" y2="-4.4" width="0.1" layer="51" />
-          <wire x1="-4.45" y1="-4.4" x2="-3.95" y2="-4.9" width="0.1" layer="51" curve="90" />
-          <wire x1="-3.95" y1="-4.9" x2="-1.65" y2="-4.9" width="0.1" layer="51" />
-          <wire x1="-4.45" y1="4.4" x2="-3.95" y2="4.9" width="0.1" layer="51" curve="-90" />
-          <wire x1="-3.95" y1="4.9" x2="-1.65" y2="4.9" width="0.1" layer="51" />
-          <wire x1="-1.65" y1="4.9" x2="-1.4" y2="4.65" width="0.1" layer="51" curve="-90" />
-          <wire x1="-1.4" y1="4.65" x2="-1.15" y2="4.4" width="0.1" layer="51" curve="90" />
-          <wire x1="-1.15" y1="4.4" x2="1.15" y2="4.4" width="0.1" layer="51" />
-          <wire x1="1.15" y1="4.4" x2="1.4" y2="4.65" width="0.1" layer="51" curve="90" />
-          <wire x1="1.4" y1="4.65" x2="1.65" y2="4.9" width="0.1" layer="51" curve="-90" />
-          <wire x1="1.65" y1="4.9" x2="3.95" y2="4.9" width="0.1" layer="51" />
-          <wire x1="3.95" y1="4.9" x2="4.45" y2="4.4" width="0.1" layer="51" curve="-90" />
-          <wire x1="1.65" y1="-4.9" x2="3.95" y2="-4.9" width="0.1" layer="51" />
-          <wire x1="3.95" y1="-4.9" x2="4.45" y2="-4.4" width="0.1" layer="51" curve="90" />
-          <wire x1="4.45" y1="-4.4" x2="4.45" y2="4.4" width="0.1" layer="51" />
-          <wire x1="1.4" y1="-4.65" x2="1.65" y2="-4.9" width="0.1" layer="51" curve="90" />
-          <wire x1="-1.65" y1="-4.9" x2="-1.4" y2="-4.65" width="0.1" layer="51" curve="90" />
-          <wire x1="-1.4" y1="-4.65" x2="-1.15" y2="-4.4" width="0.1" layer="51" curve="-90" />
-          <wire x1="-1.15" y1="-4.4" x2="1.15" y2="-4.4" width="0.1" layer="51" />
-          <wire x1="1.15" y1="-4.4" x2="1.4" y2="-4.65" width="0.1" layer="51" curve="-90" />
-          <wire x1="-1.6" y1="4.9" x2="-3.95" y2="4.9" width="0.2" layer="21" />
-          <wire x1="-3.95" y1="4.9" x2="-4.45" y2="4.4" width="0.2" layer="21" curve="90" />
-          <wire x1="-4.45" y1="4.4" x2="-4.45" y2="-4.4" width="0.2" layer="21" />
-          <wire x1="-4.45" y1="-4.4" x2="-3.95" y2="-4.9" width="0.2" layer="21" curve="90" />
-          <wire x1="-3.95" y1="-4.9" x2="-1.6" y2="-4.9" width="0.2" layer="21" />
-          <wire x1="1.6" y1="-4.9" x2="3.95" y2="-4.9" width="0.2" layer="21" />
-          <wire x1="3.95" y1="-4.9" x2="4.45" y2="-4.4" width="0.2" layer="21" curve="90" />
-          <wire x1="4.45" y1="-4.4" x2="4.45" y2="4.4" width="0.2" layer="21" />
-          <wire x1="4.45" y1="4.4" x2="3.95" y2="4.9" width="0.2" layer="21" curve="90" />
-          <wire x1="3.95" y1="4.9" x2="1.6" y2="4.9" width="0.2" layer="21" />
-          <smd name="1" x="0" y="3.75" dx="2.4" dy="2.1" layer="1" />
-          <smd name="2" x="0" y="-3.75" dx="2.4" dy="2.1" layer="1" />
-          <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-        </package>
         <package name="IHLP-2020BZ-01" urn="urn:adsk.eagle:footprint:36690888/1">
           <description>&lt;a href = https://www.elitan.ru/pdf/0/4/5/1/7/04517544.pdf&gt;Datasheet&lt;/a&gt;</description>
           <smd name="P$1" x="-2.5" y="0" dx="2.8" dy="1.9" layer="1" rot="R90" />
@@ -457,40 +346,6 @@ draft&lt;br&gt;
           <wire x1="3.35" y1="3.35" x2="-3.35" y2="3.35" width="0.127" layer="21" />
           <text x="0" y="0" size="1.5" layer="25" font="vector" align="center">&gt;NAME</text>
         </package>
-        <package name="NRS5030" urn="urn:adsk.eagle:footprint:3345991/1">
-          <description>file:///C:/Users/j3qq4hch/Downloads/NRS5030T220MMGJ_SS.pdf</description>
-          <smd name="P$1" x="-1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
-          <smd name="P$2" x="1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
-          <wire x1="-2.65" y1="2.1" x2="2.65" y2="2.1" width="0.127" layer="21" />
-          <wire x1="2.65" y1="2.1" x2="2.65" y2="-2.1" width="0.127" layer="21" />
-          <wire x1="2.65" y1="-2.1" x2="-2.65" y2="-2.1" width="0.127" layer="21" />
-          <wire x1="-2.65" y1="-2.1" x2="-2.65" y2="2.1" width="0.127" layer="21" />
-          <text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
-        </package>
-        <package name="NRS6028" urn="urn:adsk.eagle:footprint:4217098/1">
-          <smd name="P$1" x="-2.35" y="0" dx="1.6" dy="5.7" layer="1" rot="R180" />
-          <smd name="P$2" x="2.35" y="0" dx="1.6" dy="5.7" layer="1" rot="R180" />
-          <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="51" />
-          <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="51" />
-          <wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="51" />
-          <wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="51" />
-          <wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21" />
-          <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21" />
-          <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-        </package>
-        <package name="SRN5040" urn="urn:adsk.eagle:footprint:1040044/1">
-          <smd name="P$1" x="-1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
-          <smd name="P$2" x="1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
-          <wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.1" layer="21" />
-          <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.1" layer="21" />
-          <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.2" width="0.1" layer="21" />
-          <wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.2" width="0.1" layer="21" />
-          <wire x1="2.5" y1="2.5" x2="2.5" y2="2.2" width="0.1" layer="21" />
-          <wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.2" width="0.1" layer="21" />
-          <wire x1="-2.5" y1="2.2" x2="-2.5" y2="-2.2" width="0.1" layer="51" />
-          <wire x1="2.5" y1="-2.2" x2="2.5" y2="2.2" width="0.1" layer="51" />
-          <text x="0" y="0" size="1" layer="51" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
-        </package>
         <package name="SRP6540" urn="urn:adsk.eagle:footprint:1040045/1">
           <wire x1="-3.6" y1="-3.25" x2="-3.6" y2="3.25" width="0.1" layer="21" />
           <wire x1="-3.6" y1="3.25" x2="3.6" y2="3.25" width="0.1" layer="21" />
@@ -499,30 +354,6 @@ draft&lt;br&gt;
           <smd name="1" x="-2.775" y="0" dx="3.4" dy="1.85" layer="1" rot="R90" />
           <smd name="2" x="2.775" y="0" dx="3.4" dy="1.85" layer="1" rot="R90" />
           <text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-        </package>
-        <package name="SRP1265A" urn="urn:adsk.eagle:footprint:37321404/1">
-          <description>&lt;a href =https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <wire x1="-6.75" y1="5.6" x2="-6.75" y2="-5.6" width="0.1" layer="51" />
-          <wire x1="-6.75" y1="-5.6" x2="-6.05" y2="-6.3" width="0.1" layer="51" curve="90" />
-          <wire x1="-6.05" y1="-6.3" x2="6.05" y2="-6.3" width="0.1" layer="51" />
-          <wire x1="6.05" y1="-6.3" x2="6.75" y2="-5.6" width="0.1" layer="51" curve="90" />
-          <wire x1="6.75" y1="-5.6" x2="6.75" y2="5.6" width="0.1" layer="51" />
-          <wire x1="6.75" y1="5.6" x2="6.05" y2="6.3" width="0.1" layer="51" curve="90" />
-          <wire x1="6.05" y1="6.3" x2="-6.05" y2="6.3" width="0.1" layer="51" />
-          <wire x1="-6.05" y1="6.3" x2="-6.75" y2="5.6" width="0.1" layer="51" curve="90" />
-          <wire x1="-6.75" y1="2.95" x2="-6.75" y2="5.6" width="0.1" layer="21" />
-          <wire x1="-6.75" y1="5.6" x2="-6.05" y2="6.3" width="0.1" layer="21" curve="-90" />
-          <wire x1="-6.05" y1="6.3" x2="6.05" y2="6.3" width="0.1" layer="21" />
-          <wire x1="6.05" y1="6.3" x2="6.75" y2="5.6" width="0.1" layer="21" curve="-90" />
-          <wire x1="6.75" y1="5.6" x2="6.75" y2="2.95" width="0.1" layer="21" />
-          <wire x1="6.75" y1="-2.95" x2="6.75" y2="-5.6" width="0.1" layer="21" />
-          <wire x1="6.75" y1="-5.6" x2="6.05" y2="-6.3" width="0.1" layer="21" curve="-90" />
-          <wire x1="6.05" y1="-6.3" x2="-6.05" y2="-6.3" width="0.1" layer="21" />
-          <wire x1="-6.05" y1="-6.3" x2="-6.75" y2="-5.6" width="0.1" layer="21" curve="-90" />
-          <wire x1="-6.75" y1="-5.6" x2="-6.75" y2="-2.95" width="0.1" layer="21" />
-          <smd name="1" x="-5.55" y="0" dx="5" dy="3.1" layer="1" rot="R90" />
-          <smd name="2" x="5.55" y="0" dx="5" dy="3.1" layer="1" rot="R90" />
-          <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
         <package name="MWSA1206S" urn="urn:adsk.eagle:footprint:36212668/2">
           <description>&lt;a href = https://datasheet.lcsc.com/lcsc/1912111437_Sunlord-MWSA1206S-220MT_C408528.pdf&gt;Datasheet&lt;/a&gt;</description>
@@ -539,68 +370,6 @@ draft&lt;br&gt;
           <smd name="1" x="-5.625" y="0" dx="5.5" dy="3.25" layer="1" rot="R90" />
           <smd name="2" x="5.625" y="0" dx="5.5" dy="3.25" layer="1" rot="R90" />
           <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-        </package>
-        <package name="SRR1208" urn="urn:adsk.eagle:footprint:42072655/1">
-          <description>&lt;a href=https://static.chipdip.ru/lib/170/DOC011170276.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <wire x1="-6.35" y1="-5.35" x2="-5.35" y2="-6.35" width="0.15" layer="21" curve="90" />
-          <wire x1="5.35" y1="-6.35" x2="6.35" y2="-5.35" width="0.15" layer="21" curve="90" />
-          <wire x1="6.35" y1="5.35" x2="5.35" y2="6.35" width="0.15" layer="21" curve="90" />
-          <wire x1="-5.35" y1="6.35" x2="-6.35" y2="5.35" width="0.15" layer="21" curve="90" />
-          <wire x1="-6.35" y1="-5.35" x2="-5.35" y2="-6.35" width="0.15" layer="21" curve="90" />
-          <wire x1="-5.35" y1="-6.35" x2="5.35" y2="-6.35" width="0.15" layer="21" />
-          <wire x1="5.35" y1="-6.35" x2="6.35" y2="-5.35" width="0.15" layer="21" curve="90" />
-          <wire x1="6.35" y1="5.35" x2="5.35" y2="6.35" width="0.15" layer="21" curve="90" />
-          <wire x1="5.35" y1="6.35" x2="-5.35" y2="6.35" width="0.15" layer="21" />
-          <wire x1="-5.35" y1="6.35" x2="-6.35" y2="5.35" width="0.15" layer="21" curve="90" />
-          <wire x1="-6.35" y1="5.35" x2="-6.35" y2="3.85" width="0.15" layer="21" />
-          <wire x1="6.35" y1="3.85" x2="6.35" y2="5.35" width="0.15" layer="21" />
-          <wire x1="-6.35" y1="-3.85" x2="-6.35" y2="-5.35" width="0.15" layer="21" />
-          <wire x1="6.35" y1="-5.35" x2="6.35" y2="-3.85" width="0.15" layer="21" />
-          <smd name="1" x="-5" y="0" dx="7" dy="4" layer="1" rot="R90" />
-          <smd name="2" x="5" y="0" dx="7" dy="4" layer="1" rot="R90" />
-          <rectangle x1="-6.75" y1="-3.25" x2="-3.25" y2="3.25" layer="51" />
-          <rectangle x1="3.25" y1="-3.25" x2="6.75" y2="3.25" layer="51" />
-          <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-        </package>
-        <package name="CDRH105R" urn="urn:adsk.eagle:footprint:41953121/2">
-          <description>&lt;a href = https://www.elitan.ru/pdf/0/7/7/5/1/07751842.pdf&gt;Drawing&lt;/a&gt;</description>
-          <smd name="1" x="-4.45" y="0" dx="3.2" dy="1.6" layer="1" rot="R90" />
-          <smd name="2" x="4.45" y="0" dx="3.2" dy="1.6" layer="1" rot="R90" />
-          <wire x1="-5" y1="5.1" x2="-5" y2="-5.1" width="0.1" layer="51" />
-          <wire x1="-5" y1="-5.1" x2="5" y2="-5.1" width="0.1" layer="51" />
-          <wire x1="5" y1="-5.1" x2="5" y2="5.1" width="0.1" layer="51" />
-          <wire x1="5" y1="5.1" x2="-5" y2="5.1" width="0.1" layer="51" />
-          <wire x1="-5" y1="1.8" x2="-5" y2="5.1" width="0.1" layer="21" />
-          <wire x1="-5" y1="5.1" x2="5" y2="5.1" width="0.1" layer="21" />
-          <wire x1="5" y1="5.1" x2="5" y2="1.8" width="0.1" layer="21" />
-          <wire x1="5" y1="-1.8" x2="5" y2="-5.1" width="0.1" layer="21" />
-          <wire x1="5" y1="-5.1" x2="-5" y2="-5.1" width="0.1" layer="21" />
-          <wire x1="-5" y1="-5.1" x2="-5" y2="-1.8" width="0.1" layer="21" />
-          <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-          <rectangle x1="-5.2" y1="-1.5" x2="-3.7" y2="1.5" layer="51" />
-          <rectangle x1="3.7" y1="-1.5" x2="5.2" y2="1.5" layer="51" />
-        </package>
-        <package name="06030" urn="urn:adsk.eagle:footprint:52272446/2">
-          <description>Generic 6.6x6.6 SMD power inductor&lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Nov 2021&lt;/i&gt;</description>
-          <wire x1="-3.302" y1="-3.048" x2="-3.048" y2="-3.302" width="0.127" layer="21" curve="90" />
-          <wire x1="-3.048" y1="-3.302" x2="3.048" y2="-3.302" width="0.127" layer="21" />
-          <wire x1="3.048" y1="-3.302" x2="3.302" y2="-3.048" width="0.127" layer="21" curve="90" />
-          <wire x1="3.302" y1="3.048" x2="3.048" y2="3.302" width="0.127" layer="21" curve="90" />
-          <wire x1="3.048" y1="3.302" x2="-3.048" y2="3.302" width="0.127" layer="21" />
-          <wire x1="-3.048" y1="3.302" x2="-3.302" y2="3.048" width="0.127" layer="21" curve="90" />
-          <wire x1="-3.302" y1="2.032" x2="-3.302" y2="-2.032" width="0.127" layer="51" />
-          <wire x1="3.302" y1="2.032" x2="3.302" y2="-2.032" width="0.127" layer="51" />
-          <wire x1="-3.302" y1="-2.032" x2="-3.302" y2="-3.048" width="0.127" layer="21" />
-          <wire x1="-3.302" y1="3.048" x2="-3.302" y2="2.032" width="0.127" layer="21" />
-          <wire x1="3.302" y1="-3.048" x2="3.302" y2="-2.032" width="0.127" layer="21" />
-          <wire x1="3.302" y1="3.048" x2="3.302" y2="2.032" width="0.127" layer="21" />
-          <wire x1="-3.3782" y1="1.397" x2="-3.3782" y2="-1.397" width="0.254" layer="51" />
-          <wire x1="3.3782" y1="-1.397" x2="3.3782" y2="1.397" width="0.254" layer="51" />
-          <smd name="1" x="-2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
-          <smd name="2" x="2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
-          <text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
         </package>
         <package name="TYS5020" urn="urn:adsk.eagle:footprint:4217096/1">
           <smd name="P$1" x="-1.875" y="0" dx="1.4" dy="5" layer="1" />
@@ -723,7 +492,241 @@ draft&lt;br&gt;
           <smd name="2" x="1.15" y="0" dx="0.8" dy="3.2" layer="1" />
           <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
         </package>
-      </packages>
+      <package name="SWPA6045S" urn="urn:adsk.eagle:footprint:4854351/1" locally_modified="yes">
+          <description>&lt;!--3d:{"tx":-0.2111,"ty":0.0,"tz":0.1578,"rx":90.0,"ry":90.0,"rz":0.0}--&gt;</description>
+          <wire x1="-2" y1="1.5" x2="-2" y2="0.3" width="0.127" layer="51" />
+          <wire x1="-2" y1="0.3" x2="-2" y2="-0.3" width="0.127" layer="51" />
+          <wire x1="-2" y1="-0.3" x2="-2" y2="-1.5" width="0.127" layer="51" />
+          <wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.127" layer="51" />
+          <wire x1="2" y1="-1.5" x2="2" y2="-0.3" width="0.127" layer="51" />
+          <wire x1="2" y1="-0.3" x2="2" y2="0.3" width="0.127" layer="51" />
+          <wire x1="2" y1="0.3" x2="2" y2="1.5" width="0.127" layer="51" />
+          <wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="51" />
+          <wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.127" layer="51" curve="-90" />
+          <wire x1="2" y1="1.5" x2="1.5" y2="2" width="0.127" layer="51" curve="90" />
+          <wire x1="-1.5" y1="-2" x2="-2" y2="-1.5" width="0.127" layer="51" curve="-90" />
+          <wire x1="2" y1="-1.5" x2="1.5" y2="-2" width="0.127" layer="51" curve="-90" />
+          <wire x1="-2" y1="0.3" x2="-2.15" y2="0.3" width="0.127" layer="51" />
+          <wire x1="-2.15" y1="0.3" x2="-2.15" y2="-0.3" width="0.127" layer="51" />
+          <wire x1="-2.15" y1="-0.3" x2="-2" y2="-0.3" width="0.127" layer="51" />
+          <wire x1="2" y1="0.3" x2="2.15" y2="0.3" width="0.127" layer="51" />
+          <wire x1="2.15" y1="0.3" x2="2.15" y2="-0.3" width="0.127" layer="51" />
+          <wire x1="2.15" y1="-0.3" x2="2" y2="-0.3" width="0.127" layer="51" />
+          <wire x1="-3.85" y1="3" x2="3.85" y2="3" width="0.1" layer="21" />
+          <wire x1="3.85" y1="3" x2="3.85" y2="-3" width="0.1" layer="21" />
+          <wire x1="3.85" y1="-3" x2="-3.85" y2="-3" width="0.1" layer="21" />
+          <wire x1="-3.85" y1="-3" x2="-3.85" y2="3" width="0.1" layer="21" />
+          <smd name="P$1" x="2.4" y="0" dx="2.6" dy="5.7" layer="1" />
+          <smd name="P$2" x="-2.4" y="0" dx="2.6" dy="5.7" layer="1" />
+          <text x="0" y="0" size="1" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+        </package>
+        <package name="SRP1265A" urn="urn:adsk.eagle:footprint:37321404/1">
+          <description>&lt;a href =https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf&gt;Datasheet&lt;/a&gt;</description>
+          <wire x1="-6.75" y1="5.6" x2="-6.75" y2="-5.6" width="0.1" layer="51" />
+          <wire x1="-6.75" y1="-5.6" x2="-6.05" y2="-6.3" width="0.1" layer="51" curve="90" />
+          <wire x1="-6.05" y1="-6.3" x2="6.05" y2="-6.3" width="0.1" layer="51" />
+          <wire x1="6.05" y1="-6.3" x2="6.75" y2="-5.6" width="0.1" layer="51" curve="90" />
+          <wire x1="6.75" y1="-5.6" x2="6.75" y2="5.6" width="0.1" layer="51" />
+          <wire x1="6.75" y1="5.6" x2="6.05" y2="6.3" width="0.1" layer="51" curve="90" />
+          <wire x1="6.05" y1="6.3" x2="-6.05" y2="6.3" width="0.1" layer="51" />
+          <wire x1="-6.05" y1="6.3" x2="-6.75" y2="5.6" width="0.1" layer="51" curve="90" />
+          <wire x1="-6.75" y1="2.95" x2="-6.75" y2="5.6" width="0.1" layer="21" />
+          <wire x1="-6.75" y1="5.6" x2="-6.05" y2="6.3" width="0.1" layer="21" curve="-90" />
+          <wire x1="-6.05" y1="6.3" x2="6.05" y2="6.3" width="0.1" layer="21" />
+          <wire x1="6.05" y1="6.3" x2="6.75" y2="5.6" width="0.1" layer="21" curve="-90" />
+          <wire x1="6.75" y1="5.6" x2="6.75" y2="2.95" width="0.1" layer="21" />
+          <wire x1="6.75" y1="-2.95" x2="6.75" y2="-5.6" width="0.1" layer="21" />
+          <wire x1="6.75" y1="-5.6" x2="6.05" y2="-6.3" width="0.1" layer="21" curve="-90" />
+          <wire x1="6.05" y1="-6.3" x2="-6.05" y2="-6.3" width="0.1" layer="21" />
+          <wire x1="-6.05" y1="-6.3" x2="-6.75" y2="-5.6" width="0.1" layer="21" curve="-90" />
+          <wire x1="-6.75" y1="-5.6" x2="-6.75" y2="-2.95" width="0.1" layer="21" />
+          <smd name="1" x="-5.55" y="0" dx="5" dy="3.1" layer="1" rot="R90" />
+          <smd name="2" x="5.55" y="0" dx="5" dy="3.1" layer="1" rot="R90" />
+          <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+        </package>
+        <package name="SRN5040" urn="urn:adsk.eagle:footprint:1040044/1" locally_modified="yes">
+          <smd name="P$1" x="-1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
+          <smd name="P$2" x="1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
+          <wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.1" layer="21" />
+          <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.1" layer="21" />
+          <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.2" width="0.1" layer="21" />
+          <wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.2" width="0.1" layer="21" />
+          <wire x1="2.5" y1="2.5" x2="2.5" y2="2.2" width="0.1" layer="21" />
+          <wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.2" width="0.1" layer="21" />
+          <wire x1="-2.5" y1="2.2" x2="-2.5" y2="-2.2" width="0.1" layer="51" />
+          <wire x1="2.5" y1="-2.2" x2="2.5" y2="2.2" width="0.1" layer="51" />
+          <text x="0" y="0" size="1" layer="51" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+        </package>
+        <package name="NRS6028" urn="urn:adsk.eagle:footprint:4217098/1" locally_modified="yes">
+          <smd name="P$1" x="-2.35" y="0" dx="1.6" dy="5.7" layer="1" rot="R180" />
+          <smd name="P$2" x="2.35" y="0" dx="1.6" dy="5.7" layer="1" rot="R180" />
+          <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="51" />
+          <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="51" />
+          <wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="51" />
+          <wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="51" />
+          <wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21" />
+          <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21" />
+          <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+        </package>
+        <package name="NRS5030" urn="urn:adsk.eagle:footprint:3345991/1" locally_modified="yes">
+          <description>file:///C:/Users/j3qq4hch/Downloads/NRS5030T220MMGJ_SS.pdf</description>
+          <smd name="P$1" x="-1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
+          <smd name="P$2" x="1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
+          <wire x1="-2.65" y1="2.1" x2="2.65" y2="2.1" width="0.127" layer="21" />
+          <wire x1="2.65" y1="2.1" x2="2.65" y2="-2.1" width="0.127" layer="21" />
+          <wire x1="2.65" y1="-2.1" x2="-2.65" y2="-2.1" width="0.127" layer="21" />
+          <wire x1="-2.65" y1="-2.1" x2="-2.65" y2="2.1" width="0.127" layer="21" />
+          <text x="0" y="0" size="1.2" layer="21" font="vector" ratio="10" align="center">&gt;NAME</text>
+        </package>
+        <package name="NR3015" urn="urn:adsk.eagle:footprint:12531220/1" locally_modified="yes">
+          <description>&lt;a href=https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NR3015T2R2M%20%20&amp;u=M&gt;datasheet&lt;/a&gt;</description>
+          <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51" />
+          <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51" />
+          <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51" />
+          <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51" />
+          <wire x1="-1.5" y1="1.4" x2="-1.5" y2="1.5" width="0.1" layer="21" />
+          <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="21" />
+          <wire x1="1.5" y1="1.5" x2="1.5" y2="1.4" width="0.1" layer="21" />
+          <wire x1="1.5" y1="-1.4" x2="1.5" y2="-1.5" width="0.1" layer="21" />
+          <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="21" />
+          <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.4" width="0.1" layer="21" />
+          <smd name="1" x="-1.1" y="0" dx="0.8" dy="2.7" layer="1" />
+          <smd name="2" x="1.1" y="0" dx="0.8" dy="2.7" layer="1" />
+          <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+        </package>
+        <package name="CDRH104" urn="urn:adsk.eagle:footprint:37194811/3" locally_modified="yes">
+          <description>&lt;a href = https://data.electronshik.ru/z/Datasheet/C/CDRH104.pdf&gt;Drawing&lt;/a&gt;
+&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":0.0,"rz":90.0}--&gt;</description>
+          <wire x1="-4.45" y1="4.4" x2="-4.45" y2="-4.4" width="0.1" layer="51" />
+          <wire x1="-4.45" y1="-4.4" x2="-3.95" y2="-4.9" width="0.1" layer="51" curve="90" />
+          <wire x1="-3.95" y1="-4.9" x2="-1.65" y2="-4.9" width="0.1" layer="51" />
+          <wire x1="-4.45" y1="4.4" x2="-3.95" y2="4.9" width="0.1" layer="51" curve="-90" />
+          <wire x1="-3.95" y1="4.9" x2="-1.65" y2="4.9" width="0.1" layer="51" />
+          <wire x1="-1.65" y1="4.9" x2="-1.4" y2="4.65" width="0.1" layer="51" curve="-90" />
+          <wire x1="-1.4" y1="4.65" x2="-1.15" y2="4.4" width="0.1" layer="51" curve="90" />
+          <wire x1="-1.15" y1="4.4" x2="1.15" y2="4.4" width="0.1" layer="51" />
+          <wire x1="1.15" y1="4.4" x2="1.4" y2="4.65" width="0.1" layer="51" curve="90" />
+          <wire x1="1.4" y1="4.65" x2="1.65" y2="4.9" width="0.1" layer="51" curve="-90" />
+          <wire x1="1.65" y1="4.9" x2="3.95" y2="4.9" width="0.1" layer="51" />
+          <wire x1="3.95" y1="4.9" x2="4.45" y2="4.4" width="0.1" layer="51" curve="-90" />
+          <wire x1="1.65" y1="-4.9" x2="3.95" y2="-4.9" width="0.1" layer="51" />
+          <wire x1="3.95" y1="-4.9" x2="4.45" y2="-4.4" width="0.1" layer="51" curve="90" />
+          <wire x1="4.45" y1="-4.4" x2="4.45" y2="4.4" width="0.1" layer="51" />
+          <wire x1="1.4" y1="-4.65" x2="1.65" y2="-4.9" width="0.1" layer="51" curve="90" />
+          <wire x1="-1.65" y1="-4.9" x2="-1.4" y2="-4.65" width="0.1" layer="51" curve="90" />
+          <wire x1="-1.4" y1="-4.65" x2="-1.15" y2="-4.4" width="0.1" layer="51" curve="-90" />
+          <wire x1="-1.15" y1="-4.4" x2="1.15" y2="-4.4" width="0.1" layer="51" />
+          <wire x1="1.15" y1="-4.4" x2="1.4" y2="-4.65" width="0.1" layer="51" curve="-90" />
+          <wire x1="-1.6" y1="4.9" x2="-3.95" y2="4.9" width="0.2" layer="21" />
+          <wire x1="-3.95" y1="4.9" x2="-4.45" y2="4.4" width="0.2" layer="21" curve="90" />
+          <wire x1="-4.45" y1="4.4" x2="-4.45" y2="-4.4" width="0.2" layer="21" />
+          <wire x1="-4.45" y1="-4.4" x2="-3.95" y2="-4.9" width="0.2" layer="21" curve="90" />
+          <wire x1="-3.95" y1="-4.9" x2="-1.6" y2="-4.9" width="0.2" layer="21" />
+          <wire x1="1.6" y1="-4.9" x2="3.95" y2="-4.9" width="0.2" layer="21" />
+          <wire x1="3.95" y1="-4.9" x2="4.45" y2="-4.4" width="0.2" layer="21" curve="90" />
+          <wire x1="4.45" y1="-4.4" x2="4.45" y2="4.4" width="0.2" layer="21" />
+          <wire x1="4.45" y1="4.4" x2="3.95" y2="4.9" width="0.2" layer="21" curve="90" />
+          <wire x1="3.95" y1="4.9" x2="1.6" y2="4.9" width="0.2" layer="21" />
+          <smd name="1" x="0" y="3.75" dx="2.4" dy="2.1" layer="1" />
+          <smd name="2" x="0" y="-3.75" dx="2.4" dy="2.1" layer="1" />
+          <text x="0" y="0" size="2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+        </package>
+        <package name="CDRH105R" urn="urn:adsk.eagle:footprint:41953121/2" locally_modified="yes">
+          <description>&lt;a href = https://www.elitan.ru/pdf/0/7/7/5/1/07751842.pdf&gt;Drawing&lt;/a&gt;
+&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <smd name="1" x="-4.45" y="0" dx="3.2" dy="1.6" layer="1" rot="R90" />
+          <smd name="2" x="4.45" y="0" dx="3.2" dy="1.6" layer="1" rot="R90" />
+          <wire x1="-5" y1="5.1" x2="-5" y2="-5.1" width="0.1" layer="51" />
+          <wire x1="-5" y1="-5.1" x2="5" y2="-5.1" width="0.1" layer="51" />
+          <wire x1="5" y1="-5.1" x2="5" y2="5.1" width="0.1" layer="51" />
+          <wire x1="5" y1="5.1" x2="-5" y2="5.1" width="0.1" layer="51" />
+          <wire x1="-5" y1="1.8" x2="-5" y2="5.1" width="0.1" layer="21" />
+          <wire x1="-5" y1="5.1" x2="5" y2="5.1" width="0.1" layer="21" />
+          <wire x1="5" y1="5.1" x2="5" y2="1.8" width="0.1" layer="21" />
+          <wire x1="5" y1="-1.8" x2="5" y2="-5.1" width="0.1" layer="21" />
+          <wire x1="5" y1="-5.1" x2="-5" y2="-5.1" width="0.1" layer="21" />
+          <wire x1="-5" y1="-5.1" x2="-5" y2="-1.8" width="0.1" layer="21" />
+          <text x="0" y="0" size="2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+          <rectangle x1="-5.2" y1="-1.5" x2="-3.7" y2="1.5" layer="51" />
+          <rectangle x1="3.7" y1="-1.5" x2="5.2" y2="1.5" layer="51" />
+        </package>
+        <package name="CD54" urn="urn:adsk.eagle:footprint:37194859/2" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":0.0,"rz":90.0}--&gt;</description>
+          <smd name="1" x="0" y="1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
+          <smd name="2" x="0" y="-1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
+          <wire x1="-2.6" y1="0.7" x2="-2.6" y2="-0.7" width="0.1" layer="21" />
+          <wire x1="2.6" y1="0.7" x2="2.6" y2="-0.7" width="0.1" layer="21" />
+          <text x="0" y="0" size="1" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+          <rectangle x1="-2.5" y1="-2.8" x2="2.5" y2="-1.1" layer="51" />
+          <rectangle x1="-2.5" y1="1.1" x2="2.5" y2="2.8" layer="51" />
+        </package>
+        <package name="06030" urn="urn:adsk.eagle:footprint:52272446/2" locally_modified="yes">
+          <description>Generic 6.6x6.6 SMD power inductor&lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Nov 2021&lt;/i&gt;</description>
+          <wire x1="-3.302" y1="-3.048" x2="-3.048" y2="-3.302" width="0.127" layer="21" curve="90" />
+          <wire x1="-3.048" y1="-3.302" x2="3.048" y2="-3.302" width="0.127" layer="21" />
+          <wire x1="3.048" y1="-3.302" x2="3.302" y2="-3.048" width="0.127" layer="21" curve="90" />
+          <wire x1="3.302" y1="3.048" x2="3.048" y2="3.302" width="0.127" layer="21" curve="90" />
+          <wire x1="3.048" y1="3.302" x2="-3.048" y2="3.302" width="0.127" layer="21" />
+          <wire x1="-3.048" y1="3.302" x2="-3.302" y2="3.048" width="0.127" layer="21" curve="90" />
+          <wire x1="-3.302" y1="2.032" x2="-3.302" y2="-2.032" width="0.127" layer="51" />
+          <wire x1="3.302" y1="2.032" x2="3.302" y2="-2.032" width="0.127" layer="51" />
+          <wire x1="-3.302" y1="-2.032" x2="-3.302" y2="-3.048" width="0.127" layer="21" />
+          <wire x1="-3.302" y1="3.048" x2="-3.302" y2="2.032" width="0.127" layer="21" />
+          <wire x1="3.302" y1="-3.048" x2="3.302" y2="-2.032" width="0.127" layer="21" />
+          <wire x1="3.302" y1="3.048" x2="3.302" y2="2.032" width="0.127" layer="21" />
+          <wire x1="-3.3782" y1="1.397" x2="-3.3782" y2="-1.397" width="0.254" layer="51" />
+          <wire x1="3.3782" y1="-1.397" x2="3.3782" y2="1.397" width="0.254" layer="51" />
+          <smd name="1" x="-2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
+          <smd name="2" x="2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
+          <text x="0" y="0" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+        </package>
+        <package name="05020" urn="urn:adsk.eagle:footprint:52272452/2" locally_modified="yes">
+          <description>Generic 5.2x5.2 SMD power inductor&lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Feb 2023&lt;/i&gt;</description>
+          <wire x1="-2.6" y1="-2.3" x2="-2.3" y2="-2.6" width="0.127" layer="21" curve="90" />
+          <wire x1="-2.3" y1="-2.6" x2="2.3" y2="-2.6" width="0.127" layer="21" />
+          <wire x1="2.3" y1="-2.6" x2="2.6" y2="-2.3" width="0.127" layer="21" curve="90" />
+          <wire x1="2.6" y1="2.3" x2="2.3" y2="2.6" width="0.127" layer="21" curve="90" />
+          <wire x1="2.3" y1="2.6" x2="-2.3" y2="2.6" width="0.127" layer="21" />
+          <wire x1="-2.3" y1="2.6" x2="-2.6" y2="2.3" width="0.127" layer="21" curve="90" />
+          <wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0.127" layer="51" />
+          <wire x1="2.6" y1="1.5" x2="2.6" y2="-1.5" width="0.127" layer="51" />
+          <wire x1="-2.6" y1="-1.5" x2="-2.6" y2="-2.3" width="0.127" layer="21" />
+          <wire x1="-2.6" y1="2.3" x2="-2.6" y2="1.5" width="0.127" layer="21" />
+          <wire x1="2.6" y1="-2.3" x2="2.6" y2="-1.5" width="0.127" layer="21" />
+          <wire x1="2.6" y1="2.3" x2="2.6" y2="1.5" width="0.127" layer="21" />
+          <wire x1="-2.7" y1="1" x2="-2.7" y2="-1" width="0.254" layer="51" />
+          <wire x1="2.7" y1="-1" x2="2.7" y2="1" width="0.254" layer="51" />
+          <smd name="1" x="-2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
+          <smd name="2" x="2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
+          <text x="0" y="0" size="0.8" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+        </package>
+        <package name="SRR1208" urn="urn:adsk.eagle:footprint:42072655/1" locally_modified="yes">
+          <description>&lt;a href=https://static.chipdip.ru/lib/170/DOC011170276.pdf&gt;Datasheet&lt;/a&gt;</description>
+          <wire x1="-6.35" y1="-5.35" x2="-5.35" y2="-6.35" width="0.15" layer="21" curve="90" />
+          <wire x1="5.35" y1="-6.35" x2="6.35" y2="-5.35" width="0.15" layer="21" curve="90" />
+          <wire x1="6.35" y1="5.35" x2="5.35" y2="6.35" width="0.15" layer="21" curve="90" />
+          <wire x1="-5.35" y1="6.35" x2="-6.35" y2="5.35" width="0.15" layer="21" curve="90" />
+          <wire x1="-6.35" y1="-5.35" x2="-5.35" y2="-6.35" width="0.15" layer="21" curve="90" />
+          <wire x1="-5.35" y1="-6.35" x2="5.35" y2="-6.35" width="0.15" layer="21" />
+          <wire x1="5.35" y1="-6.35" x2="6.35" y2="-5.35" width="0.15" layer="21" curve="90" />
+          <wire x1="6.35" y1="5.35" x2="5.35" y2="6.35" width="0.15" layer="21" curve="90" />
+          <wire x1="5.35" y1="6.35" x2="-5.35" y2="6.35" width="0.15" layer="21" />
+          <wire x1="-5.35" y1="6.35" x2="-6.35" y2="5.35" width="0.15" layer="21" curve="90" />
+          <wire x1="-6.35" y1="5.35" x2="-6.35" y2="3.85" width="0.15" layer="21" />
+          <wire x1="6.35" y1="3.85" x2="6.35" y2="5.35" width="0.15" layer="21" />
+          <wire x1="-6.35" y1="-3.85" x2="-6.35" y2="-5.35" width="0.15" layer="21" />
+          <wire x1="6.35" y1="-5.35" x2="6.35" y2="-3.85" width="0.15" layer="21" />
+          <smd name="1" x="-5" y="0" dx="7" dy="4" layer="1" rot="R90" />
+          <smd name="2" x="5" y="0" dx="7" dy="4" layer="1" rot="R90" />
+          <rectangle x1="-6.75" y1="-3.25" x2="-3.25" y2="3.25" layer="51" />
+          <rectangle x1="3.25" y1="-3.25" x2="6.75" y2="3.25" layer="51" />
+          <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+        </package>
+        </packages>
       <packages3d>
         <package3d name="ERU20" urn="urn:adsk.eagle:package:49152171/2" type="model">
           <description>TDK &lt;b&gt; ERU20 B82559 series inductor &lt;/b&gt;
