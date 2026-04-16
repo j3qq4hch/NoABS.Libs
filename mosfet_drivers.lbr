@@ -620,7 +620,7 @@ https://www.ftdichip.com/Support/Documents/TechnicalNotes/TN_166%20FTDI%20Exampl
 </package>
 <package name="SOIC8" urn="urn:adsk.eagle:footprint:4771000/5" locally_modified="yes">
           <description>https://www.ti.com/lit/ds/snvsaq5a/snvsaq5a.pdf?ts=1602424164509
-&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <wire x1="1.35" y1="-2.4" x2="-1.355" y2="-2.4" width="0.2032" layer="21" />
           <wire x1="-1.355" y1="-2.4" x2="-1.355" y2="2.4" width="0.2032" layer="21" />
           <wire x1="-1.355" y1="2.4" x2="1.35" y2="2.4" width="0.2032" layer="21" />

@@ -74,7 +74,7 @@
 <packages>
 <package name="IRM-05" urn="urn:adsk.eagle:footprint:52043180/1" locally_modified="yes">
           <description>&lt;a href = https://www.mean-well.ru/uploads/files/datasheets/IRM-05-12.pdf&gt;datasheet&lt;/a&gt;
-&lt;a href="https://grabcad.com/library/irm-05-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":180.0}--&gt;</description>
+&lt;a href="https://grabcad.com/library/irm-05-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":-90.0,"ry":0.0,"rz":180.0}--&gt;</description>
           <wire x1="22.85" y1="-12.7" x2="22.85" y2="12.7" width="0.127" layer="21" />
           <wire x1="22.85" y1="-12.7" x2="-22.85" y2="-12.7" width="0.127" layer="21" />
           <wire x1="-22.85" y1="-12.7" x2="-22.85" y2="12.7" width="0.127" layer="21" />
@@ -86,7 +86,7 @@
           <text x="0" y="0" size="3" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
         <package name="IRM-10" urn="urn:adsk.eagle:footprint:51565682/1" locally_modified="yes">
-          <description>&lt;a href="https://grabcad.com/library/meanwell-irm-10-series-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/meanwell-irm-10-series-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <wire x1="22.85" y1="-12.7" x2="22.85" y2="12.7" width="0.127" layer="21" />
           <wire x1="22.85" y1="-12.7" x2="-22.85" y2="-12.7" width="0.127" layer="21" />
           <wire x1="-22.85" y1="-12.7" x2="-22.85" y2="12.7" width="0.127" layer="21" />
@@ -99,7 +99,7 @@
         </package>
         <package name="IRM-30" urn="urn:adsk.eagle:footprint:51565680/1" locally_modified="yes">
           <description>&lt;a href = https://static.chipdip.ru/lib/409/DOC016409103.pdf&gt;Drawing&lt;/a&gt;
-&lt;a href="https://grabcad.com/library/meanwell-irm-30-ac-dc-power-supply-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":180.0,"rz":0.0}--&gt;</description>
+&lt;a href="https://grabcad.com/library/meanwell-irm-30-ac-dc-power-supply-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":180.0,"rz":0.0}--&gt;</description>
           <wire x1="34.75" y1="-19.5" x2="-34.75" y2="-19.5" width="0.2" layer="21" />
           <wire x1="34.75" y1="-19.5" x2="34.75" y2="19.5" width="0.2" layer="21" />
           <wire x1="34.75" y1="19.5" x2="-34.75" y2="19.5" width="0.2" layer="21" />
@@ -116,7 +116,7 @@
         </package>
         <package name="IRM-60" urn="urn:adsk.eagle:footprint:51565681/1" locally_modified="yes">
           <description>&lt;a href = https://static.chipdip.ru/lib/409/DOC016409103.pdf&gt;Drawing&lt;/a&gt;
-&lt;a href="https://grabcad.com/library/irm-60-15-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":180.0,"rz":0.0}--&gt;</description>
+&lt;a href="https://grabcad.com/library/irm-60-15-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":180.0,"rz":0.0}--&gt;</description>
           <wire x1="-43.5" y1="-26" x2="43.5" y2="-26" width="0.2" layer="21" />
           <wire x1="-43.5" y1="-26" x2="-43.5" y2="26" width="0.2" layer="21" />
           <wire x1="-43.5" y1="26" x2="43.5" y2="26" width="0.2" layer="21" />

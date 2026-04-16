@@ -333,7 +333,7 @@ package type OT</description>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51" />
 </package>
 <package name="SOT23-3">
-          <description>&lt;!--3d:{"tx":-1.2,"ty":0.95,"tz":0.0,"rx":0.0,"ry":0.0,"rz":-90.0}--&gt;</description>
+          <description>&lt;!--3d:{"tx":-1.2,"ty":0.95,"tz":0.0,"rx":90.0,"ry":-90.0,"rz":0.0}--&gt;</description>
           <rectangle x1="0.7" y1="-0.4" x2="1.5" y2="0.4" layer="51" rot="R270" />
           <rectangle x1="-1.5" y1="0.55" x2="-0.7" y2="1.35" layer="51" rot="R270" />
           <rectangle x1="-1.5" y1="-1.35" x2="-0.7" y2="-0.55" layer="51" rot="R270" />
@@ -355,7 +355,7 @@ package type OT</description>
           <text x="0" y="0" size="0.7" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
         </package>
         <package name="SOT89">
-          <description>&lt;a href="https://grabcad.com/library/discrete-smd-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-1.7,"ty":1.5,"tz":0.0,"rx":0.0,"ry":0.0,"rz":-90.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/discrete-smd-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-1.7,"ty":1.5,"tz":0.0,"rx":90.0,"ry":-90.0,"rz":0.0}--&gt;</description>
           <wire x1="1.5" y1="-2.25" x2="-1" y2="-2.25" width="0.1524" layer="21" />
           <wire x1="-1" y1="-0.68" x2="-1" y2="-2.25" width="0.1524" layer="21" />
           <wire x1="-1" y1="2.25" x2="-1" y2="0.68" width="0.1524" layer="21" />
@@ -377,7 +377,7 @@ package type OT</description>
           <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
         </package>
         <package name="SC70-5" urn="urn:adsk.eagle:footprint:7365865/3" locally_modified="yes">
-          <description>&lt;a href="https://grabcad.com/library/sc70-packages-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":90.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/sc70-packages-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":90.0,"rz":90.0}--&gt;</description>
           <smd name="4" x="1" y="-0.65" dx="0.45" dy="0.75" layer="1" rot="R90" />
           <smd name="2" x="-1" y="0" dx="0.45" dy="0.75" layer="1" rot="R90" />
           <smd name="1" x="-1" y="0.65" dx="0.45" dy="0.75" layer="1" rot="R90" />
@@ -397,7 +397,7 @@ package type OT</description>
         </package>
         <package name="SOIC8" urn="urn:adsk.eagle:footprint:4771000/5" locally_modified="yes">
           <description>https://www.ti.com/lit/ds/snvsaq5a/snvsaq5a.pdf?ts=1602424164509
-&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <wire x1="1.35" y1="-2.4" x2="-1.355" y2="-2.4" width="0.2032" layer="21" />
           <wire x1="-1.355" y1="-2.4" x2="-1.355" y2="2.4" width="0.2032" layer="21" />
           <wire x1="-1.355" y1="2.4" x2="1.35" y2="2.4" width="0.2032" layer="21" />
@@ -422,7 +422,7 @@ package type OT</description>
           <circle x="-0.75" y="1.75" radius="0.3" width="0.127" layer="21" />
         </package>
         <package name="SOT-223" urn="urn:adsk.eagle:footprint:8640057/1" locally_modified="yes">
-          <description>&lt;a href="https://grabcad.com/library/sot223-4-2-3-6-7-3-7-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.1,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/sot223-4-2-3-6-7-3-7-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.1,"rx":180.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21" />
           <wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21" />
           <wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21" />
@@ -461,7 +461,7 @@ package type OT</description>
           <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51" />
         </package>
         <package name="SOT23-5">
-          <description>&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.7433,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <description>&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.7433,"rx":0.0,"ry":180.0,"rz":180.0}--&gt;</description>
           <wire x1="0.81" y1="-1.422" x2="-0.81" y2="-1.422" width="0.1524" layer="21" />
           <wire x1="-0.81" y1="-1.422" x2="-0.81" y2="1.422" width="0.1524" layer="51" />
           <wire x1="-0.81" y1="1.422" x2="0.81" y2="1.422" width="0.1524" layer="21" />

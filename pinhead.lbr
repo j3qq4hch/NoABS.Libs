@@ -10162,7 +10162,7 @@
 <text x="0" y="0" size="1" layer="21" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="PLS6">
-          <description>&lt;a href="https://grabcad.com/library/pls-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-6.35,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/pls-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-6.35,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.2032" layer="21" />
           <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21" />
           <wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.2032" layer="21" />

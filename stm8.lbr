@@ -256,7 +256,7 @@
 <package name="LQFP32-7X7">
           <description>&lt;b&gt;LQFP-32 package&lt;/b&gt; 7x7 mm case, 0.8 mm lead pitch&lt;/b&gt;&lt;p&gt;
 Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf"&gt; Data sheet &lt;/a&gt;
-&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=401547"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.8133,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=401547"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.8133,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <circle x="-2.8" y="2.8" radius="0.4" width="0" layer="21" />
           <wire x1="3.5" y1="3" x2="3.5" y2="-3" width="0.15" layer="21" />
           <wire x1="3.5" y1="-3" x2="3" y2="-3.5" width="0.15" layer="21" curve="-90" />
@@ -335,7 +335,7 @@ Sourced: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm
         <package name="TSSOP20" urn="urn:adsk.eagle:footprint:7691488/1" locally_modified="yes">
           <description>&lt;b&gt;MOLDED TSSOP&lt;/b&gt; JEDEC, 5 x 4.4 x 9.9 mm Body 16 LD, 0.65mm Pitch&lt;p&gt;
 Source: http://www.national.com/packaging/mkt/mtc16.pdf
-&lt;a href="https://grabcad.com/library/msop-and-tssop-packages-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":-90.0}--&gt;</description>
+&lt;a href="https://grabcad.com/library/msop-and-tssop-packages-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":-90.0,"rz":-90.0}--&gt;</description>
           <wire x1="-1.9628" y1="2.9646" x2="-1.7628" y2="3.1646" width="0.1524" layer="51" curve="-90" />
           <wire x1="-1.7628" y1="3.1646" x2="1.7628" y2="3.1646" width="0.1524" layer="21" />
           <wire x1="1.7628" y1="3.1646" x2="1.9628" y2="2.9646" width="0.1524" layer="51" curve="-90" />

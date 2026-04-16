@@ -2480,7 +2480,7 @@ SWITCH</text>
           <description>ESP32-WROVER-(I)E &lt;br&gt;
 
 &lt;i&gt;Igor Odaikin, Oct 2021&lt;/i&gt;
-&lt;a href="https://grabcad.com/library/esp32-wrover-2"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":-0.45,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+&lt;a href="https://grabcad.com/library/esp32-wrover-2"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":-0.45,"tz":0.0,"rx":180.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <circle x="-7.239" y="8.2296" radius="0.2032" width="0.4064" layer="21" />
           <circle x="6.5" y="7.345" radius="1" width="0.1016" layer="51" />
           <circle x="6.5" y="7.345" radius="0.1" width="0.254" layer="51" />
@@ -2719,7 +2719,7 @@ SWITCH</text>
           </polygon>
         </package>
         <package name="ESP32-WROOM" urn="urn:adsk.eagle:footprint:40245494/2" locally_modified="yes">
-          <description>&lt;a href="https://grabcad.com/library/esp-wroom-32-esp32-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0005,"tz":0.01,"rx":0.0,"ry":0.0,"rz":-90.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/esp-wroom-32-esp32-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0005,"tz":0.01,"rx":0.0,"ry":-90.0,"rz":-90.0}--&gt;</description>
           <smd name="14" x="-8.75" y="-11.25" dx="1.5" dy="0.9" layer="1" roundness="25" />
           <smd name="25" x="8.75" y="-11.25" dx="1.5" dy="0.9" layer="1" roundness="25" />
           <smd name="15" x="-5.715" y="-12.5" dx="1.5" dy="0.9" layer="1" roundness="25" rot="R90" />
@@ -2792,7 +2792,7 @@ SWITCH</text>
           <text x="0" y="5.25" size="1" layer="21" font="vector" ratio="10" align="center">ESP32-WROOM-32</text>
         </package>
         <package name="ESP-12E" urn="urn:adsk.eagle:footprint:33698670/3" locally_modified="yes">
-          <description>&lt;a href="https://grabcad.com/library/esp8266-4"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":4.0,"tz":0.05,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/esp8266-4"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":4.0,"tz":0.05,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <smd name="8" x="-7.46" y="-6.47" dx="2" dy="1.2" layer="1" />
           <smd name="7" x="-7.46" y="-4.47" dx="2" dy="1.2" layer="1" />
           <smd name="6" x="-7.46" y="-2.47" dx="2" dy="1.2" layer="1" />

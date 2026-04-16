@@ -397,7 +397,7 @@
           <description>3.2x2.5 MM Chrystal Oscillator
 
 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf
-&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=941026"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=941026"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <circle x="-2.3" y="-2" radius="0.1" width="0.3" layer="21" />
           <wire x1="-2.1" y1="1.5508" x2="-1.8508" y2="1.8" width="0.1524" layer="21" />
           <wire x1="-1.8508" y1="1.8" x2="1.8508" y2="1.8" width="0.1524" layer="21" />

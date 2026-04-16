@@ -492,7 +492,51 @@ draft&lt;br&gt;
           <smd name="2" x="1.15" y="0" dx="0.8" dy="3.2" layer="1" />
           <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
         </package>
-      <package name="SWPA6045S" urn="urn:adsk.eagle:footprint:4854351/1" locally_modified="yes">
+      <package name="06030" urn="urn:adsk.eagle:footprint:52272446/2" locally_modified="yes">
+          <description>Generic 6.6x6.6 SMD power inductor&lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Nov 2021&lt;/i&gt;</description>
+          <wire x1="-3.302" y1="-3.048" x2="-3.048" y2="-3.302" width="0.127" layer="21" curve="90" />
+          <wire x1="-3.048" y1="-3.302" x2="3.048" y2="-3.302" width="0.127" layer="21" />
+          <wire x1="3.048" y1="-3.302" x2="3.302" y2="-3.048" width="0.127" layer="21" curve="90" />
+          <wire x1="3.302" y1="3.048" x2="3.048" y2="3.302" width="0.127" layer="21" curve="90" />
+          <wire x1="3.048" y1="3.302" x2="-3.048" y2="3.302" width="0.127" layer="21" />
+          <wire x1="-3.048" y1="3.302" x2="-3.302" y2="3.048" width="0.127" layer="21" curve="90" />
+          <wire x1="-3.302" y1="2.032" x2="-3.302" y2="-2.032" width="0.127" layer="51" />
+          <wire x1="3.302" y1="2.032" x2="3.302" y2="-2.032" width="0.127" layer="51" />
+          <wire x1="-3.302" y1="-2.032" x2="-3.302" y2="-3.048" width="0.127" layer="21" />
+          <wire x1="-3.302" y1="3.048" x2="-3.302" y2="2.032" width="0.127" layer="21" />
+          <wire x1="3.302" y1="-3.048" x2="3.302" y2="-2.032" width="0.127" layer="21" />
+          <wire x1="3.302" y1="3.048" x2="3.302" y2="2.032" width="0.127" layer="21" />
+          <wire x1="-3.3782" y1="1.397" x2="-3.3782" y2="-1.397" width="0.254" layer="51" />
+          <wire x1="3.3782" y1="-1.397" x2="3.3782" y2="1.397" width="0.254" layer="51" />
+          <smd name="1" x="-2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
+          <smd name="2" x="2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
+          <text x="0" y="0" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+        </package>
+        <package name="05020" urn="urn:adsk.eagle:footprint:52272452/2" locally_modified="yes">
+          <description>Generic 5.2x5.2 SMD power inductor&lt;br&gt;
+&lt;br&gt;
+&lt;i&gt;Igor Odaikin, Feb 2023&lt;/i&gt;</description>
+          <wire x1="-2.6" y1="-2.3" x2="-2.3" y2="-2.6" width="0.127" layer="21" curve="90" />
+          <wire x1="-2.3" y1="-2.6" x2="2.3" y2="-2.6" width="0.127" layer="21" />
+          <wire x1="2.3" y1="-2.6" x2="2.6" y2="-2.3" width="0.127" layer="21" curve="90" />
+          <wire x1="2.6" y1="2.3" x2="2.3" y2="2.6" width="0.127" layer="21" curve="90" />
+          <wire x1="2.3" y1="2.6" x2="-2.3" y2="2.6" width="0.127" layer="21" />
+          <wire x1="-2.3" y1="2.6" x2="-2.6" y2="2.3" width="0.127" layer="21" curve="90" />
+          <wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0.127" layer="51" />
+          <wire x1="2.6" y1="1.5" x2="2.6" y2="-1.5" width="0.127" layer="51" />
+          <wire x1="-2.6" y1="-1.5" x2="-2.6" y2="-2.3" width="0.127" layer="21" />
+          <wire x1="-2.6" y1="2.3" x2="-2.6" y2="1.5" width="0.127" layer="21" />
+          <wire x1="2.6" y1="-2.3" x2="2.6" y2="-1.5" width="0.127" layer="21" />
+          <wire x1="2.6" y1="2.3" x2="2.6" y2="1.5" width="0.127" layer="21" />
+          <wire x1="-2.7" y1="1" x2="-2.7" y2="-1" width="0.254" layer="51" />
+          <wire x1="2.7" y1="-1" x2="2.7" y2="1" width="0.254" layer="51" />
+          <smd name="1" x="-2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
+          <smd name="2" x="2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
+          <text x="0" y="0" size="0.8" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+        </package>
+        <package name="SWPA6045S" urn="urn:adsk.eagle:footprint:4854351/1" locally_modified="yes">
           <description>&lt;!--3d:{"tx":-0.2111,"ty":0.0,"tz":0.1578,"rx":90.0,"ry":90.0,"rz":0.0}--&gt;</description>
           <wire x1="-2" y1="1.5" x2="-2" y2="0.3" width="0.127" layer="51" />
           <wire x1="-2" y1="0.3" x2="-2" y2="-0.3" width="0.127" layer="51" />
@@ -596,7 +640,7 @@ draft&lt;br&gt;
         </package>
         <package name="CDRH104" urn="urn:adsk.eagle:footprint:37194811/3" locally_modified="yes">
           <description>&lt;a href = https://data.electronshik.ru/z/Datasheet/C/CDRH104.pdf&gt;Drawing&lt;/a&gt;
-&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":0.0,"rz":90.0}--&gt;</description>
+&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":90.0,"rz":90.0}--&gt;</description>
           <wire x1="-4.45" y1="4.4" x2="-4.45" y2="-4.4" width="0.1" layer="51" />
           <wire x1="-4.45" y1="-4.4" x2="-3.95" y2="-4.9" width="0.1" layer="51" curve="90" />
           <wire x1="-3.95" y1="-4.9" x2="-1.65" y2="-4.9" width="0.1" layer="51" />
@@ -633,7 +677,7 @@ draft&lt;br&gt;
         </package>
         <package name="CDRH105R" urn="urn:adsk.eagle:footprint:41953121/2" locally_modified="yes">
           <description>&lt;a href = https://www.elitan.ru/pdf/0/7/7/5/1/07751842.pdf&gt;Drawing&lt;/a&gt;
-&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":0.0,"rz":0.0}--&gt;</description>
+&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <smd name="1" x="-4.45" y="0" dx="3.2" dy="1.6" layer="1" rot="R90" />
           <smd name="2" x="4.45" y="0" dx="3.2" dy="1.6" layer="1" rot="R90" />
           <wire x1="-5" y1="5.1" x2="-5" y2="-5.1" width="0.1" layer="51" />
@@ -651,7 +695,7 @@ draft&lt;br&gt;
           <rectangle x1="3.7" y1="-1.5" x2="5.2" y2="1.5" layer="51" />
         </package>
         <package name="CD54" urn="urn:adsk.eagle:footprint:37194859/2" locally_modified="yes">
-          <description>&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":0.0,"rz":90.0}--&gt;</description>
+          <description>&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":90.0,"rz":90.0}--&gt;</description>
           <smd name="1" x="0" y="1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
           <smd name="2" x="0" y="-1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
           <wire x1="-2.6" y1="0.7" x2="-2.6" y2="-0.7" width="0.1" layer="21" />
@@ -659,50 +703,6 @@ draft&lt;br&gt;
           <text x="0" y="0" size="1" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
           <rectangle x1="-2.5" y1="-2.8" x2="2.5" y2="-1.1" layer="51" />
           <rectangle x1="-2.5" y1="1.1" x2="2.5" y2="2.8" layer="51" />
-        </package>
-        <package name="06030" urn="urn:adsk.eagle:footprint:52272446/2" locally_modified="yes">
-          <description>Generic 6.6x6.6 SMD power inductor&lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Nov 2021&lt;/i&gt;</description>
-          <wire x1="-3.302" y1="-3.048" x2="-3.048" y2="-3.302" width="0.127" layer="21" curve="90" />
-          <wire x1="-3.048" y1="-3.302" x2="3.048" y2="-3.302" width="0.127" layer="21" />
-          <wire x1="3.048" y1="-3.302" x2="3.302" y2="-3.048" width="0.127" layer="21" curve="90" />
-          <wire x1="3.302" y1="3.048" x2="3.048" y2="3.302" width="0.127" layer="21" curve="90" />
-          <wire x1="3.048" y1="3.302" x2="-3.048" y2="3.302" width="0.127" layer="21" />
-          <wire x1="-3.048" y1="3.302" x2="-3.302" y2="3.048" width="0.127" layer="21" curve="90" />
-          <wire x1="-3.302" y1="2.032" x2="-3.302" y2="-2.032" width="0.127" layer="51" />
-          <wire x1="3.302" y1="2.032" x2="3.302" y2="-2.032" width="0.127" layer="51" />
-          <wire x1="-3.302" y1="-2.032" x2="-3.302" y2="-3.048" width="0.127" layer="21" />
-          <wire x1="-3.302" y1="3.048" x2="-3.302" y2="2.032" width="0.127" layer="21" />
-          <wire x1="3.302" y1="-3.048" x2="3.302" y2="-2.032" width="0.127" layer="21" />
-          <wire x1="3.302" y1="3.048" x2="3.302" y2="2.032" width="0.127" layer="21" />
-          <wire x1="-3.3782" y1="1.397" x2="-3.3782" y2="-1.397" width="0.254" layer="51" />
-          <wire x1="3.3782" y1="-1.397" x2="3.3782" y2="1.397" width="0.254" layer="51" />
-          <smd name="1" x="-2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
-          <smd name="2" x="2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
-          <text x="0" y="0" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
-        </package>
-        <package name="05020" urn="urn:adsk.eagle:footprint:52272452/2" locally_modified="yes">
-          <description>Generic 5.2x5.2 SMD power inductor&lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Feb 2023&lt;/i&gt;</description>
-          <wire x1="-2.6" y1="-2.3" x2="-2.3" y2="-2.6" width="0.127" layer="21" curve="90" />
-          <wire x1="-2.3" y1="-2.6" x2="2.3" y2="-2.6" width="0.127" layer="21" />
-          <wire x1="2.3" y1="-2.6" x2="2.6" y2="-2.3" width="0.127" layer="21" curve="90" />
-          <wire x1="2.6" y1="2.3" x2="2.3" y2="2.6" width="0.127" layer="21" curve="90" />
-          <wire x1="2.3" y1="2.6" x2="-2.3" y2="2.6" width="0.127" layer="21" />
-          <wire x1="-2.3" y1="2.6" x2="-2.6" y2="2.3" width="0.127" layer="21" curve="90" />
-          <wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0.127" layer="51" />
-          <wire x1="2.6" y1="1.5" x2="2.6" y2="-1.5" width="0.127" layer="51" />
-          <wire x1="-2.6" y1="-1.5" x2="-2.6" y2="-2.3" width="0.127" layer="21" />
-          <wire x1="-2.6" y1="2.3" x2="-2.6" y2="1.5" width="0.127" layer="21" />
-          <wire x1="2.6" y1="-2.3" x2="2.6" y2="-1.5" width="0.127" layer="21" />
-          <wire x1="2.6" y1="2.3" x2="2.6" y2="1.5" width="0.127" layer="21" />
-          <wire x1="-2.7" y1="1" x2="-2.7" y2="-1" width="0.254" layer="51" />
-          <wire x1="2.7" y1="-1" x2="2.7" y2="1" width="0.254" layer="51" />
-          <smd name="1" x="-2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
-          <smd name="2" x="2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
-          <text x="0" y="0" size="0.8" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
         </package>
         <package name="SRR1208" urn="urn:adsk.eagle:footprint:42072655/1" locally_modified="yes">
           <description>&lt;a href=https://static.chipdip.ru/lib/170/DOC011170276.pdf&gt;Datasheet&lt;/a&gt;</description>
