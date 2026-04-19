@@ -634,43 +634,6 @@ Source: www.silabs.com .. CP2101.pdf</description>
 <smd name="EXP" x="0" y="0" dx="2.7" dy="2.7" layer="1" stop="no" cream="no" />
 <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="VQFN-20" urn="urn:adsk.eagle:footprint:44056517/1">
-<smd name="PAD" x="0" y="0" dx="3.05" dy="2.05" layer="1" cream="no" />
-<smd name="16" x="-0.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="17" x="-0.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="18" x="-1.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="19" x="-1.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="12" x="1.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="13" x="1.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="14" x="0.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="15" x="0.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="5" x="-0.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="4" x="-0.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="3" x="-1.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="2" x="-1.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="9" x="1.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="8" x="1.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="7" x="0.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="6" x="0.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
-<smd name="11" x="2.225" y="0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
-<smd name="10" x="2.225" y="-0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
-<smd name="20" x="-2.225" y="0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
-<smd name="1" x="-2.225" y="-0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
-<wire x1="-2.25" y1="1.75" x2="-2.25" y2="-1.75" width="0.1" layer="51" />
-<wire x1="-2.25" y1="-1.75" x2="2.25" y2="-1.75" width="0.1" layer="51" />
-<wire x1="2.25" y1="-1.75" x2="2.25" y2="1.75" width="0.1" layer="51" />
-<wire x1="2.25" y1="1.75" x2="-2.25" y2="1.75" width="0.1" layer="51" />
-<wire x1="-2.25" y1="1.05" x2="-2.25" y2="1.75" width="0.1" layer="21" />
-<wire x1="-2.25" y1="1.75" x2="-2.05" y2="1.75" width="0.1" layer="21" />
-<wire x1="2.05" y1="1.75" x2="2.25" y2="1.75" width="0.1" layer="21" />
-<wire x1="2.25" y1="1.75" x2="2.25" y2="1.05" width="0.1" layer="21" />
-<wire x1="2.25" y1="-1.05" x2="2.25" y2="-1.75" width="0.1" layer="21" />
-<wire x1="2.25" y1="-1.75" x2="2.05" y2="-1.75" width="0.1" layer="21" />
-<wire x1="-2.05" y1="-1.75" x2="-2.25" y2="-1.75" width="0.1" layer="21" />
-<wire x1="-2.25" y1="-1.75" x2="-2.25" y2="-1.05" width="0.1" layer="21" />
-<rectangle x1="-2.3" y1="-1.75" x2="-2" y2="-1" layer="21" />
-<text x="0" y="0" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
-</package>
 <package name="DFN8" urn="urn:adsk.eagle:footprint:28532616/1">
 <description>Footprint based on &lt;a href = https://www.onsemi.com/pdf/datasheet/ncv7344-d.pdf&gt;NCV7344 datasheet&lt;/a&gt;</description>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1" layer="21" />
@@ -1015,6 +978,44 @@ Source: http://www.national.com/packaging/mkt/mtc16.pdf
           <rectangle x1="2.305" y1="0.085" x2="2.795" y2="1.185" layer="51" rot="R270" />
           <rectangle x1="2.305" y1="1.355" x2="2.795" y2="2.455" layer="51" rot="R270" />
           <circle x="-0.75" y="1.75" radius="0.3" width="0.127" layer="21" />
+        </package>
+        <package name="VQFN-20" urn="urn:adsk.eagle:footprint:44056517/1" library_version="73">
+          <description>&lt;a href="https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&amp;id=1529578"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.05,"rx":0.0,"ry":180.0,"rz":90.0}--&gt;</description>
+          <smd name="PAD" x="0" y="0" dx="3.05" dy="2.05" layer="1" cream="no" />
+          <smd name="16" x="-0.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="17" x="-0.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="18" x="-1.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="19" x="-1.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="12" x="1.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="13" x="1.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="14" x="0.75" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="15" x="0.25" y="1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="5" x="-0.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="4" x="-0.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="3" x="-1.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="2" x="-1.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="9" x="1.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="8" x="1.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="7" x="0.75" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="6" x="0.25" y="-1.725" dx="0.25" dy="0.85" layer="1" />
+          <smd name="11" x="2.225" y="0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
+          <smd name="10" x="2.225" y="-0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
+          <smd name="20" x="-2.225" y="0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
+          <smd name="1" x="-2.225" y="-0.75" dx="0.25" dy="0.85" layer="1" rot="R90" />
+          <wire x1="-2.25" y1="1.75" x2="-2.25" y2="-1.75" width="0.1" layer="51" />
+          <wire x1="-2.25" y1="-1.75" x2="2.25" y2="-1.75" width="0.1" layer="51" />
+          <wire x1="2.25" y1="-1.75" x2="2.25" y2="1.75" width="0.1" layer="51" />
+          <wire x1="2.25" y1="1.75" x2="-2.25" y2="1.75" width="0.1" layer="51" />
+          <wire x1="-2.25" y1="1.05" x2="-2.25" y2="1.75" width="0.1" layer="21" />
+          <wire x1="-2.25" y1="1.75" x2="-2.05" y2="1.75" width="0.1" layer="21" />
+          <wire x1="2.05" y1="1.75" x2="2.25" y2="1.75" width="0.1" layer="21" />
+          <wire x1="2.25" y1="1.75" x2="2.25" y2="1.05" width="0.1" layer="21" />
+          <wire x1="2.25" y1="-1.05" x2="2.25" y2="-1.75" width="0.1" layer="21" />
+          <wire x1="2.25" y1="-1.75" x2="2.05" y2="-1.75" width="0.1" layer="21" />
+          <wire x1="-2.05" y1="-1.75" x2="-2.25" y2="-1.75" width="0.1" layer="21" />
+          <wire x1="-2.25" y1="-1.75" x2="-2.25" y2="-1.05" width="0.1" layer="21" />
+          <rectangle x1="-2.3" y1="-1.75" x2="-2" y2="-1" layer="21" />
+          <text x="0" y="0" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
         </package>
         </packages>
 <packages3d>

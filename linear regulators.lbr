@@ -283,29 +283,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <smd name="P$1" x="0" y="0" dx="1.75" dy="2.5" layer="1" roundness="10" />
 <text x="0" y="0" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="TMLF-6" urn="urn:adsk.eagle:footprint:44075671/1">
-<smd name="EP" x="0" y="0" dx="0.6" dy="1.4" layer="1" />
-<smd name="2" x="-0.75" y="0" dx="0.5" dy="0.35" layer="1" />
-<smd name="1" x="-0.75" y="0.5" dx="0.5" dy="0.35" layer="1" />
-<smd name="3" x="-0.75" y="-0.5" dx="0.5" dy="0.35" layer="1" />
-<smd name="5" x="0.75" y="0" dx="0.5" dy="0.35" layer="1" rot="R180" />
-<smd name="4" x="0.75" y="-0.5" dx="0.5" dy="0.35" layer="1" rot="R180" />
-<smd name="6" x="0.75" y="0.5" dx="0.5" dy="0.35" layer="1" rot="R180" />
-<wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.1" layer="51" />
-<wire x1="-0.8" y1="-0.8" x2="-0.45" y2="-0.8" width="0.1" layer="51" />
-<wire x1="-0.45" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="51" />
-<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.1" layer="51" />
-<wire x1="0.8" y1="0.8" x2="-0.45" y2="0.8" width="0.1" layer="51" />
-<wire x1="-0.45" y1="0.8" x2="-0.8" y2="0.8" width="0.1" layer="51" />
-<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.1" layer="21" />
-<wire x1="0.8" y1="0.8" x2="0.8" y2="0.75" width="0.1" layer="21" />
-<wire x1="-0.8" y1="0.8" x2="-0.8" y2="0.75" width="0.1" layer="21" />
-<wire x1="-0.8" y1="-0.75" x2="-0.8" y2="-0.8" width="0.1" layer="21" />
-<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="21" />
-<wire x1="0.8" y1="-0.8" x2="0.8" y2="-0.75" width="0.1" layer="21" />
-<rectangle x1="-0.85" y1="0.75" x2="-0.35" y2="1.05" layer="21" />
-<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-</package>
 <package name="SOT23-5L" urn="urn:adsk.eagle:footprint:1040108/2" library_version="1">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
 package type OT</description>
@@ -484,6 +461,30 @@ package type OT</description>
           <smd name="4" x="1.2" y="-0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R270" />
           <smd name="5" x="1.2" y="0.95" dx="0.6" dy="1.1" layer="1" roundness="10" rot="R270" />
           <text x="0" y="0" size="0.7" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+        </package>
+        <package name="TMLF-6" urn="urn:adsk.eagle:footprint:44075671/1" library_version="48">
+          <description>&lt;a href="https://github.com/GeorgeIoak/3D_Component_Models"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <smd name="EP" x="0" y="0" dx="0.6" dy="1.4" layer="1" />
+          <smd name="2" x="-0.75" y="0" dx="0.5" dy="0.35" layer="1" />
+          <smd name="1" x="-0.75" y="0.5" dx="0.5" dy="0.35" layer="1" />
+          <smd name="3" x="-0.75" y="-0.5" dx="0.5" dy="0.35" layer="1" />
+          <smd name="5" x="0.75" y="0" dx="0.5" dy="0.35" layer="1" rot="R180" />
+          <smd name="4" x="0.75" y="-0.5" dx="0.5" dy="0.35" layer="1" rot="R180" />
+          <smd name="6" x="0.75" y="0.5" dx="0.5" dy="0.35" layer="1" rot="R180" />
+          <wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.1" layer="51" />
+          <wire x1="-0.8" y1="-0.8" x2="-0.45" y2="-0.8" width="0.1" layer="51" />
+          <wire x1="-0.45" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="51" />
+          <wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.1" layer="51" />
+          <wire x1="0.8" y1="0.8" x2="-0.45" y2="0.8" width="0.1" layer="51" />
+          <wire x1="-0.45" y1="0.8" x2="-0.8" y2="0.8" width="0.1" layer="51" />
+          <wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.1" layer="21" />
+          <wire x1="0.8" y1="0.8" x2="0.8" y2="0.75" width="0.1" layer="21" />
+          <wire x1="-0.8" y1="0.8" x2="-0.8" y2="0.75" width="0.1" layer="21" />
+          <wire x1="-0.8" y1="-0.75" x2="-0.8" y2="-0.8" width="0.1" layer="21" />
+          <wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.1" layer="21" />
+          <wire x1="0.8" y1="-0.8" x2="0.8" y2="-0.75" width="0.1" layer="21" />
+          <rectangle x1="-0.85" y1="0.75" x2="-0.35" y2="1.05" layer="21" />
+          <text x="0" y="0" size="0.7" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
         </packages>
 <packages3d>
