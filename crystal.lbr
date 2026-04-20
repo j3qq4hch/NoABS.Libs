@@ -430,7 +430,7 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf
           <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
           <circle x="-1.3" y="-0.5" radius="0.2" width="0.1" layer="25" />
         </package>
-      </packages>
+        </packages>
       <packages3d>
         <package3d name="NX2016SA" urn="urn:adsk.eagle:package:12567080/1" type="box">
           <packageinstances>

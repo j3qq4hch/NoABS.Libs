@@ -4459,6 +4459,316 @@ www.fma.fujitsu.com/pdf/e713717.pdf
           <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
           <circle x="-1.3" y="-0.5" radius="0.2" width="0.1" layer="25" />
         </package>
+        <package name="SW4-6.0X6.0X5.0MM" urn="urn:adsk.eagle:footprint:52272432/1" library_version="49" library_locally_modified="yes">
+          <description>&lt;b&gt;Switch button &lt;/b&gt;
+&lt;br&gt;
+Source ... unknown
+&lt;br&gt;
+&lt;i&gt;Edit by Igor Odaikin for mb_m50_v2 pcb, 2019&lt;/i&gt;
+&lt;a href="https://www.3dcontentcentral.com/secure/download-model.aspx?catalogid=171&amp;id=1464160"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0002,"ty":-7.9629,"tz":4.4,"rx":180.0,"ry":0.0,"rz":90.0}--&gt;</description>
+          <circle x="0" y="0" radius="2" width="0.127" layer="51" />
+          <wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.127" layer="51" />
+          <wire x1="3.1" y1="3.1" x2="3.1" y2="-3.1" width="0.127" layer="51" />
+          <wire x1="3.1" y1="-3.1" x2="-3.1" y2="-3.1" width="0.127" layer="51" />
+          <wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.127" layer="51" />
+          <wire x1="-2.5" y1="3.1" x2="2.9" y2="3.1" width="0.127" layer="21" />
+          <wire x1="3.1" y1="1" x2="3.1" y2="-1.1" width="0.127" layer="21" />
+          <wire x1="-3" y1="-3.1" x2="3" y2="-3.1" width="0.127" layer="21" />
+          <wire x1="-3.1" y1="-1.1" x2="-3.1" y2="1" width="0.127" layer="21" />
+          <rectangle x1="-3.1" y1="-3.1" x2="3.1" y2="3.1" layer="39" />
+          <pad name="1" x="-3.683" y="2.159" drill="1.2" diameter="1.905" shape="square" />
+          <pad name="2" x="-3.683" y="-2.159" drill="1.2" diameter="1.905" />
+          <pad name="3" x="3.683" y="-2.159" drill="1.2" diameter="1.905" />
+          <pad name="4" x="3.683" y="2.159" drill="1.2" diameter="1.905" />
+          <text x="0" y="0" size="0.889" layer="25" font="vector" ratio="11" align="center">&gt;NAME</text>
+        </package>
+        <package name="PLS2-3" urn="urn:adsk.eagle:footprint:4854334/2" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/pls2-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-2.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <pad name="1" x="-2" y="0" drill="0.8" diameter="1.4" />
+          <pad name="2" x="0" y="0" drill="0.8" diameter="1.4" />
+          <pad name="3" x="2" y="0" drill="0.8" diameter="1.4" />
+          <wire x1="-2.5" y1="1" x2="-1.5" y2="1" width="0.15" layer="25" />
+          <wire x1="-1.5" y1="1" x2="-1" y2="0.5" width="0.15" layer="25" />
+          <wire x1="-1" y1="-0.5" x2="-1.5" y2="-1" width="0.15" layer="25" />
+          <wire x1="-1.5" y1="-1" x2="-2.5" y2="-1" width="0.15" layer="25" />
+          <wire x1="-2.5" y1="-1" x2="-3" y2="-0.5" width="0.15" layer="25" />
+          <wire x1="-3" y1="-0.5" x2="-3" y2="0.5" width="0.15" layer="25" />
+          <wire x1="-3" y1="0.5" x2="-2.5" y2="1" width="0.15" layer="25" />
+          <wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.15" layer="25" />
+          <wire x1="0.5" y1="1" x2="1" y2="0.5" width="0.15" layer="25" />
+          <wire x1="1" y1="-0.5" x2="0.5" y2="-1" width="0.15" layer="25" />
+          <wire x1="0.5" y1="-1" x2="-0.5" y2="-1" width="0.15" layer="25" />
+          <wire x1="-0.5" y1="-1" x2="-1" y2="-0.5" width="0.15" layer="25" />
+          <wire x1="-1" y1="0.5" x2="-0.5" y2="1" width="0.15" layer="25" />
+          <wire x1="1.5" y1="1" x2="2.5" y2="1" width="0.15" layer="25" />
+          <wire x1="2.5" y1="1" x2="3" y2="0.5" width="0.15" layer="25" />
+          <wire x1="3" y1="-0.5" x2="2.5" y2="-1" width="0.15" layer="25" />
+          <wire x1="2.5" y1="-1" x2="1.5" y2="-1" width="0.15" layer="25" />
+          <wire x1="1.5" y1="-1" x2="1" y2="-0.5" width="0.15" layer="25" />
+          <wire x1="1" y1="0.5" x2="1.5" y2="1" width="0.15" layer="25" />
+          <wire x1="3" y1="-0.5" x2="3" y2="0.5" width="0.15" layer="25" />
+          <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+        </package>
+        <package name="PLS2-2" urn="urn:adsk.eagle:footprint:6503390/2" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/pls2-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-1.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <pad name="1" x="-1" y="0" drill="0.8" diameter="1.4" />
+          <pad name="2" x="1" y="0" drill="0.8" diameter="1.4" />
+          <wire x1="-1.5" y1="1" x2="-0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="1" x2="0" y2="0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="-0.5" x2="-0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="-1" x2="-1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="-1" x2="-2" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="-0.5" x2="-2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="0.5" x2="-1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="1" x2="2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="2" y1="-0.5" x2="1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="-1" x2="0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="-1" x2="0" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="0.5" x2="0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="2" y1="-0.5" x2="2" y2="0.5" width="0.15" layer="21" />
+          <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+        </package>
+        <package name="PLS2-8" urn="urn:adsk.eagle:footprint:2540375/1" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/pls2-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-7.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <pad name="4" x="-1" y="0" drill="0.8" diameter="1.5" />
+          <pad name="3" x="-3" y="0" drill="0.8" diameter="1.5" />
+          <pad name="2" x="-5" y="0" drill="0.8" diameter="1.5" />
+          <pad name="1" x="-7" y="0" drill="0.8" diameter="1.5" />
+          <pad name="5" x="1" y="0" drill="0.8" diameter="1.5" />
+          <pad name="6" x="3" y="0" drill="0.8" diameter="1.5" />
+          <pad name="7" x="5" y="0" drill="0.8" diameter="1.5" />
+          <pad name="8" x="7" y="0" drill="0.8" diameter="1.5" />
+          <wire x1="-7.5" y1="1" x2="-6.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-6.5" y1="1" x2="-6" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-6" y1="0.5" x2="-5.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-5.5" y1="1" x2="-4.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-4.5" y1="1" x2="-4" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-4" y1="0.5" x2="-3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-3.5" y1="1" x2="-2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="1" x2="-2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="0.5" x2="-1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="1" x2="-0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="1" x2="0" y2="0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="0.5" x2="0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="1" x2="2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="2" y1="0.5" x2="2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="1" x2="3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="1" x2="4" y2="0.5" width="0.15" layer="21" />
+          <wire x1="4" y1="0.5" x2="4.5" y2="1" width="0.15" layer="21" />
+          <wire x1="4.5" y1="1" x2="5.5" y2="1" width="0.15" layer="21" />
+          <wire x1="5.5" y1="1" x2="6" y2="0.5" width="0.15" layer="21" />
+          <wire x1="5.5" y1="-1" x2="4.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="4.5" y1="-1" x2="4" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="4" y1="-0.5" x2="3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="-1" x2="2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="-1" x2="2" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="2" y1="-0.5" x2="1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="-1" x2="0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="-1" x2="0" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="-0.5" x2="-0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="-1" x2="-1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="-1" x2="-2" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="-0.5" x2="-2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="-1" x2="-3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-3.5" y1="-1" x2="-4" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-4" y1="-0.5" x2="-4.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-4.5" y1="-1" x2="-5.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-5.5" y1="-1" x2="-6" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-6" y1="-0.5" x2="-6.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-6.5" y1="-1" x2="-7.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-7.5" y1="-1" x2="-8" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-8" y1="-0.5" x2="-8" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-8" y1="0.5" x2="-7.5" y2="1" width="0.15" layer="21" />
+          <wire x1="5.5" y1="-1" x2="6" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="6" y1="0.5" x2="6.5" y2="1" width="0.15" layer="21" />
+          <wire x1="6.5" y1="1" x2="7.5" y2="1" width="0.15" layer="21" />
+          <wire x1="7.5" y1="1" x2="8" y2="0.5" width="0.15" layer="21" />
+          <wire x1="8" y1="0.5" x2="8" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="7.5" y1="-1" x2="6.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="6.5" y1="-1" x2="6" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="7.5" y1="-1" x2="8" y2="-0.5" width="0.15" layer="21" />
+          <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+        </package>
+        <package name="PLS2-7" urn="urn:adsk.eagle:footprint:2540370/2" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/pls2-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-6.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <pad name="4" x="0" y="0" drill="0.8" diameter="1.4" />
+          <pad name="3" x="-2" y="0" drill="0.8" diameter="1.4" />
+          <pad name="2" x="-4" y="0" drill="0.8" diameter="1.4" />
+          <pad name="1" x="-6" y="0" drill="0.8" diameter="1.4" />
+          <pad name="5" x="2" y="0" drill="0.8" diameter="1.4" />
+          <pad name="6" x="4" y="0" drill="0.8" diameter="1.4" />
+          <pad name="7" x="6" y="0" drill="0.8" diameter="1.4" />
+          <wire x1="-6.5" y1="1" x2="-5.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-5.5" y1="1" x2="-5" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-5" y1="0.5" x2="-4.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-4.5" y1="1" x2="-3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-3.5" y1="1" x2="-3" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-3" y1="0.5" x2="-2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="1" x2="-1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="1" x2="-1" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-1" y1="0.5" x2="-0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="1" x2="1" y2="0.5" width="0.15" layer="21" />
+          <wire x1="1" y1="0.5" x2="1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="1" x2="2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="1" x2="3" y2="0.5" width="0.15" layer="21" />
+          <wire x1="3" y1="0.5" x2="3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="1" x2="4.5" y2="1" width="0.15" layer="21" />
+          <wire x1="4.5" y1="1" x2="5" y2="0.5" width="0.15" layer="21" />
+          <wire x1="5" y1="0.5" x2="5.5" y2="1" width="0.15" layer="21" />
+          <wire x1="5.5" y1="1" x2="6.5" y2="1" width="0.15" layer="21" />
+          <wire x1="6.5" y1="1" x2="7" y2="0.5" width="0.15" layer="21" />
+          <wire x1="7" y1="0.5" x2="7" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="6.5" y1="-1" x2="5.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="5.5" y1="-1" x2="5" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="5" y1="-0.5" x2="4.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="4.5" y1="-1" x2="3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="-1" x2="3" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="3" y1="-0.5" x2="2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="-1" x2="1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="-1" x2="1" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="1" y1="-0.5" x2="0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="-1" x2="-0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="-1" x2="-1" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-1" y1="-0.5" x2="-1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="-1" x2="-2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="-1" x2="-3" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-3" y1="-0.5" x2="-3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-3.5" y1="-1" x2="-4.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-4.5" y1="-1" x2="-5" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-5" y1="-0.5" x2="-5.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-5.5" y1="-1" x2="-6.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-6.5" y1="-1" x2="-7" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-7" y1="-0.5" x2="-7" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-7" y1="0.5" x2="-6.5" y2="1" width="0.15" layer="21" />
+          <wire x1="6.5" y1="-1" x2="7" y2="-0.5" width="0.15" layer="21" />
+          <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+        </package>
+        <package name="PLS2-6" urn="urn:adsk.eagle:footprint:6650267/2" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/pls2-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-5.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <pad name="1" x="-5" y="0" drill="0.8" diameter="1.4" />
+          <pad name="2" x="-3" y="0" drill="0.8" diameter="1.4" />
+          <pad name="3" x="-1" y="0" drill="0.8" diameter="1.4" />
+          <pad name="4" x="1" y="0" drill="0.8" diameter="1.4" />
+          <pad name="5" x="3" y="0" drill="0.8" diameter="1.4" />
+          <pad name="6" x="5" y="0" drill="0.8" diameter="1.4" />
+          <wire x1="-5.5" y1="1" x2="-4.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-4.5" y1="1" x2="-4" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-4" y1="-0.5" x2="-4.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-4.5" y1="-1" x2="-5.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-5.5" y1="-1" x2="-6" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-6" y1="-0.5" x2="-6" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-6" y1="0.5" x2="-5.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-3.5" y1="1" x2="-2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="1" x2="-2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="-0.5" x2="-2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="-1" x2="-3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-3.5" y1="-1" x2="-4" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-4" y1="0.5" x2="-3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="1" x2="-0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="1" x2="0" y2="0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="-0.5" x2="-0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="-1" x2="-1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="-1" x2="-2" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="0.5" x2="-1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="1" x2="2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="2" y1="-0.5" x2="1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="-1" x2="0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="-1" x2="0" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="0.5" x2="0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="1" x2="3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="1" x2="4" y2="0.5" width="0.15" layer="21" />
+          <wire x1="4" y1="-0.5" x2="3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="-1" x2="2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="-1" x2="2" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="2" y1="0.5" x2="2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="4.5" y1="1" x2="5.5" y2="1" width="0.15" layer="21" />
+          <wire x1="5.5" y1="-1" x2="4.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="6" y1="-0.5" x2="5.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="5.5" y1="1" x2="6" y2="0.5" width="0.15" layer="21" />
+          <wire x1="6" y1="-0.5" x2="6" y2="0.5" width="0.15" layer="21" />
+          <wire x1="4" y1="0.5" x2="4.5" y2="1" width="0.15" layer="21" />
+          <wire x1="4.5" y1="-1" x2="4" y2="-0.5" width="0.15" layer="21" />
+          <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+        </package>
+        <package name="PLS2-5" urn="urn:adsk.eagle:footprint:4854336/1" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/pls2-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-4.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <pad name="1" x="-4" y="0" drill="0.8" diameter="1.4" />
+          <pad name="2" x="-2" y="0" drill="0.8" diameter="1.4" />
+          <pad name="3" x="0" y="0" drill="0.8" diameter="1.4" />
+          <pad name="4" x="2" y="0" drill="0.8" diameter="1.4" />
+          <pad name="5" x="4" y="0" drill="0.8" diameter="1.4" />
+          <wire x1="-4.5" y1="1" x2="-3.5" y2="1" width="0.15" layer="51" />
+          <wire x1="-3.5" y1="1" x2="-3" y2="0.5" width="0.15" layer="51" />
+          <wire x1="-3" y1="-0.5" x2="-3.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="-3.5" y1="-1" x2="-4.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="-4.5" y1="-1" x2="-5" y2="-0.5" width="0.15" layer="51" />
+          <wire x1="-5" y1="-0.5" x2="-5" y2="0.5" width="0.15" layer="51" />
+          <wire x1="-5" y1="0.5" x2="-4.5" y2="1" width="0.15" layer="51" />
+          <wire x1="-2.5" y1="1" x2="-1.5" y2="1" width="0.15" layer="51" />
+          <wire x1="-1.5" y1="1" x2="-1" y2="0.5" width="0.15" layer="51" />
+          <wire x1="-1" y1="-0.5" x2="-1.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="-1.5" y1="-1" x2="-2.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="-2.5" y1="-1" x2="-3" y2="-0.5" width="0.15" layer="51" />
+          <wire x1="-3" y1="0.5" x2="-2.5" y2="1" width="0.15" layer="51" />
+          <wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.15" layer="51" />
+          <wire x1="0.5" y1="1" x2="1" y2="0.5" width="0.15" layer="51" />
+          <wire x1="1" y1="-0.5" x2="0.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="0.5" y1="-1" x2="-0.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="-0.5" y1="-1" x2="-1" y2="-0.5" width="0.15" layer="51" />
+          <wire x1="-1" y1="0.5" x2="-0.5" y2="1" width="0.15" layer="51" />
+          <wire x1="1.5" y1="1" x2="2.5" y2="1" width="0.15" layer="51" />
+          <wire x1="2.5" y1="1" x2="3" y2="0.5" width="0.15" layer="51" />
+          <wire x1="3" y1="-0.5" x2="2.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="2.5" y1="-1" x2="1.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="1.5" y1="-1" x2="1" y2="-0.5" width="0.15" layer="51" />
+          <wire x1="1" y1="0.5" x2="1.5" y2="1" width="0.15" layer="51" />
+          <wire x1="3.5" y1="1" x2="4.5" y2="1" width="0.15" layer="51" />
+          <wire x1="4.5" y1="1" x2="5" y2="0.5" width="0.15" layer="51" />
+          <wire x1="5" y1="-0.5" x2="4.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="4.5" y1="-1" x2="3.5" y2="-1" width="0.15" layer="51" />
+          <wire x1="3.5" y1="-1" x2="3" y2="-0.5" width="0.15" layer="51" />
+          <wire x1="3" y1="0.5" x2="3.5" y2="1" width="0.15" layer="51" />
+          <wire x1="5" y1="-0.5" x2="5" y2="0.5" width="0.15" layer="51" />
+          <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+        </package>
+        <package name="PLS2-4" urn="urn:adsk.eagle:footprint:4854335/3" locally_modified="yes">
+          <description>&lt;a href="https://grabcad.com/library/pls2-connectors-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":-3.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
+          <pad name="1" x="-3" y="0" drill="0.8" diameter="1.4" />
+          <pad name="2" x="-1" y="0" drill="0.8" diameter="1.4" />
+          <pad name="3" x="1" y="0" drill="0.8" diameter="1.4" />
+          <pad name="4" x="3" y="0" drill="0.8" diameter="1.4" />
+          <wire x1="-3.5" y1="1" x2="-2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="1" x2="-2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="-0.5" x2="-2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-2.5" y1="-1" x2="-3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-3.5" y1="-1" x2="-4" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-4" y1="-0.5" x2="-4" y2="0.5" width="0.15" layer="21" />
+          <wire x1="-4" y1="0.5" x2="-3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="1" x2="-0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="1" x2="0" y2="0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="-0.5" x2="-0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-0.5" y1="-1" x2="-1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="-1.5" y1="-1" x2="-2" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="-2" y1="0.5" x2="-1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="1" x2="2" y2="0.5" width="0.15" layer="21" />
+          <wire x1="2" y1="-0.5" x2="1.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="1.5" y1="-1" x2="0.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="0.5" y1="-1" x2="0" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="0" y1="0.5" x2="0.5" y2="1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="1" x2="3.5" y2="1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="1" x2="4" y2="0.5" width="0.15" layer="21" />
+          <wire x1="4" y1="-0.5" x2="3.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="3.5" y1="-1" x2="2.5" y2="-1" width="0.15" layer="21" />
+          <wire x1="2.5" y1="-1" x2="2" y2="-0.5" width="0.15" layer="21" />
+          <wire x1="2" y1="0.5" x2="2.5" y2="1" width="0.15" layer="21" />
+          <wire x1="4" y1="-0.5" x2="4" y2="0.5" width="0.15" layer="21" />
+          <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+        </package>
       </packages>
       <symbols>
         <symbol name="CON-10P">
