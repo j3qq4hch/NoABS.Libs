@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<eagle version="9.6.2">
+<eagle version="7.7.0">
   <drawing>
     <settings>
       <setting alwaysvectorfont="no" />
@@ -188,7 +188,7 @@
     </layers>
     <library>
       <packages>
-        <package name="ERU20" urn="urn:adsk.eagle:footprint:49152170/1">
+        <package name="ERU20">
           <description>TDK &lt;b&gt; ERU20 B82559 series inductor &lt;/b&gt;
 &lt;br&gt;</description>
           <wire x1="-10.75" y1="10" x2="-10.75" y2="-10" width="0.127" layer="21" />
@@ -209,7 +209,7 @@
           <smd name="3" x="0" y="7.9" dx="6.8" dy="6.7" layer="1" roundness="5" thermals="no" cream="no" />
           <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
-        <package name="NR4018" urn="urn:adsk.eagle:footprint:27836985/2">
+        <package name="NR4018">
           <description>&lt;a href=https://datasheet.lcsc.com/szlcsc/1809191927_Taiyo-Yuden-NR4018T100M_C89154.pdf&gt;datasheet&lt;/a&gt;</description>
           <smd name="1" x="-1.4" y="0" dx="1.2" dy="3.7" layer="1" />
           <smd name="2" x="1.4" y="0" dx="1.2" dy="3.7" layer="1" />
@@ -223,7 +223,7 @@
           <rectangle x1="-1.9" y1="-1.8" x2="-0.9" y2="1.8" layer="51" />
           <rectangle x1="0.9" y1="-1.8" x2="1.9" y2="1.8" layer="51" />
         </package>
-        <package name="VLS6045EX" urn="urn:adsk.eagle:footprint:11688525/1">
+        <package name="VLS6045EX">
           <smd name="P$1" x="-2.1" y="0" dx="1.9" dy="5.1" layer="1" />
           <smd name="P$2" x="2.1" y="0" dx="1.9" dy="5.1" layer="1" />
           <wire x1="-3.15" y1="2.65" x2="3.15" y2="2.65" width="0.1" layer="21" />
@@ -232,7 +232,7 @@
           <wire x1="-3.15" y1="-2.65" x2="-3.15" y2="2.65" width="0.1" layer="21" />
           <text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="WE-PD-1030" urn="urn:adsk.eagle:footprint:11688562/1">
+        <package name="WE-PD-1030">
           <smd name="1" x="-4.5" y="0" dx="2" dy="3.5" layer="1" />
           <smd name="2" x="4.5" y="0" dx="2" dy="3.5" layer="1" />
           <wire x1="-5" y1="5" x2="5" y2="5" width="0.1" layer="51" />
@@ -247,8 +247,9 @@
           <wire x1="-5" y1="-5" x2="-5" y2="-1.9" width="0.1" layer="21" />
           <text x="0" y="0" size="2" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="SWPA5040S" urn="urn:adsk.eagle:footprint:31292999/1">
-          <description>&lt;a href=https://datasheet.lcsc.com/lcsc/1809291619_Sunlord-SWPA5040S330MT_C86618.pdf&gt;Datasheet&lt;/a&gt;</description>
+        <package name="SWPA5040S">
+          <description>&lt;a href=https://datasheet.lcsc.com/lcsc/1809291619_Sunlord-SWPA5040S330MT_C86618.pdf&gt;Datasheet&lt;/a&gt;
+&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <smd name="1" x="-1.85" y="0" dx="4.2" dy="1.4" layer="1" rot="R90" />
           <smd name="2" x="1.85" y="0" dx="4.2" dy="1.4" layer="1" rot="R90" />
           <wire x1="-2.7" y1="2.25" x2="-2.7" y2="-2.25" width="0.1" layer="21" />
@@ -257,7 +258,7 @@
           <wire x1="2.7" y1="2.25" x2="-2.7" y2="2.25" width="0.1" layer="21" />
           <text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="LQS-6028" urn="urn:adsk.eagle:footprint:12820005/1">
+        <package name="LQS-6028">
           <smd name="P$1" x="-2.3" y="0" dx="1.8" dy="5.7" layer="1" />
           <smd name="P$2" x="2.3" y="0" dx="1.8" dy="5.7" layer="1" />
           <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.1" layer="51" />
@@ -268,7 +269,7 @@
           <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1" layer="21" />
           <text x="0" y="0" size="2" layer="51" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="DG6050C" urn="urn:adsk.eagle:footprint:24308809/1">
+        <package name="DG6050C">
           <description>https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0044_DG6050C_reference.pdf</description>
           <smd name="P$1" x="-2.35" y="0" dx="1.6" dy="5.7" layer="1" />
           <smd name="P$2" x="2.35" y="0" dx="1.6" dy="5.7" layer="1" />
@@ -280,7 +281,7 @@
           <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1" layer="21" />
           <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="SWPA6020" urn="urn:adsk.eagle:footprint:52492244/1">
+        <package name="SWPA6020">
           <description>SWPA50xxS  and SWPA60xxS Series SMD Power Inductor universal footprint&lt;br&gt;
 draft&lt;br&gt;
 &lt;i&gt; Igor Odaikin, Aug 2023&lt;/i&gt;</description>
@@ -316,8 +317,9 @@ draft&lt;br&gt;
           <smd name="2" x="2.1336" y="0" dx="2.032" dy="5.6896" layer="1" roundness="5" cream="no" />
           <text x="0" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
         </package>
-        <package name="IHLP-2020BZ-01" urn="urn:adsk.eagle:footprint:36690888/1">
-          <description>&lt;a href = https://www.elitan.ru/pdf/0/4/5/1/7/04517544.pdf&gt;Datasheet&lt;/a&gt;</description>
+        <package name="IHLP-2020BZ-01">
+          <description>&lt;a href = https://www.elitan.ru/pdf/0/4/5/1/7/04517544.pdf&gt;Datasheet&lt;/a&gt;
+&lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.0,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <smd name="P$1" x="-2.5" y="0" dx="2.8" dy="1.9" layer="1" rot="R90" />
           <smd name="P$2" x="2.5" y="0" dx="2.8" dy="1.9" layer="1" rot="R90" />
           <wire x1="-2.6" y1="2.6" x2="-2.6" y2="-2.6" width="0.1" layer="51" />
@@ -332,7 +334,7 @@ draft&lt;br&gt;
           <wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-1.6" width="0.1" layer="21" />
           <text x="0" y="0" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
-        <package name="CDRH5D28NP" urn="urn:adsk.eagle:footprint:45098177/1">
+        <package name="CDRH5D28NP">
           <description>&lt;a href = https://www.promelec.ru/fs/sources/80/fc/95/59/4171696260b0321c031b422c.pdf&gt;Drawing&lt;/a&gt;</description>
           <smd name="1" x="-2.075" y="0" dx="2.15" dy="6.3" layer="1" />
           <smd name="2" x="2.075" y="0" dx="2.15" dy="6.3" layer="1" />
@@ -346,7 +348,7 @@ draft&lt;br&gt;
           <wire x1="3.35" y1="3.35" x2="-3.35" y2="3.35" width="0.127" layer="21" />
           <text x="0" y="0" size="1.5" layer="25" font="vector" align="center">&gt;NAME</text>
         </package>
-        <package name="SRP6540" urn="urn:adsk.eagle:footprint:1040045/1">
+        <package name="SRP6540">
           <wire x1="-3.6" y1="-3.25" x2="-3.6" y2="3.25" width="0.1" layer="21" />
           <wire x1="-3.6" y1="3.25" x2="3.6" y2="3.25" width="0.1" layer="21" />
           <wire x1="3.6" y1="3.25" x2="3.6" y2="-3.25" width="0.1" layer="21" />
@@ -355,7 +357,7 @@ draft&lt;br&gt;
           <smd name="2" x="2.775" y="0" dx="3.4" dy="1.85" layer="1" rot="R90" />
           <text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="MWSA1206S" urn="urn:adsk.eagle:footprint:36212668/2">
+        <package name="MWSA1206S">
           <description>&lt;a href = https://datasheet.lcsc.com/lcsc/1912111437_Sunlord-MWSA1206S-220MT_C408528.pdf&gt;Datasheet&lt;/a&gt;</description>
           <wire x1="-6.75" y1="-6.3" x2="-6.75" y2="6.3" width="0.1" layer="51" />
           <wire x1="-6.75" y1="-6.3" x2="6.75" y2="-6.3" width="0.1" layer="51" />
@@ -371,7 +373,7 @@ draft&lt;br&gt;
           <smd name="2" x="5.625" y="0" dx="5.5" dy="3.25" layer="1" rot="R90" />
           <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
-        <package name="TYS5020" urn="urn:adsk.eagle:footprint:4217096/1">
+        <package name="TYS5020">
           <smd name="P$1" x="-1.875" y="0" dx="1.4" dy="5" layer="1" />
           <smd name="P$2" x="1.875" y="0" dx="1.4" dy="5" layer="1" />
           <wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51" />
@@ -382,7 +384,7 @@ draft&lt;br&gt;
           <wire x1="-1.1" y1="-2.5" x2="1.1" y2="-2.5" width="0.127" layer="21" />
           <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="SWPA3015S" urn="urn:adsk.eagle:footprint:33883589/1">
+        <package name="SWPA3015S">
           <description>&lt;a href=https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA3015S2R2MT_C43389.pdf&gt;Datasheet&lt;/a&gt;</description>
           <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51" />
           <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51" />
@@ -398,7 +400,7 @@ draft&lt;br&gt;
           <smd name="2" x="1.15" y="0" dx="0.8" dy="2.7" layer="1" />
           <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
         </package>
-        <package name="CDRH3D16" urn="urn:adsk.eagle:footprint:11612787/1">
+        <package name="CDRH3D16">
           <smd name="1" x="-1.3435" y="1.3435" dx="1.5" dy="1.4" layer="1" rot="R225" />
           <smd name="2" x="1.3435" y="-1.3435" dx="1.5" dy="1.4" layer="1" rot="R225" />
           <wire x1="-1.899996875" y1="1.899996875" x2="-1.899996875" y2="-1.899996875" width="0.1" layer="51" />
@@ -411,7 +413,7 @@ draft&lt;br&gt;
           <wire x1="1.9" y1="1.9" x2="-0.7" y2="1.9" width="0.1" layer="21" />
           <text x="0" y="0" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="HPC8040NF" urn="urn:adsk.eagle:footprint:24308800/1">
+        <package name="HPC8040NF">
           <description>https://datasheet.lcsc.com/szlcsc/2009171310_TAI-TECH-HPC8040NF-121M_C357080.pdf</description>
           <smd name="1" x="-2.75" y="0" dx="6.3" dy="3" layer="1" rot="R90" />
           <smd name="2" x="2.75" y="0" dx="6.3" dy="3" layer="1" rot="R90" />
@@ -427,7 +429,7 @@ draft&lt;br&gt;
           <wire x1="-4" y1="-4" x2="-4" y2="-3.3" width="0.127" layer="21" />
           <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
         </package>
-        <package name="1064" urn="urn:adsk.eagle:footprint:36207750/1">
+        <package name="1064">
           <smd name="1" x="0" y="-4.1" dx="2.4" dy="3.4" layer="1" rot="R90" />
           <smd name="2" x="0" y="4.1" dx="2.4" dy="3.4" layer="1" rot="R90" />
           <wire x1="-5.1" y1="5.1" x2="-5.1" y2="-5.1" width="0.1" layer="51" />
@@ -444,7 +446,7 @@ draft&lt;br&gt;
           <rectangle x1="-1.5" y1="-5.1" x2="1.5" y2="-3.1" layer="51" />
           <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
-        <package name="SWRB1207S" urn="urn:adsk.eagle:footprint:24397505/1">
+        <package name="SWRB1207S">
           <wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="51" />
           <wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="51" />
           <wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="51" />
@@ -459,7 +461,7 @@ draft&lt;br&gt;
           <smd name="2" x="4.95" y="0" dx="2.9" dy="5.4" layer="1" />
           <text x="0" y="0" size="2" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
         </package>
-        <package name="YSPI1050" urn="urn:adsk.eagle:footprint:32898924/2">
+        <package name="YSPI1050">
           <wire x1="-5.75" y1="-5" x2="5.75" y2="-5" width="0.1" layer="51" />
           <wire x1="-5.75" y1="-5" x2="-5.75" y2="5" width="0.1" layer="51" />
           <wire x1="-5.75" y1="5" x2="5.75" y2="5" width="0.1" layer="51" />
@@ -476,7 +478,7 @@ draft&lt;br&gt;
           <rectangle x1="-6.7" y1="-1.95" x2="-2.8" y2="1.95" layer="51" />
           <rectangle x1="2.8" y1="-1.95" x2="6.7" y2="1.95" layer="51" />
         </package>
-        <package name="WPN3012H" urn="urn:adsk.eagle:footprint:25105299/1">
+        <package name="WPN3012H">
           <description>https://datasheet.lcsc.com/szlcsc/1810221225_Sunlord-WPN3012HS4R7MT_C305275.pdf</description>
           <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51" />
           <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51" />
@@ -492,7 +494,7 @@ draft&lt;br&gt;
           <smd name="2" x="1.15" y="0" dx="0.8" dy="3.2" layer="1" />
           <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
         </package>
-      <package name="06030" urn="urn:adsk.eagle:footprint:52272446/2" locally_modified="yes">
+        <package name="06030">
           <description>Generic 6.6x6.6 SMD power inductor&lt;br&gt;
 &lt;br&gt;
 &lt;i&gt;Igor Odaikin, Nov 2021&lt;/i&gt;</description>
@@ -514,7 +516,7 @@ draft&lt;br&gt;
           <smd name="2" x="2.794" y="0" dx="2.54" dy="3.3528" layer="1" roundness="5" />
           <text x="0" y="0" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
         </package>
-        <package name="05020" urn="urn:adsk.eagle:footprint:52272452/2" locally_modified="yes">
+        <package name="05020">
           <description>Generic 5.2x5.2 SMD power inductor&lt;br&gt;
 &lt;br&gt;
 &lt;i&gt;Igor Odaikin, Feb 2023&lt;/i&gt;</description>
@@ -536,7 +538,7 @@ draft&lt;br&gt;
           <smd name="2" x="2.54" y="0" dx="1.9812" dy="2.4892" layer="1" roundness="5" />
           <text x="0" y="0" size="0.8" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
         </package>
-        <package name="SWPA6045S" urn="urn:adsk.eagle:footprint:4854351/1" locally_modified="yes">
+        <package name="SWPA6045S">
           <description>&lt;!--3d:{"tx":-0.2111,"ty":0.0,"tz":0.1578,"rx":90.0,"ry":90.0,"rz":0.0}--&gt;</description>
           <wire x1="-2" y1="1.5" x2="-2" y2="0.3" width="0.127" layer="51" />
           <wire x1="-2" y1="0.3" x2="-2" y2="-0.3" width="0.127" layer="51" />
@@ -564,7 +566,7 @@ draft&lt;br&gt;
           <smd name="P$2" x="-2.4" y="0" dx="2.6" dy="5.7" layer="1" />
           <text x="0" y="0" size="1" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
         </package>
-        <package name="SRP1265A" urn="urn:adsk.eagle:footprint:37321404/1">
+        <package name="SRP1265A">
           <description>&lt;a href =https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf&gt;Datasheet&lt;/a&gt;</description>
           <wire x1="-6.75" y1="5.6" x2="-6.75" y2="-5.6" width="0.1" layer="51" />
           <wire x1="-6.75" y1="-5.6" x2="-6.05" y2="-6.3" width="0.1" layer="51" curve="90" />
@@ -588,7 +590,7 @@ draft&lt;br&gt;
           <smd name="2" x="5.55" y="0" dx="5" dy="3.1" layer="1" rot="R90" />
           <text x="0" y="0" size="2" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
         </package>
-        <package name="SRN5040" urn="urn:adsk.eagle:footprint:1040044/1" locally_modified="yes">
+        <package name="SRN5040">
           <smd name="P$1" x="-1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
           <smd name="P$2" x="1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
           <wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.1" layer="21" />
@@ -601,7 +603,7 @@ draft&lt;br&gt;
           <wire x1="2.5" y1="-2.2" x2="2.5" y2="2.2" width="0.1" layer="51" />
           <text x="0" y="0" size="1" layer="51" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
         </package>
-        <package name="NRS6028" urn="urn:adsk.eagle:footprint:4217098/1" locally_modified="yes">
+        <package name="NRS6028">
           <smd name="P$1" x="-2.35" y="0" dx="1.6" dy="5.7" layer="1" rot="R180" />
           <smd name="P$2" x="2.35" y="0" dx="1.6" dy="5.7" layer="1" rot="R180" />
           <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="51" />
@@ -612,7 +614,7 @@ draft&lt;br&gt;
           <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21" />
           <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
         </package>
-        <package name="NRS5030" urn="urn:adsk.eagle:footprint:3345991/1" locally_modified="yes">
+        <package name="NRS5030">
           <description>file:///C:/Users/j3qq4hch/Downloads/NRS5030T220MMGJ_SS.pdf</description>
           <smd name="P$1" x="-1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
           <smd name="P$2" x="1.8" y="0" dx="1.5" dy="4" layer="1" rot="R180" />
@@ -622,7 +624,7 @@ draft&lt;br&gt;
           <wire x1="-2.65" y1="-2.1" x2="-2.65" y2="2.1" width="0.127" layer="21" />
           <text x="0" y="0" size="1.2" layer="21" font="vector" ratio="10" align="center">&gt;NAME</text>
         </package>
-        <package name="NR3015" urn="urn:adsk.eagle:footprint:12531220/1" locally_modified="yes">
+        <package name="NR3015">
           <description>&lt;a href=https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NR3015T2R2M%20%20&amp;u=M&gt;datasheet&lt;/a&gt;</description>
           <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51" />
           <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51" />
@@ -638,7 +640,7 @@ draft&lt;br&gt;
           <smd name="2" x="1.1" y="0" dx="0.8" dy="2.7" layer="1" />
           <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
         </package>
-        <package name="CDRH104" urn="urn:adsk.eagle:footprint:37194811/3" locally_modified="yes">
+        <package name="CDRH104">
           <description>&lt;a href = https://data.electronshik.ru/z/Datasheet/C/CDRH104.pdf&gt;Drawing&lt;/a&gt;
 &lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":90.0,"rz":90.0}--&gt;</description>
           <wire x1="-4.45" y1="4.4" x2="-4.45" y2="-4.4" width="0.1" layer="51" />
@@ -675,7 +677,7 @@ draft&lt;br&gt;
           <smd name="2" x="0" y="-3.75" dx="2.4" dy="2.1" layer="1" />
           <text x="0" y="0" size="2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
         </package>
-        <package name="CDRH105R" urn="urn:adsk.eagle:footprint:41953121/2" locally_modified="yes">
+        <package name="CDRH105R">
           <description>&lt;a href = https://www.elitan.ru/pdf/0/7/7/5/1/07751842.pdf&gt;Drawing&lt;/a&gt;
 &lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":90.0,"ry":0.0,"rz":0.0}--&gt;</description>
           <smd name="1" x="-4.45" y="0" dx="3.2" dy="1.6" layer="1" rot="R90" />
@@ -694,7 +696,7 @@ draft&lt;br&gt;
           <rectangle x1="-5.2" y1="-1.5" x2="-3.7" y2="1.5" layer="51" />
           <rectangle x1="3.7" y1="-1.5" x2="5.2" y2="1.5" layer="51" />
         </package>
-        <package name="CD54" urn="urn:adsk.eagle:footprint:37194859/2" locally_modified="yes">
+        <package name="CD54">
           <description>&lt;a href="https://grabcad.com/library/smd-inductors-type-cdxx-1"&gt;3D model&lt;/a&gt; &lt;!--3d:{"tx":0.0,"ty":0.0,"tz":0.01,"rx":0.0,"ry":90.0,"rz":90.0}--&gt;</description>
           <smd name="1" x="0" y="1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
           <smd name="2" x="0" y="-1.925" dx="5.5" dy="2.15" layer="1" roundness="25" />
@@ -704,7 +706,7 @@ draft&lt;br&gt;
           <rectangle x1="-2.5" y1="-2.8" x2="2.5" y2="-1.1" layer="51" />
           <rectangle x1="-2.5" y1="1.1" x2="2.5" y2="2.8" layer="51" />
         </package>
-        <package name="SRR1208" urn="urn:adsk.eagle:footprint:42072655/1" locally_modified="yes">
+        <package name="SRR1208">
           <description>&lt;a href=https://static.chipdip.ru/lib/170/DOC011170276.pdf&gt;Datasheet&lt;/a&gt;</description>
           <wire x1="-6.35" y1="-5.35" x2="-5.35" y2="-6.35" width="0.15" layer="21" curve="90" />
           <wire x1="5.35" y1="-6.35" x2="6.35" y2="-5.35" width="0.15" layer="21" curve="90" />
@@ -726,195 +728,7 @@ draft&lt;br&gt;
           <rectangle x1="3.25" y1="-3.25" x2="6.75" y2="3.25" layer="51" />
           <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
         </package>
-        </packages>
-      <packages3d>
-        <package3d name="ERU20" urn="urn:adsk.eagle:package:49152171/2" type="model">
-          <description>TDK &lt;b&gt; ERU20 B82559 series inductor &lt;/b&gt;
-&lt;br&gt;</description>
-          <packageinstances>
-            <packageinstance name="ERU20" />
-          </packageinstances>
-        </package3d>
-        <package3d name="NR4018" urn="urn:adsk.eagle:package:27836986/3" type="model">
-          <description>&lt;a href=https://datasheet.lcsc.com/szlcsc/1809191927_Taiyo-Yuden-NR4018T100M_C89154.pdf&gt;datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="NR4018" />
-          </packageinstances>
-        </package3d>
-        <package3d name="NR3015" urn="urn:adsk.eagle:package:12531221/2" type="model">
-          <description>&lt;a href=https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NR3015T2R2M%20%20&amp;u=M&gt;datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="NR3015" />
-          </packageinstances>
-        </package3d>
-        <package3d name="VLS6045EX" urn="urn:adsk.eagle:package:11688526/2" type="model">
-          <packageinstances>
-            <packageinstance name="VLS6045EX" />
-          </packageinstances>
-        </package3d>
-        <package3d name="WE-PD-1030" urn="urn:adsk.eagle:package:11688563/2" type="model">
-          <packageinstances>
-            <packageinstance name="WE-PD-1030" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SWPA5040S" urn="urn:adsk.eagle:package:31293001/2" type="model">
-          <description>&lt;a href=https://datasheet.lcsc.com/lcsc/1809291619_Sunlord-SWPA5040S330MT_C86618.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="SWPA5040S" />
-          </packageinstances>
-        </package3d>
-        <package3d name="LQS-6028" urn="urn:adsk.eagle:package:12820006/2" type="model">
-          <packageinstances>
-            <packageinstance name="LQS-6028" />
-          </packageinstances>
-        </package3d>
-        <package3d name="DG6050C" urn="urn:adsk.eagle:package:24308810/1" type="box">
-          <description>https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0044_DG6050C_reference.pdf</description>
-          <packageinstances>
-            <packageinstance name="DG6050C" />
-          </packageinstances>
-        </package3d>
-        <package3d name="CD54" urn="urn:adsk.eagle:package:37194860/3" type="model">
-          <packageinstances>
-            <packageinstance name="CD54" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SWPA6045S" urn="urn:adsk.eagle:package:4854352/3" locally_modified="yes" type="model">
-          <packageinstances>
-            <packageinstance name="SWPA6045S" />
-          </packageinstances>
-        </package3d>
-        <package3d name="IHLP-2020BZ-01" urn="urn:adsk.eagle:package:36690889/2" type="model">
-          <description>&lt;a href = https://www.elitan.ru/pdf/0/4/5/1/7/04517544.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="IHLP-2020BZ-01" />
-          </packageinstances>
-        </package3d>
-        <package3d name="LSMD_05020" urn="urn:adsk.eagle:package:52272453/3" type="model">
-          <description>Generic 5.2x5.2 SMD power inductor&lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Feb 2023&lt;/i&gt;</description>
-          <packageinstances>
-            <packageinstance name="05020" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SWPA6020" urn="urn:adsk.eagle:package:52492245/1" type="box">
-          <description>SWPA50xxS  and SWPA60xxS Series SMD Power Inductor universal footprint&lt;br&gt;
-draft&lt;br&gt;
-&lt;i&gt; Igor Odaikin, Aug 2023&lt;/i&gt;</description>
-          <packageinstances>
-            <packageinstance name="SWPA6020" />
-          </packageinstances>
-        </package3d>
-        <package3d name="CDRH104" urn="urn:adsk.eagle:package:37194812/4" type="model">
-          <description>&lt;a href = https://data.electronshik.ru/z/Datasheet/C/CDRH104.pdf&gt;Drawing&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="CDRH104" />
-          </packageinstances>
-        </package3d>
-        <package3d name="NRS5030" urn="urn:adsk.eagle:package:3345993/2" type="model">
-          <description>file:///C:/Users/j3qq4hch/Downloads/NRS5030T220MMGJ_SS.pdf</description>
-          <packageinstances>
-            <packageinstance name="NRS5030" />
-          </packageinstances>
-        </package3d>
-        <package3d name="CDRH5D28NP" urn="urn:adsk.eagle:package:45098178/1" type="box">
-          <description>&lt;a href = https://www.promelec.ru/fs/sources/80/fc/95/59/4171696260b0321c031b422c.pdf&gt;Drawing&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="CDRH5D28NP" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SRN5040" urn="urn:adsk.eagle:package:1040151/2" type="model">
-          <packageinstances>
-            <packageinstance name="SRN5040" />
-          </packageinstances>
-        </package3d>
-        <package3d name="NRS6028" urn="urn:adsk.eagle:package:4217106/2" type="model">
-          <packageinstances>
-            <packageinstance name="NRS6028" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SRP6540" urn="urn:adsk.eagle:package:1040153/2" type="model">
-          <packageinstances>
-            <packageinstance name="SRP6540" />
-          </packageinstances>
-        </package3d>
-        <package3d name="MWSA1206S" urn="urn:adsk.eagle:package:36212669/3" type="model">
-          <description>&lt;a href = https://datasheet.lcsc.com/lcsc/1912111437_Sunlord-MWSA1206S-220MT_C408528.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="MWSA1206S" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SRP1265A" urn="urn:adsk.eagle:package:37321405/2" type="model">
-          <description>&lt;a href =https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="SRP1265A" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SRR1208" urn="urn:adsk.eagle:package:42072656/2" type="model">
-          <description>&lt;a href=https://static.chipdip.ru/lib/170/DOC011170276.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="SRR1208" />
-          </packageinstances>
-        </package3d>
-        <package3d name="CDRH105R" urn="urn:adsk.eagle:package:41953122/3" type="model">
-          <description>&lt;a href = https://www.elitan.ru/pdf/0/7/7/5/1/07751842.pdf&gt;Drawing&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="CDRH105R" />
-          </packageinstances>
-        </package3d>
-        <package3d name="TYS5020" urn="urn:adsk.eagle:package:4217104/1" type="box">
-          <packageinstances>
-            <packageinstance name="TYS5020" />
-          </packageinstances>
-        </package3d>
-        <package3d name="LSMD_06030" urn="urn:adsk.eagle:package:52272447/3" type="model">
-          <description>Generic 6.6x6.6 SMD power inductor&lt;br&gt;
-&lt;br&gt;
-&lt;i&gt;Igor Odaikin, Nov 2021&lt;/i&gt;</description>
-          <packageinstances>
-            <packageinstance name="06030" />
-          </packageinstances>
-        </package3d>
-        <package3d name="1064" urn="urn:adsk.eagle:package:36207751/2" type="model">
-          <packageinstances>
-            <packageinstance name="1064" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SWPA3015S" urn="urn:adsk.eagle:package:33883590/1" type="box">
-          <description>&lt;a href=https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA3015S2R2MT_C43389.pdf&gt;Datasheet&lt;/a&gt;</description>
-          <packageinstances>
-            <packageinstance name="SWPA3015S" />
-          </packageinstances>
-        </package3d>
-        <package3d name="HPC8040NF" urn="urn:adsk.eagle:package:24308801/2" type="model">
-          <description>https://datasheet.lcsc.com/szlcsc/2009171310_TAI-TECH-HPC8040NF-121M_C357080.pdf</description>
-          <packageinstances>
-            <packageinstance name="HPC8040NF" />
-          </packageinstances>
-        </package3d>
-        <package3d name="CDRH3D16" urn="urn:adsk.eagle:package:11612788/1" type="box">
-          <packageinstances>
-            <packageinstance name="CDRH3D16" />
-          </packageinstances>
-        </package3d>
-        <package3d name="YSPI1050" urn="urn:adsk.eagle:package:32898930/3" type="model">
-          <packageinstances>
-            <packageinstance name="YSPI1050" />
-          </packageinstances>
-        </package3d>
-        <package3d name="SWRB1207S" urn="urn:adsk.eagle:package:24397506/1" type="box">
-          <packageinstances>
-            <packageinstance name="SWRB1207S" />
-          </packageinstances>
-        </package3d>
-        <package3d name="WPN3012H" urn="urn:adsk.eagle:package:25105300/2" type="model">
-          <description>https://datasheet.lcsc.com/szlcsc/1810221225_Sunlord-WPN3012HS4R7MT_C305275.pdf</description>
-          <packageinstances>
-            <packageinstance name="WPN3012H" />
-          </packageinstances>
-        </package3d>
-      </packages3d>
+      </packages>
       <symbols>
         <symbol name="L-ERU">
           <pin name="1" x="-5.08" y="0" visible="off" length="point" />
@@ -959,9 +773,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="2" pad="2" />
                 <connect gate="G$1" pin="3" pad="3" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:49152171/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="TDK" constant="no" />
@@ -983,9 +794,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:27836986/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="ESR" value="216mΩ" constant="no" />
@@ -1002,9 +810,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:12531221/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="LCSC#" value="C87168" constant="no" />
@@ -1019,9 +824,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:31293001/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sunlord" constant="no" />
@@ -1043,9 +845,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:31293001/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sunlord" constant="no" />
@@ -1066,9 +865,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:12820006/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="AEC-Q" value="AEC-Q200" constant="no" />
@@ -1091,9 +887,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:12820006/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DIGIKEY#" value="732-5534-6-ND" constant="no" />
@@ -1108,9 +901,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:24308810/1" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="CURRENT" value="1.2A" constant="no" />
@@ -1134,9 +924,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:11688526/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DIGIKEY#" value="445-173042-1-ND" constant="no" />
@@ -1151,9 +938,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:11688563/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="AEC-Q200" value="+" constant="no" />
@@ -1176,9 +960,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:12531221/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="AEC-Q" value="" constant="no" />
@@ -1214,9 +995,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:52272453/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="" />
               </technologies>
@@ -1234,9 +1012,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37194860/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sumida" constant="no" />
@@ -1257,9 +1032,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:4854352/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="" />
               </technologies>
@@ -1269,9 +1041,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:36690889/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Vishay Precision Group" constant="no" />
@@ -1285,9 +1054,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:11688526/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="TDK Corporation" constant="no" />
@@ -1301,9 +1067,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:49152171/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="TDK" constant="no" />
@@ -1317,9 +1080,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:52272453/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Chilisin" constant="no" />
@@ -1333,9 +1093,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:52492245/1" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sunlord" constant="no" />
@@ -1356,9 +1113,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:31293001/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="LCSC#" value="C86618" constant="no" />
@@ -1373,9 +1127,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37194812/4" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sumida" constant="no" />
@@ -1390,9 +1141,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37194860/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sumida" constant="no" />
@@ -1406,9 +1154,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:11688526/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="TDK" constant="no" />
@@ -1422,9 +1167,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:45098178/1" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF#" value="CDRH5D28NP-330NC" constant="no" />
@@ -1445,9 +1187,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:41953122/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="SUMIDA" constant="no" />
@@ -1462,9 +1201,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37321405/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Bourns" constant="no" />
@@ -1487,9 +1223,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:1040151/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="-22U">
                   <attribute name="DIGIKEY#" value="SRN5040-220MCT-ND" constant="no" />
@@ -1504,9 +1237,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:1040153/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="-22U">
                   <attribute name="CURRENT_SAT" value="2.5A" constant="no" />
@@ -1522,9 +1252,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:3345993/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="CURRENT_SAT" value="1.4A" constant="no" />
@@ -1540,9 +1267,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:4217106/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DIGIKEY#" value="587-3636-2-ND" constant="no" />
@@ -1558,9 +1282,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:4217104/1" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DIGIKEY#" value="240-2706-1-ND" constant="no" />
@@ -1576,9 +1297,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:36212669/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DC_RESISTANCE" value="39.5 mOhm" constant="no" />
@@ -1595,9 +1313,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37321405/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="LCSC#" value="C2041465" constant="no" />
@@ -1613,9 +1328,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:42072656/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Bourns" constant="no" />
@@ -1630,9 +1342,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:41953122/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="SUMIDA" constant="no" />
@@ -1647,9 +1356,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:52272447/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="LCSC#" value="C108292" constant="no" />
@@ -1672,9 +1378,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="P$1" />
                 <connect gate="G$1" pin="2" pad="P$2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:4854352/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="HEIGHT" value="4.5 mm" constant="no" />
@@ -1690,9 +1393,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:33883590/1" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="HEIGHT" value="1.5mm" constant="no" />
@@ -1708,9 +1408,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37321405/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="BOURNS" constant="no" />
@@ -1723,9 +1420,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37194812/4" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sumida" constant="no" />
@@ -1739,9 +1433,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:37194860/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sumida" constant="no" />
@@ -1762,9 +1453,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:24308801/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="CURRENT" value="1A" constant="no" />
@@ -1789,9 +1477,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:24397506/1" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DCR" value="390mΩ" constant="no" />
@@ -1815,9 +1500,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:36207751/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DC_RESISTANCE" value="11.3 mOhm" constant="no" />
@@ -1840,9 +1522,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:11612788/1" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="DIGIKEY#" value="308-2300-2-ND" constant="no" />
@@ -1857,9 +1536,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:25105300/2" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="MANF" value="Sunlord" constant="no" />
@@ -1881,9 +1557,6 @@ draft&lt;br&gt;
                 <connect gate="G$1" pin="1" pad="1" />
                 <connect gate="G$1" pin="2" pad="2" />
               </connects>
-              <package3dinstances>
-                <package3dinstance package3d_urn="urn:adsk.eagle:package:32898930/3" />
-              </package3dinstances>
               <technologies>
                 <technology name="">
                   <attribute name="ISAT" value="4A" constant="no" />
@@ -1899,16 +1572,4 @@ draft&lt;br&gt;
       </devicesets>
     </library>
   </drawing>
-  <compatibility>
-    <note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-    <note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-  </compatibility>
 </eagle>
