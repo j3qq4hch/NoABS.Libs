@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoABS 3D Library</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            display: flex;
+            height: 100vh;
+            background: #1a1a1a;
+            font-family: monospace;
+            overflow: hidden;
+        }
+
+        #sidebar {
+            width: 240px;
+            min-width: 240px;
+            display: flex;
+            flex-direction: column;
+            background: #111;
+            border-right: 1px solid #2a2a2a;
+        }
+
+        #sidebar-header {
+            padding: 12px 14px;
+            color: #555;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-bottom: 1px solid #2a2a2a;
+            flex-shrink: 0;
+        }
+
+        #search {
+            width: 100%;
+            padding: 8px 14px;
+            background: #111;
+            border: none;
+            border-bottom: 1px solid #2a2a2a;
+            color: #ccc;
+            font-family: monospace;
+            font-size: 12px;
+            outline: none;
+            flex-shrink: 0;
+        }
+        #search::placeholder { color: #444; }
+        #search:focus { background: #161616; }
+
+        #file-list {
+            overflow-y: auto;
+            flex: 1;
+        }
+        #file-list::-webkit-scrollbar { width: 4px; }
+        #file-list::-webkit-scrollbar-track { background: transparent; }
+        #file-list::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+
+        .file-item {
+            padding: 7px 14px;
+            color: #888;
+            font-size: 12px;
+            cursor: pointer;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            user-select: none;
+        }
+        .file-item:hover { background: #1c1c1c; color: #ccc; }
+        .file-item.active { background: #1e2a1e; color: #6dbf6d; }
+
+        #status {
+            padding: 10px 14px;
+            color: #444;
+            font-size: 11px;
+            border-top: 1px solid #2a2a2a;
+            flex-shrink: 0;
+        }
+
+        #viewport {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #5a5a5a, #282828);
+        }
+
+        model-viewer {
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            --progress-bar-color: #6dbf6d;
+        }
+
+        #model-name {
+            position: absolute;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #555;
+            font-family: monospace;
+            font-size: 12px;
+            pointer-events: none;
+        }
+
+        #placeholder {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            font-size: 14px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+<div id="sidebar">
+    <div id="sidebar-header">NoABS 3D Library</div>
+    <input id="search" type="text" placeholder="filter..." autocomplete="off" spellcheck="false">
+    <div id="file-list"></div>
+    <div id="status">loading…</div>
+</div>
+
+<div id="viewport">
+    <div id="placeholder">← select a model</div>
+    <model-viewer
+        id="viewer"
+        camera-controls
+        auto-rotate
+        auto-rotate-delay="2000"
+        rotation-per-second="15deg"
+        exposure="1.2"
+        shadow-intensity="0.8"
+        shadow-softness="0.6"
+        environment-image="neutral"
+        field-of-view="35deg"
+        interaction-prompt="none"
+        loading="eager"
+        style="display:none"
+    ></model-viewer>
+    <div id="model-name"></div>
+</div>
+
+<script>
+    const API = 'https://api.github.com/repos/j3qq4hch/NoABS.Libs/contents/reference/step/tesselated';
+    const RAW  = 'https://raw.githubusercontent.com/j3qq4hch/NoABS.Libs/main/reference/step/tesselated/';
+
+    const viewer      = document.getElementById('viewer');
+    const fileList    = document.getElementById('file-list');
+    const searchInput = document.getElementById('search');
+    const statusEl    = document.getElementById('status');
+    const placeholder = document.getElementById('placeholder');
+    const modelName   = document.getElementById('model-name');
+
+    let allFiles = [];
+    let activeItem = null;
+
+    async function loadFileList() {
+        try {
+            const res = await fetch(API);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const data = await res.json();
+            allFiles = data
+                .filter(f => f.name.toLowerCase().endsWith('.glb'))
+                .map(f => f.name)
+                .sort((a, b) => a.localeCompare(b));
+            renderList(allFiles);
+            statusEl.textContent = `${allFiles.length} models`;
+        } catch (e) {
+            statusEl.textContent = 'failed to load list';
+            fileList.innerHTML = '<div class="file-item" style="color:#663333">API error — check console</div>';
+            console.error(e);
+        }
+    }
+
+    function renderList(files) {
+        fileList.innerHTML = '';
+        files.forEach(name => {
+            const div = document.createElement('div');
+            div.className = 'file-item';
+            div.textContent = name.replace(/\.glb$/i, '');
+            div.dataset.file = name;
+            div.addEventListener('click', () => loadModel(name, div));
+            fileList.appendChild(div);
+        });
+    }
+
+    function loadModel(filename, itemEl) {
+        if (activeItem) activeItem.classList.remove('active');
+        activeItem = itemEl;
+        itemEl.classList.add('active');
+
+        placeholder.style.display = 'none';
+        viewer.style.display = 'block';
+
+        const label = filename.replace(/\.glb$/i, '');
+        modelName.textContent = label;
+        document.title = `${label} — NoABS 3D Library`;
+
+        viewer.src = RAW + encodeURIComponent(filename);
+    }
+
+    viewer.addEventListener('load', () => {
+        const center = viewer.getBoundingBoxCenter();
+        const size   = viewer.getDimensions();
+        const maxDim = Math.max(size.x, size.y, size.z);
+        viewer.cameraTarget = `${center.x}m ${center.y}m ${center.z}m`;
+        viewer.cameraOrbit  = `0deg 75deg ${maxDim * 2.5}m`;
+    });
+
+    searchInput.addEventListener('input', () => {
+        const q = searchInput.value.toLowerCase();
+        renderList(allFiles.filter(f => f.toLowerCase().includes(q)));
+    });
+
+    loadFileList();
+</script>
+
+</body>
+</html>
